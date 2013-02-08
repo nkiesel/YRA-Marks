@@ -23,3 +23,19 @@ using [GPSBabel](http://www.gpsbabel.org/).
 As an example, the GPX file was generated using
 
     gpsbabel -i unicsv -f San_Francisco.csv -o gpx -F San_Francisco.gpx
+
+Right now I offer the following formats:
+
+ * **CSV** simple text format with coordinates in decimal degrees.
+ 
+ * **GPX** very common format.  This can also be directly used as a
+   layer in the excellent [OpenCPN](http://opencpn.org/ocpn/) chartplotter
+   and navigation software.
+ 
+ * **NK** binary format used by the (no longer developed)
+   [Nauteek Tactical Speedo Compass](http://www.nauteek.com/EN/).
+   
+   Note:
+   The official GpsBabel does not support this output format.  In case
+   anyone is interested I can provide patches or Linux 32bit or 64bit
+   binaries for this.
