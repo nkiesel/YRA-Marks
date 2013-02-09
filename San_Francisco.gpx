@@ -5,7 +5,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.topografix.com/GPX/1/0"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-<time>2013-02-08T06:31:43Z</time>
+<time>2013-02-09T02:27:23Z</time>
 <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
 <wpt lat="37.774200000" lon="-122.341049000">
   <name>NAS-2</name>
@@ -97,7 +97,7 @@
   <cmt>Red Rock Island</cmt>
   <desc>Red Rock Island</desc>
 </wpt>
-<wpt lat="37.826668000" lon="-122.421661000">
+<wpt lat="37.826226000" lon="-122.422126000">
   <name>YRA-2</name>
   <cmt>Alcatraz Island</cmt>
   <desc>Alcatraz Island</desc>
@@ -122,12 +122,12 @@
   <cmt>Yellow sphere &apos;M&apos; 200 yd North of Ft Mason Docks</cmt>
   <desc>Yellow sphere &apos;M&apos; 200 yd North of Ft Mason Docks</desc>
 </wpt>
-<wpt lat="37.833332000" lon="-122.396660000">
+<wpt lat="37.833314000" lon="-122.396424000">
   <name>YRA-7</name>
   <cmt>R &apos;2&apos; Fl R6s, 0.9 nm Northwest of Treasure Island</cmt>
   <desc>R &apos;2&apos; Fl R6s, 0.9 nm Northwest of Treasure Island</desc>
 </wpt>
-<wpt lat="37.847000000" lon="-122.396660000">
+<wpt lat="37.847038000" lon="-122.396455000">
   <name>YRA-8</name>
   <cmt>R &apos;4&apos; Fl R4s Horn, 1 nm East of Point Blunt</cmt>
   <desc>R &apos;4&apos; Fl R4s Horn, 1 nm East of Point Blunt</desc>
@@ -152,7 +152,7 @@
   <cmt>G &apos;1&apos; Fl G4s - Little Harding Rock</cmt>
   <desc>G &apos;1&apos; Fl G4s - Little Harding Rock</desc>
 </wpt>
-<wpt lat="37.881500000" lon="-122.399994000">
+<wpt lat="37.881942000" lon="-122.400235000">
   <name>YRA-14</name>
   <cmt>Southampton Shoals</cmt>
   <desc>Southampton Shoals</desc>
@@ -177,37 +177,37 @@
   <cmt>RG &apos;BR&apos; Fl(2+1) G6s Bell - Blossom Rock</cmt>
   <desc>RG &apos;BR&apos; Fl(2+1) G6s Bell - Blossom Rock</desc>
 </wpt>
-<wpt lat="37.879684000" lon="-122.414841000">
+<wpt lat="37.879666000" lon="-122.414972000">
   <name>YRA-19</name>
   <cmt>R &apos;8&apos; Fl R2.5s approx 1.5nm E of Pt Bluff</cmt>
   <desc>R &apos;8&apos; Fl R2.5s approx 1.5nm E of Pt Bluff</desc>
 </wpt>
-<wpt lat="37.831348000" lon="-122.409492000">
+<wpt lat="37.832014000" lon="-122.409156000">
   <name>YRA-21</name>
   <cmt>G &apos;1&apos; Fl G6s Approx. 0.65 nm NE of Alcatraz</cmt>
   <desc>G &apos;1&apos; Fl G6s Approx. 0.65 nm NE of Alcatraz</desc>
 </wpt>
-<wpt lat="37.863998000" lon="-122.408669000">
+<wpt lat="37.863815000" lon="-122.408860000">
   <name>YRA-23</name>
   <cmt>RW &apos;A&apos; Mo (A) East of Angel Island</cmt>
   <desc>RW &apos;A&apos; Mo (A) East of Angel Island</desc>
 </wpt>
-<wpt lat="37.860836000" lon="-122.396332000">
+<wpt lat="37.860871000" lon="-122.396454000">
   <name>YRA-24</name>
   <cmt>R &apos;6&apos; Fl R4s Bell, 1.1 nm East of Quarry Pt</cmt>
   <desc>R &apos;6&apos; Fl R4s Bell, 1.1 nm East of Quarry Pt</desc>
 </wpt>
-<wpt lat="37.890636000" lon="-122.417641000">
+<wpt lat="37.890568000" lon="-122.417644000">
   <name>YRA-28</name>
   <cmt>YRA-28</cmt>
   <desc>YRA-28</desc>
 </wpt>
-<wpt lat="37.904049000" lon="-122.420235000">
+<wpt lat="37.903905000" lon="-122.420138000">
   <name>YRA-29</name>
   <cmt>YRA-29</cmt>
   <desc>YRA-29</desc>
 </wpt>
-<wpt lat="37.916367000" lon="-122.422371000">
+<wpt lat="37.916242000" lon="-122.422331000">
   <name>YRA-30</name>
   <cmt>YRA-30</cmt>
   <desc>YRA-30</desc>
