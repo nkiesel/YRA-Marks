@@ -5,22 +5,12 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.topografix.com/GPX/1/0"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-<time>2013-02-12T05:39:33Z</time>
+<time>2013-02-15T07:25:54Z</time>
 <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
 <wpt lat="37.774200000" lon="-122.341049000">
   <name>NAS-2</name>
   <cmt>R &apos;2&apos; Fl R4s NAS Alameda Channel</cmt>
   <desc>R &apos;2&apos; Fl R4s NAS Alameda Channel</desc>
-</wpt>
-<wpt lat="37.871767000" lon="-122.358967000">
-  <name>OLY-X</name>
-  <cmt>Olympic Circle X</cmt>
-  <desc>Olympic Circle X</desc>
-</wpt>
-<wpt lat="37.897450000" lon="-122.389783000">
-  <name>OLY-A</name>
-  <cmt>Olympic Circle A</cmt>
-  <desc>Olympic Circle A</desc>
 </wpt>
 <wpt lat="37.880500000" lon="-122.342000000">
   <name>OLY-B</name>
@@ -52,6 +42,11 @@
   <cmt>Olympic Circle G</cmt>
   <desc>Olympic Circle G</desc>
 </wpt>
+<wpt lat="37.871767000" lon="-122.358967000">
+  <name>OLY-X</name>
+  <cmt>Olympic Circle X</cmt>
+  <desc>Olympic Circle X</desc>
+</wpt>
 <wpt lat="37.867833000" lon="-122.326000000">
   <name>BYC</name>
   <cmt>Berkeley Yacht Club</cmt>
@@ -61,6 +56,11 @@
   <name>PRE-2</name>
   <cmt>R &apos;2&apos; Petaluma River Entrance Light</cmt>
   <desc>R &apos;2&apos; Petaluma River Entrance Light</desc>
+</wpt>
+<wpt lat="37.897450000" lon="-122.389783000">
+  <name>RYC-A</name>
+  <cmt>Richmod Yacht Club A (former Olympic Circle A)</cmt>
+  <desc>Richmod Yacht Club A (former Olympic Circle A)</desc>
 </wpt>
 <wpt lat="37.775551000" lon="-122.365829000">
   <name>SC-1</name>

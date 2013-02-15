@@ -35,13 +35,10 @@ Right now I offer the following formats:
  * **NK** binary format used by the (no longer developed)
    [Nauteek Tactical Speedo Compass](http://www.nauteek.com/EN/).
    
+ * **MD** markdown format
+   
    Note:
    The official GpsBabel does not support this output format.  In case
    anyone is interested I can provide patches or Linux 32bit or 64bit
    binaries for this.
-
-| header 1 | header 2 |
-| -------- | -------- |
-| cell 1   | cell 2   |
-| cell 3   | cell 4   |
 
