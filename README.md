@@ -39,3 +39,9 @@ Right now I offer the following formats:
    The official GpsBabel does not support this output format.  In case
    anyone is interested I can provide patches or Linux 32bit or 64bit
    binaries for this.
+
+| header 1 | header 2 |
+| -------- | -------- |
+| cell 1   | cell 2   |
+| cell 3   | cell 4   |
+
