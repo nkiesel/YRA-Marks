@@ -5,12 +5,17 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.topografix.com/GPX/1/0"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-<time>2013-02-15T07:25:54Z</time>
+<time>2013-06-29T01:00:39Z</time>
 <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
+<wpt lat="37.777257000" lon="-122.341307000">
+  <name>NAS-1</name>
+  <cmt>G &apos;1&apos; Fl G4s Alameda Naval Air Station Channel Entrance Lighted Buoy Bell 1</cmt>
+  <desc>G &apos;1&apos; Fl G4s Alameda Naval Air Station Channel Entrance Lighted Buoy Bell 1</desc>
+</wpt>
 <wpt lat="37.774200000" lon="-122.341049000">
   <name>NAS-2</name>
-  <cmt>R &apos;2&apos; Fl R4s NAS Alameda Channel</cmt>
-  <desc>R &apos;2&apos; Fl R4s NAS Alameda Channel</desc>
+  <cmt>R &apos;2&apos; Fl R4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2</cmt>
+  <desc>R &apos;2&apos; Fl R4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2</desc>
 </wpt>
 <wpt lat="37.880500000" lon="-122.342000000">
   <name>OLY-B</name>
@@ -232,6 +237,11 @@
   <cmt>R &apos;2&apos; FL R2.5s Lash Terminal Approach Lighted Buoy approx .5 nm E of Portrero Point</cmt>
   <desc>R &apos;2&apos; FL R2.5s Lash Terminal Approach Lighted Buoy approx .5 nm E of Portrero Point</desc>
 </wpt>
+<wpt lat="37.773358000" lon="-122.330149000">
+  <name>YRA-36</name>
+  <cmt>R &apos;4&apos; FL R4s Alameda Naval Air Station Channel Light 4</cmt>
+  <desc>R &apos;4&apos; FL R4s Alameda Naval Air Station Channel Light 4</desc>
+</wpt>
 <wpt lat="37.811462000" lon="-122.540091000">
   <name>PB</name>
   <cmt>Point Bonita RG Fl(2+1) R6s Bell (ocean)</cmt>
@@ -371,5 +381,10 @@
   <name>CP-Z</name>
   <cmt>Coyote Point Yacht Club Mark Z</cmt>
   <desc>Coyote Point Yacht Club Mark Z</desc>
+</wpt>
+<wpt lat="37.963145000" lon="-122.434389000">
+  <name>BRO</name>
+  <cmt>Brothers Islands North of Richmond Bridge</cmt>
+  <desc>Brothers Islands North of Richmond Bridge</desc>
 </wpt>
 </gpx>

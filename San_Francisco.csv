@@ -1,5 +1,6 @@
 Latitude,Longitude,Name,Description
-37.774200,-122.341049,"NAS-2","R '2' Fl R4s NAS Alameda Channel"
+37.777257,-122.341307,"NAS-1","G '1' Fl G4s Alameda Naval Air Station Channel Entrance Lighted Buoy Bell 1"
+37.774200,-122.341049,"NAS-2","R '2' Fl R4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2"
 37.880500,-122.342000,"OLY-B","Olympic Circle B"
 37.868000,-122.339667,"OLY-C","Olympic Circle C"
 37.857583,-122.349383,"OLY-D","Olympic Circle D"
@@ -44,6 +45,7 @@ Latitude,Longitude,Name,Description
 37.746067,-122.323723,"YRA-32","Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal"
 37.800982,-122.347756,"YRA-33","R '4' Fl R4s Oakland Inner Harbor Lighted Buoy"
 37.758246,-122.368335,"YRA-34","R '2' FL R2.5s Lash Terminal Approach Lighted Buoy approx .5 nm E of Portrero Point"
+37.773358,-122.330149,"YRA-36","R '4' FL R4s Alameda Naval Air Station Channel Light 4"
 37.811462,-122.540091,"PB","Point Bonita RG Fl(2+1) R6s Bell (ocean)"
 37.582662,-122.248058,"B","G '11' San Francisco Bay South Channel Buoy"
 37.591667,-122.220000,"X","White cylinder with orange band at the top near San Mateo Bridge in direct line above Y & S"
@@ -72,3 +74,4 @@ Latitude,Longitude,Name,Description
 37.957336,-122.457173,"SRC#17","G '17' San Rafael Channel Light"
 37.833228,-122.372493,"TI#6","R '6' Treasure Island North End Light"
 37.615750,-122.315767,"CP-Z","Coyote Point Yacht Club Mark Z"
+37.963145,-122.434389,"BRO","Brothers Islands North of Richmond Bridge"
