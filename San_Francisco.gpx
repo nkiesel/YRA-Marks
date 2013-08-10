@@ -5,8 +5,8 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.topografix.com/GPX/1/0"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-<time>2013-08-10T01:24:15Z</time>
-<bounds minlat="-39.807153117" minlon="-123.001822000" maxlat="38.070980000" maxlon="-2.000000000"/>
+<time>2013-08-10T01:49:52Z</time>
+<bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
 <wpt lat="37.777257000" lon="-122.341307000">
   <name>NAS-1</name>
   <cmt>G &apos;1&apos; Fl G4s Alameda Naval Air Station Channel Entrance Lighted Buoy Bell 1</cmt>
@@ -252,8 +252,8 @@
   <cmt>G &apos;1&apos; FL G2.5s San Francisco Main Ship Channel Lighted Bell Buoy 1</cmt>
   <desc>G &apos;1&apos; FL G2.5s San Francisco Main Ship Channel Lighted Bell Buoy 1</desc>
 </wpt>
-<wpt lat="-39.807153117" lon="-2.000000000">
-  <name>R &apos;2&apos; Iso R6s San Francisco Main Ship Channel Lighted Whistle Buoy 2</name>
+<wpt lat="37.763336000" lon="-122.629027000">
+  <name>YRA-R2</name>
   <cmt>R &apos;2&apos; Iso R6s San Francisco Main Ship Channel Lighted Whistle Buoy 2</cmt>
   <desc>R &apos;2&apos; Iso R6s San Francisco Main Ship Channel Lighted Whistle Buoy 2</desc>
 </wpt>
