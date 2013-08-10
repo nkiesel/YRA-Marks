@@ -44,7 +44,8 @@
 | 37.800982 | -122.347756 | YRA-33 | R '4' Fl R4s Oakland Inner Harbor Lighted Buoy                                              |
 | 37.758246 | -122.368335 | YRA-34 | R '2' FL R2.5s Lash Terminal Approach Lighted Buoy approx .5 nm E of Portrero Point         |
 | 37.773358 | -122.330149 | YRA-36 | R '4' FL R4s Alameda Naval Air Station Channel Light 4                                      |
-| 37.811462 | -122.540091 | YRA-PB | Point Bonita Four Fathom Bank RGR Fl(2+1) R6s Bell (ocean)                                  |
+| 37.811462 | -122.540091 | YRA-PB | RGR Fl(2+1) R6s Point Bonita Four Fathom Bank Lighted Bell Buoy                             |
+| 37.769766 | -122.632121 | YRA-G1 | G '1' FL G2.5s San Francisco Main Ship Channel Lighted Bell Buoy 1                          |
 | 37.781866 | -122.589894 | YRA-G7 | G '7' FL G2.5s San Francisco Main Ship Channel Lighted Bell Buoy 7                          |
 | 37.650000 | -122.695000 | YRA-SO | Y Fl Y4s San Francisco South Traffic Lane Lighted Bell Buoy S                               |
 | 37.800556 | -122.798611 | YRA-NO | Y Fl Y4s San Francisco North Traffic Lane Lighted Bell Buoy N                               |
@@ -79,3 +80,5 @@
 | 37.615750 | -122.315767 | CP-Z   | Coyote Point Yacht Club Mark Z                                                              |
 | 37.963145 | -122.434389 | BRO    | Brothers Islands North of Richmond Bridge                                                   |
 | 37.818433 | -122.478323 | GGB    | Golden Gate Bridge                                                                          |
+| 37.833595 | -122.568274 | BC2    | R '2' Fl R6s Northern Bonita Channel Buoy                                                   |
+| 37.708147 | -122.583025 | ONR    | Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy                              |

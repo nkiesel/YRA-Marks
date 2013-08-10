@@ -5,8 +5,8 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.topografix.com/GPX/1/0"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-<time>2013-08-10T01:19:52Z</time>
-<bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
+<time>2013-08-10T01:24:15Z</time>
+<bounds minlat="-39.807153117" minlon="-123.001822000" maxlat="38.070980000" maxlon="-2.000000000"/>
 <wpt lat="37.777257000" lon="-122.341307000">
   <name>NAS-1</name>
   <cmt>G &apos;1&apos; Fl G4s Alameda Naval Air Station Channel Entrance Lighted Buoy Bell 1</cmt>
@@ -244,8 +244,18 @@
 </wpt>
 <wpt lat="37.811462000" lon="-122.540091000">
   <name>YRA-PB</name>
-  <cmt>Point Bonita Four Fathom Bank RGR Fl(2+1) R6s Bell (ocean)</cmt>
-  <desc>Point Bonita Four Fathom Bank RGR Fl(2+1) R6s Bell (ocean)</desc>
+  <cmt>RGR Fl(2+1) R6s Point Bonita Four Fathom Bank Lighted Bell Buoy</cmt>
+  <desc>RGR Fl(2+1) R6s Point Bonita Four Fathom Bank Lighted Bell Buoy</desc>
+</wpt>
+<wpt lat="37.769766000" lon="-122.632121000">
+  <name>YRA-G1</name>
+  <cmt>G &apos;1&apos; FL G2.5s San Francisco Main Ship Channel Lighted Bell Buoy 1</cmt>
+  <desc>G &apos;1&apos; FL G2.5s San Francisco Main Ship Channel Lighted Bell Buoy 1</desc>
+</wpt>
+<wpt lat="-39.807153117" lon="-2.000000000">
+  <name>R &apos;2&apos; Iso R6s San Francisco Main Ship Channel Lighted Whistle Buoy 2</name>
+  <cmt>R &apos;2&apos; Iso R6s San Francisco Main Ship Channel Lighted Whistle Buoy 2</cmt>
+  <desc>R &apos;2&apos; Iso R6s San Francisco Main Ship Channel Lighted Whistle Buoy 2</desc>
 </wpt>
 <wpt lat="37.781866000" lon="-122.589894000">
   <name>YRA-G7</name>
@@ -416,5 +426,15 @@
   <name>GGB</name>
   <cmt>Golden Gate Bridge</cmt>
   <desc>Golden Gate Bridge</desc>
+</wpt>
+<wpt lat="37.833595000" lon="-122.568274000">
+  <name>BC2</name>
+  <cmt>R &apos;2&apos; Fl R6s Northern Bonita Channel Buoy</cmt>
+  <desc>R &apos;2&apos; Fl R6s Northern Bonita Channel Buoy</desc>
+</wpt>
+<wpt lat="37.708147000" lon="-122.583025000">
+  <name>ONR</name>
+  <cmt>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</cmt>
+  <desc>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</desc>
 </wpt>
 </gpx>
