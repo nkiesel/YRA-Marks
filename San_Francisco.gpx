@@ -5,7 +5,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.topografix.com/GPX/1/0"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-<time>2013-06-29T01:00:39Z</time>
+<time>2013-08-10T01:19:52Z</time>
 <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
 <wpt lat="37.777257000" lon="-122.341307000">
   <name>NAS-1</name>
@@ -243,9 +243,34 @@
   <desc>R &apos;4&apos; FL R4s Alameda Naval Air Station Channel Light 4</desc>
 </wpt>
 <wpt lat="37.811462000" lon="-122.540091000">
-  <name>PB</name>
-  <cmt>Point Bonita RG Fl(2+1) R6s Bell (ocean)</cmt>
-  <desc>Point Bonita RG Fl(2+1) R6s Bell (ocean)</desc>
+  <name>YRA-PB</name>
+  <cmt>Point Bonita Four Fathom Bank RGR Fl(2+1) R6s Bell (ocean)</cmt>
+  <desc>Point Bonita Four Fathom Bank RGR Fl(2+1) R6s Bell (ocean)</desc>
+</wpt>
+<wpt lat="37.781866000" lon="-122.589894000">
+  <name>YRA-G7</name>
+  <cmt>G &apos;7&apos; FL G2.5s San Francisco Main Ship Channel Lighted Bell Buoy 7</cmt>
+  <desc>G &apos;7&apos; FL G2.5s San Francisco Main Ship Channel Lighted Bell Buoy 7</desc>
+</wpt>
+<wpt lat="37.650000000" lon="-122.695000000">
+  <name>YRA-SO</name>
+  <cmt>Y Fl Y4s San Francisco South Traffic Lane Lighted Bell Buoy S</cmt>
+  <desc>Y Fl Y4s San Francisco South Traffic Lane Lighted Bell Buoy S</desc>
+</wpt>
+<wpt lat="37.800556000" lon="-122.798611000">
+  <name>YRA-NO</name>
+  <cmt>Y Fl Y4s San Francisco North Traffic Lane Lighted Bell Buoy N</cmt>
+  <desc>Y Fl Y4s San Francisco North Traffic Lane Lighted Bell Buoy N</desc>
+</wpt>
+<wpt lat="37.691043000" lon="-122.794434000">
+  <name>YRA-WE</name>
+  <cmt>Y Fl Y2.5s San Francisco West Traffic Lane Lighted Gong Buoy W</cmt>
+  <desc>Y Fl Y2.5s San Francisco West Traffic Lane Lighted Gong Buoy W</desc>
+</wpt>
+<wpt lat="37.749930000" lon="-122.692761000">
+  <name>YRA-SF</name>
+  <cmt>Lightship San Francisco Approach Lighted Whistle Buoy SF</cmt>
+  <desc>Lightship San Francisco Approach Lighted Whistle Buoy SF</desc>
 </wpt>
 <wpt lat="37.582662000" lon="-122.248058000">
   <name>B</name>
@@ -386,5 +411,10 @@
   <name>BRO</name>
   <cmt>Brothers Islands North of Richmond Bridge</cmt>
   <desc>Brothers Islands North of Richmond Bridge</desc>
+</wpt>
+<wpt lat="37.818433000" lon="-122.478323000">
+  <name>GGB</name>
+  <cmt>Golden Gate Bridge</cmt>
+  <desc>Golden Gate Bridge</desc>
 </wpt>
 </gpx>
