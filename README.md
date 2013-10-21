@@ -36,9 +36,16 @@ Right now I offer the following formats:
    [Nauteek Tactical Speedo Compass](http://www.nauteek.com/EN/).
    
  * **MD** markdown format
+
+ * **DDD** formatted text file with coordinates in decimal degrees
+
+ * **DMM** formatted text file with coordinates in degrees and decimal minutes
+
+ * **DMS** formatted text file with coordinates in degrees, minutes
+   and decimal seconds
    
    Note:
-   The official GpsBabel does not support this output format.  In case
+   The official GpsBabel does not support the **NK** output format.  In case
    anyone is interested I can provide patches or Linux 32bit or 64bit
    binaries for this.
 
