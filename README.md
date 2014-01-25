@@ -1,10 +1,10 @@
 YRA-Marks
 =========
 
-GPS coordinates for YRA Racing marks in San Fancisco Bay
+GPS coordinates for YRA Racing marks in San Francisco Bay
 
 This project contains GPS coordinates for nearly all racing marks in
-the San Francisco bay and some other "interesting" marks.  The
+the San Francisco Bay and some other "interesting" marks.  The
 information here was collected from multiple sources:
 
  * existing web sites
@@ -33,7 +33,7 @@ Right now I offer the following formats:
    and navigation software.
  
  * **NK** binary format used by the (no longer developed)
-   [Nauteek Tactical Speedo Compass](http://www.nauteek.com/EN/).
+   [Nauteek Tactical Speedo Compass](http://www.nauteek.com/EN/)
    
  * **MD** markdown format
 
@@ -43,6 +43,9 @@ Right now I offer the following formats:
 
  * **DMS** formatted text file with coordinates in degrees, minutes
    and decimal seconds
+
+If you need another format, drop me a note and I might add it.  Of course you
+can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
    
    Note:
    The official GpsBabel does not support the **NK** output format.  In case
