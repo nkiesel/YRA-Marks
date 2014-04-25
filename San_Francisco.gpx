@@ -5,7 +5,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.topografix.com/GPX/1/0"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-<time>2013-08-10T01:49:52Z</time>
+<time>2014-04-25T05:44:04Z</time>
 <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
 <wpt lat="37.777257000" lon="-122.341307000">
   <name>NAS-1</name>
@@ -436,5 +436,10 @@
   <name>ONR</name>
   <cmt>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</cmt>
   <desc>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</desc>
+</wpt>
+<wpt lat="37.860322000" lon="-122.695364000">
+  <name>DBR#1</name>
+  <cmt>G &apos;1&apos; Fl G6s Duxbury Reef Lighted Whistle Buoy 1DR</cmt>
+  <desc>G &apos;1&apos; Fl G6s Duxbury Reef Lighted Whistle Buoy 1DR</desc>
 </wpt>
 </gpx>

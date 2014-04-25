@@ -83,3 +83,4 @@
 | 37.818433 | -122.478323 | GGB    | Golden Gate Bridge                                                                          |
 | 37.833595 | -122.568274 | BC2    | R '2' Fl R6s Northern Bonita Channel Buoy                                                   |
 | 37.708147 | -122.583025 | ONR    | Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy                              |
+| 37.860322 | -122.695364 | DBR#1  | G '1' Fl G6s Duxbury Reef Lighted Whistle Buoy 1DR                                          |
