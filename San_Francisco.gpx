@@ -5,7 +5,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://www.topografix.com/GPX/1/0"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
-<time>2014-04-25T05:44:04Z</time>
+<time>2014-05-14T06:08:08Z</time>
 <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
 <wpt lat="37.777257000" lon="-122.341307000">
   <name>NAS-1</name>
@@ -79,8 +79,8 @@
 </wpt>
 <wpt lat="37.808850000" lon="-122.446046000">
   <name>YRA-B</name>
-  <cmt>Inner gray/green can mark &apos;B&apos; off St. Francis Yacht Club</cmt>
-  <desc>Inner gray/green can mark &apos;B&apos; off St. Francis Yacht Club</desc>
+  <cmt>Inner yellow sphere mark &apos;B&apos; off St. Francis Yacht Club - Billingham</cmt>
+  <desc>Inner yellow sphere mark &apos;B&apos; off St. Francis Yacht Club - Billingham</desc>
 </wpt>
 <wpt lat="37.848989000" lon="-122.447646000">
   <name>YRA-K</name>

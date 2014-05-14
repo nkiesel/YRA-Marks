@@ -14,7 +14,7 @@
 | 37.897450 | -122.389783 | RYC-A  | Richmod Yacht Club A (former Olympic Circle A)                                              |
 | 37.775551 | -122.365829 | SC-1   | Red & Green 'SC' Fl(2+1) G6s approx. 1 nm ENE of Mission Rock Term                          |
 | 37.810896 | -122.445390 | YRA-A  | Outer yellow can mark 'A' off St. Francis Yacht Club                                        |
-| 37.808850 | -122.446046 | YRA-B  | Inner gray/green can mark 'B' off St. Francis Yacht Club                                    |
+| 37.808850 | -122.446046 | YRA-B  | Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham                        |
 | 37.848989 | -122.447646 | YRA-K  | Temp YC Buoy 0.3 nm West of YRA04 in line with YRA 12                                       |
 | 37.853865 | -122.427601 | YRA-L  | Temp YC Buoy 0.31 nm West of Windmill in line with YRA 04                                   |
 | 37.855937 | -122.468667 | YRA-N  | R '2' Fl R4s on channel East of Sausalito                                                   |
