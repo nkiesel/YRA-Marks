@@ -10,7 +10,7 @@ collected from multiple sources:
  * existing web sites
  * NOAA ENC charts
  * sailing clubs
- * [USCG List List Volume6][llv6]
+ * [USCG Light List Volume6][llv6]
    
 Of course I do not claim that any of this information is correct and strongly
 advise not to use this for navigation.  Having said that, if anyone finds
