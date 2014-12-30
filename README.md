@@ -47,6 +47,8 @@ Right now I offer the following formats:
  * **DMS** formatted text file with coordinates in degrees, minutes and decimal
    seconds
 
+ * **SHP** format commonly used in mapping applications (converted from CSV)
+
 If you need another format, drop me a note and I might add it.  Of course you
 can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
    
