@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2015-09-16T18:29:38.897Z</time>
+  <time>2015-09-16T22:31:42.720Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.777257000" lon="-122.341307000">
     <name>NAS-1</name>
@@ -289,18 +289,18 @@
   </wpt>
   <wpt lat="37.591667000" lon="-122.220000000">
     <name>X</name>
-    <cmt>White ball buoy near San Mateo Bridge in direct line above Y &amp; S</cmt>
-    <desc>White ball buoy near San Mateo Bridge in direct line above Y &amp; S</desc>
+    <cmt>Sequoia Yacht Club mark X. White ball buoy near San Mateo Bridge in direct line above Y &amp; S</cmt>
+    <desc>Sequoia Yacht Club mark X. White ball buoy near San Mateo Bridge in direct line above Y &amp; S</desc>
   </wpt>
   <wpt lat="37.574333000" lon="-122.199167000">
     <name>S</name>
-    <cmt>White ball buoy approx 1.5 nm north of entrance to Redwood Creek</cmt>
-    <desc>White ball buoy approx 1.5 nm north of entrance to Redwood Creek</desc>
+    <cmt>Sequoia Yacht Club mark S. White ball buoy approx 1.5 nm north of entrance to Redwood Creek</cmt>
+    <desc>Sequoia Yacht Club mark S. White ball buoy approx 1.5 nm north of entrance to Redwood Creek</desc>
   </wpt>
   <wpt lat="37.554833000" lon="-122.178833000">
     <name>Y</name>
-    <cmt>Orange barrel buoy approx 7/8 nm east of Redwood Creek</cmt>
-    <desc>Orange barrel buoy approx 7/8 nm east of Redwood Creek</desc>
+    <cmt>Sequoia Yacht Club mark Y. Orange barrel buoy approx 7/8 nm east of Redwood Creek</cmt>
+    <desc>Sequoia Yacht Club mark Y. Orange barrel buoy approx 7/8 nm east of Redwood Creek</desc>
   </wpt>
   <wpt lat="37.559824000" lon="-122.210521000">
     <name>#12</name>
