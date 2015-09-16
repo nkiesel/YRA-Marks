@@ -1,0 +1,11 @@
+#!/bin/zsh
+csv=${1:-../San_Francisco.csv}
+name=${csv%.csv}
+./gpsbabel.amd64 -i unicsv -f "${csv}" -x sort,shortnum -o nauteek -F "${name}.nk"
+./gpsbabel.amd64 -i unicsv -f "${csv}" -o gpx -F "${name}.gpx"
+./gpsbabel.amd64 -i unicsv -f "${csv}" -o html -F "${name}.html"
+( cd ../San_Francisco.shp; ogr2ogr -overwrite -f "ESRI Shapefile" . convert-to-shp.vrt )
+lua table.lua < "${csv}" > "${name}.md"
+for df in ddd dmm dms ; do
+  ./gpsbabel.amd64 -i unicsv -f "${csv}" -o text,degformat="${df}" -F "${name}.${df}"
+done

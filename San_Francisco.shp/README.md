@@ -9,4 +9,4 @@ Shapefile is [here](http://www.gdal.org/drv_csv.html) and
 For Debian and derived distributions like Ubuntu, `ogr2ogr` can be installed
 using:
 
-    % sudo apt-get install gdl-bin
+    % sudo apt-get install gdal-bin
