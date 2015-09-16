@@ -33,7 +33,6 @@ end
 f:seek("set", 0)
 
 for line in f:lines() do
-   print(line)
    local lat, lon, name, desc = rline(line)
    if desc then
       pline(lat, lon, name, desc)
