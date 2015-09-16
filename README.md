@@ -47,6 +47,8 @@ Right now I offer the following formats (all but CSV generated from CSV):
 
  * **SHP** format commonly used in mapping applications
 
+ * **HTML** simple text version
+
 If you need another format, drop me a note and I might add it.  Of course you
 can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
    
