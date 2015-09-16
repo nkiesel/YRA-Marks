@@ -29,7 +29,7 @@ As an example, the GPX file was generated using
 
 Right now I offer the following formats (all but CSV generated from CSV):
 
- * **CSV** simple text format with coordinates in decimal degrees.
+ * **CSV** simple text format with coordinates in decimal degrees (e.g. `-122.358967`)
  
  * **GPX** very common format.  This can also be directly used as a layer in the
    excellent [OpenCPN](http://opencpn.org/ocpn/) chartplotter and navigation
@@ -38,14 +38,12 @@ Right now I offer the following formats (all but CSV generated from CSV):
  * **NK** binary format used by the (no longer developed)
    [Nauteek Tactical Speedo Compass](http://www.nauteek.com/EN/)
    
- * **MD** markdown format
+ * **DMM** CSV with coordinates in degrees and decimal minutes (e.g. `W122 21.538020`)
 
- * **DDD** formatted text file with coordinates in decimal degrees
+ * **DMS** CSV with coordinates in degrees, minutes and decimal seconds (e.g. `W122 21 32.281`)
 
- * **DMM** formatted text file with coordinates in degrees and decimal minutes
-
- * **DMS** formatted text file with coordinates in degrees, minutes and decimal
-   seconds
+ * **NOAA** CSV with coordinates in degrees, minutes and decimal seconds
+   (e.g. `122-21-32.281W`).  This is the format used in the NOAA light lists.
 
  * **SHP** format commonly used in mapping applications
 

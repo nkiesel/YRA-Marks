@@ -8,7 +8,6 @@ $std -i unicsv -f "${csv}" -o gpx -F "${name}.gpx"
 xmlstarlet ed -L -u '/_:gpx/_:time' -v $(date -r "${csv}" -u '+%FT%T.%3NZ') "${name}.gpx"
 $std -i unicsv -f "${csv}" -o html -F "${name}.html"
 ( cd ../San_Francisco.shp; ogr2ogr -overwrite -f "ESRI Shapefile" . convert-to-shp.vrt )
-lua table.lua < "${csv}" > "${name}.md"
-for df in ddd dmm dms ; do
-  $std -i unicsv -f "${csv}" -o text,degformat="${df}" -F "${name}.${df}"
+for df in noaa dmm dms ; do
+  ./conv.py $df < "${csv}" > "${name}.${df}"
 done
