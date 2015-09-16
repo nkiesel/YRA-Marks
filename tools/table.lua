@@ -1,20 +1,9 @@
 #!/usr/bin/lua
 
-name_max, desc_max = 0, 0
-
 function rline(line)
    return line:match('([^,]+),([^,]+),"?([^,"]+)"?,"?([^"\r\n]+)')
 end
 
-for line in io.lines() do
-   local lat, lon, name, desc = rline(line)
-   if desc then
-      name_max = math.max(name_max, name:len())
-      desc_max = math.max(desc_max, desc:len())
-   end
-end
-
-header = true
 function rfill(s, l)
    local f = math.max(0, l - s:len())
    return ' ' .. s .. (' '):rep(f + 1)
@@ -28,7 +17,23 @@ function dash(n)
    return ('-'):rep(n)
 end
 
-for line in io.lines() do
+name_max, desc_max = 0, 0
+header = true
+
+f = io.input()
+
+for line in f:lines() do
+   local lat, lon, name, desc = rline(line)
+   if desc then
+      name_max = math.max(name_max, name:len())
+      desc_max = math.max(desc_max, desc:len())
+   end
+end
+
+f:seek("set", 0)
+
+for line in f:lines() do
+   print(line)
    local lat, lon, name, desc = rline(line)
    if desc then
       pline(lat, lon, name, desc)
