@@ -10,13 +10,13 @@ collected from multiple sources:
  * existing web sites
  * NOAA ENC charts
  * sailing clubs
- * [USCG Light List Volume6][llv6]
+ * [USCG Weekly Light List Volume6][llv6]
    
 Of course I do not claim that any of this information is correct and strongly
 advise not to use this for navigation.  Having said that, if anyone finds
 mistakes or has additions, please feel free to send me updates.
 
-For most marks that are listed in the [Light List][llv6], the description
+For most marks that are listed in the [Weekly Light List][llv6], the description
 contains the light number in `[]` (e.g. `[360]` for the Lightship).
 
 The coordinates are offered in multiple formats.  However, the canonical source
@@ -57,4 +57,4 @@ can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
    anyone is interested I can provide patches or Linux 32bit or 64bit binaries
    for this.
 
-[llv6]: http://www.navcen.uscg.gov/pdf/lightLists/LightList%20V6.pdf
+[llv6]: http://www.navcen.uscg.gov/?pageName=lightListWeeklyUpdates
