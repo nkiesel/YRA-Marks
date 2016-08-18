@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-# Copyright (c) Norbert Kiesel
+# Copyright (c) 2016 Norbert Kiesel <nk@iname.com>
 
 #
 # Updates the CSV file from the weekly updated NOAA list.
@@ -25,7 +25,7 @@ single_color_pattern = re.compile('^(Red|Yellow|Green|White)')
 # convert DMS into a decimal
 def dms2decdeg(d, m, s, c):
     seconds = float(d) * 3600 + float(m) * 60 + float(s)
-    if c == 'S' or c == 'W':
+    if c in ['S', 'W']:
         seconds = -seconds
     return "{:.6f}".format(seconds / 3600)
 
