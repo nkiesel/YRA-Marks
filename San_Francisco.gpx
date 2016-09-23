@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2016-02-14T05:27:39.465Z</time>
+  <time>2016-09-23T22:51:01.197Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.472222000" lon="-122.513750000">
     <name>PP-PP</name>
@@ -32,15 +32,15 @@
     <cmt>[5185] G '3' Fl G 4s Redwood Creek Entrance Light 3</cmt>
     <desc>[5185] G '3' Fl G 4s Redwood Creek Entrance Light 3</desc>
   </wpt>
+  <wpt lat="37.550333000" lon="-122.172633000">
+    <name>Y</name>
+    <cmt>Sequoia Yacht Club mark Y. Yellow barrel buoy 1 nm east of Redwood Creek</cmt>
+    <desc>Sequoia Yacht Club mark Y. Yellow barrel buoy 1 nm east of Redwood Creek</desc>
+  </wpt>
   <wpt lat="37.552886000" lon="-122.196515000">
     <name>#2</name>
     <cmt>[5180] R '2' Q R Redwood Creek Entrance Light 2</cmt>
     <desc>[5180] R '2' Q R Redwood Creek Entrance Light 2</desc>
-  </wpt>
-  <wpt lat="37.554833000" lon="-122.178833000">
-    <name>Y</name>
-    <cmt>Sequoia Yacht Club mark Y. Orange barrel buoy approx 7/8 nm east of Redwood Creek</cmt>
-    <desc>Sequoia Yacht Club mark Y. Orange barrel buoy approx 7/8 nm east of Redwood Creek</desc>
   </wpt>
   <wpt lat="37.559824000" lon="-122.210521000">
     <name>#12</name>
