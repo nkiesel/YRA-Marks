@@ -1,9 +1,7 @@
 #!/bin/zsh
-std=../../gpsbabel/gpsbabel
-spl=./gpsbabel.amd64
+std=gpsbabel
 csv=${1:-../San_Francisco.csv}
 name=${csv%.csv}
-$spl -i unicsv -f "${csv}" -x sort,shortnum -o nauteek -F "${name}.nk"
 $std -i unicsv -f "${csv}" -o gpx -F "${name}.gpx"
 xmlstarlet ed -L -u '/_:gpx/_:time' -v $(date -r "${csv}" -u '+%FT%T.%3NZ') "${name}.gpx"
 $std -i unicsv -f "${csv}" -o html -F "${name}.html"

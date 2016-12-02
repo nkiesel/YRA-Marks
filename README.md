@@ -7,9 +7,9 @@ This project contains GPS coordinates for nearly all racing marks in the San
 Francisco Bay and some other "interesting" marks.  The information here was
 collected from multiple sources:
 
- * existing web sites
+ * Existing web sites
  * NOAA ENC charts
- * sailing clubs
+ * Sailing clubs
  * [USCG Weekly Light List Volume6][llv6]
    
 Of course I do not claim that any of this information is correct and strongly
@@ -35,9 +35,6 @@ Right now I offer the following formats (all but CSV generated from CSV):
    excellent [OpenCPN](http://opencpn.org/ocpn/) chartplotter and navigation
    software.
  
- * **NK** binary format used by the (no longer developed)
-   [Nauteek Tactical Speedo Compass](http://www.nauteek.com/EN/)
-   
  * **DMM** CSV with coordinates in degrees and decimal minutes (e.g. `W122 21.538020`)
 
  * **DMS** CSV with coordinates in degrees, minutes and decimal seconds (e.g. `W122 21 32.281`)

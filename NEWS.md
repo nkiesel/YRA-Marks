@@ -1,3 +1,9 @@
+**2016-12-02**
+
+ * Removed Nauteek file (mine is broken, and I was theonly user)
+ * Updated Sequoia racing marks
+ * Now using gpsbabel-1.5.3
+
 **2016-02-13**
 
  * Added script for getting coordinates and description from NOAA weekly updated
