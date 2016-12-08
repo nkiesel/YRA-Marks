@@ -1,7 +1,7 @@
 **2016-12-02**
 
- * Removed Nauteek file (mine is broken, and I was theonly user)
- * Updated Sequoia racing marks
+ * Removed Nauteek file (mine is broken, and I was the only user)
+ * Updated Sequoia racing marks (added E, new positions for X and Y)
  * Now using gpsbabel-1.5.3
 
 **2016-02-13**

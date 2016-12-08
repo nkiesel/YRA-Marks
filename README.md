@@ -49,9 +49,4 @@ Right now I offer the following formats (all but CSV generated from CSV):
 If you need another format, drop me a note and I might add it.  Of course you
 can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
    
-   Note:
-   The official GpsBabel does not support the **NK** output format.  In case
-   anyone is interested I can provide patches or Linux 32bit or 64bit binaries
-   for this.
-
 [llv6]: http://www.navcen.uscg.gov/?pageName=lightListWeeklyUpdates
