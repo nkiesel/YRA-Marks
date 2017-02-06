@@ -3,7 +3,7 @@ YRA-Marks
 
 GPS coordinates for YRA Racing marks in San Francisco Bay
 
-See [NEWS.md](News.md) for recent updates.
+See [NEWS.md](NEWS.md) for recent updates.
 
 This project contains GPS coordinates for nearly all racing marks in the San
 Francisco Bay and some other "interesting" marks.  The information here was
