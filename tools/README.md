@@ -1,16 +1,22 @@
-# Conversions
+# Steps for Updating Official Marks and Convertions
 
-The actual conversion is done running `./convert` from within this directory.
+## Official Marks
 
-# Tips and Tricks
+All NOAA administered marks have a unique number in their district.  YRA marks are all
+in the 11th district, and we thus can use this number as their identifier.
 
-Lookup of coordinates in the lightlist can be simplified by converting the PDF
-to a text file, and converting the DMS coordinates into decimal degrees as
-required by the CSV file.
+Running `./updates_from_noaa.py` does exactly that: it
 
-`pdftotext -nopgbrk -layout LightList\ V6.pdf`
+ - parses the CSV file and converts it into a map indexed by their id
+ - downloads the weekly updated XML file from NOAA
+ - updates the coordinates and description of matching markers in the map
+ - writes the resulting map back to the CSV file
+ 
+## Conversions
 
-For increased readability, the PDF file can be preprocessed with [Briss][briss]
-to remove the header and footer text before that.
+The next step is converting the updated CSV file into the supported variants.  This
+is done by running `./convert`from within this directory.
 
-[briss]: http://sourceforge.net/projects/briss/
+## Upload
+
+The final step is a simple `git push` to update the site on GitHub.
