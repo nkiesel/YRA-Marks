@@ -13,8 +13,8 @@ import urllib.request
 # input and output file
 csvfile = '../San_Francisco.csv'
 
-# updated noaa list in XML format
-noaaurl = 'http://www.navcen.uscg.gov/?Do=weeklyLLCXML&id=6'
+# updated NOAA list in XML format
+noaaurl = 'https://www.navcen.uscg.gov/?Do=weeklyLLCXML&id=6'
 
 noaa_coord_pattern = re.compile('(\d+)-(\d+)-(\d+.\d+) ?([NSEW])')
 name_pattern = re.compile('.+ (\d+)$')
