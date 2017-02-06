@@ -66,11 +66,14 @@ def description(nr, name, characteristic, structure):
     return '[{}] {}{}{}{}'.format(nr, col, num, cha, name)
 
 
-# contains mapping from NOAA light number to YRA number
+# contains mapping from NOAA light number to YRA name
 noaa = {}
 
-# updated list of marks
-marks = []
+# cotains mapping from YRA names to mark record/array
+marks = {}
+
+# contains YRA names in correct order
+order = []
 
 # read file and fill `noaa` and `marks`
 with open(csvfile) as sffile:
@@ -78,27 +81,30 @@ with open(csvfile) as sffile:
     # skip header
     next(sf)
     for row in sf:
+        id = row[2]
+        order.append(id)
         num = num_pattern.match(row[3])
         if num:
-            noaa[num.group(1)] = row[2]
+            noaa[num.group(1)] = id
         else:
-            marks.append(row)
+            marks[id] = row
 
 # download and parse updated NOAA list and append required marks to `marks`
 with urllib.request.urlopen(noaaurl) as xml:
     dataroot = ET.parse(xml).getroot().find('dataroot')
     for e in dataroot:
         llnr = text(e, 'LLNR')
-        yranum = noaa.get(llnr)
-        if yranum:
-            marks.append([
+        yraname = noaa.get(llnr)
+        if yraname:
+            marks[yraname] = [
                 conv(text(e, 'Position_x0020__x0028_Latitude_x0029_')),
                 conv(text(e, 'Position_x0020__x0028_Longitude_x0029_')),
-                yranum,
-                description(llnr, text(e,'Aid_x0020_Name'), text(e, 'Characteristic'), text(e, 'Structure'))])
+                yraname,
+                description(llnr, text(e, 'Aid_x0020_Name'), text(e, 'Characteristic'), text(e, 'Structure'))]
 
 # replace csvfile content with updated marks
 with open(csvfile, mode="w", newline='\r\n') as sffile:
     print('Latitude,Longitude,Name,Description', file=sffile)
-    for d in sorted(marks):
+    for id in order:
+        d = marks[id]
         print('{},{},"{}","{}"'.format(*d), file=sffile)
