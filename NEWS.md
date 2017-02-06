@@ -1,3 +1,11 @@
+**2017-02-06**
+
+ * Updated YRA marks from yra.org web site
+ * Ordered marks to be in sync with YRA
+ * YRA-13 "Crissy Field Buoy" and YRA-TYC "Privately maintained White mark “TYC”
+   off entrance to Paradise Cove Harbor" are missing because I do not know their
+   location.  Email or merge requests more than welcome for this!
+
 **2016-12-02**
 
  * Removed Nauteek file (mine is broken, and I was the only user)
