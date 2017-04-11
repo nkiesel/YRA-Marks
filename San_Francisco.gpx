@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2017-02-06T20:08:27.875Z</time>
+  <time>2017-04-11T01:49:10.321Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810896000" lon="-122.445390000">
     <name>YRA-A</name>
@@ -469,8 +469,8 @@
   </wpt>
   <wpt lat="37.897450000" lon="-122.389783000">
     <name>RYC-A</name>
-    <cmt>Richmod Yacht Club A (former Olympic Circle A)</cmt>
-    <desc>Richmod Yacht Club A (former Olympic Circle A)</desc>
+    <cmt>Richmond Yacht Club A (former Olympic Circle A)</cmt>
+    <desc>Richmond Yacht Club A (former Olympic Circle A)</desc>
   </wpt>
   <wpt lat="37.931661000" lon="-122.420875000">
     <name>CR-2</name>
