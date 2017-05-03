@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2017-04-11T01:49:10.321Z</time>
+  <time>2017-05-03T01:59:16.874Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810896000" lon="-122.445390000">
     <name>YRA-A</name>
@@ -473,7 +473,7 @@
     <desc>Richmond Yacht Club A (former Olympic Circle A)</desc>
   </wpt>
   <wpt lat="37.931661000" lon="-122.420875000">
-    <name>CR-2</name>
+    <name>2CR</name>
     <cmt>[5775] R Fl R 4s Castro Rocks Lighted Buoy 2CR</cmt>
     <desc>[5775] R Fl R 4s Castro Rocks Lighted Buoy 2CR</desc>
   </wpt>
@@ -493,7 +493,7 @@
     <desc>[5875] R '2' Fl R 4s San Pablo Bay Lighted Buoy 2</desc>
   </wpt>
   <wpt lat="38.016566000" lon="-122.367459000">
-    <name>PPN-P</name>
+    <name>PPL-P</name>
     <cmt>[5895] W Fl W 2.5s Point Pinole Light P</cmt>
     <desc>[5895] W Fl W 2.5s Point Pinole Light P</desc>
   </wpt>
