@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2017-05-03T01:59:16.874Z</time>
+  <time>2017-07-07T17:35:21.877Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810896000" lon="-122.445390000">
     <name>YRA-A</name>
@@ -392,7 +392,7 @@
     <cmt>Sequoia Yacht Club mark X. Yellow barrel buoy</cmt>
     <desc>Sequoia Yacht Club mark X. Yellow barrel buoy</desc>
   </wpt>
-  <wpt lat="37.550335000" lon="-122.172635000">
+  <wpt lat="37.550333000" lon="-122.172633000">
     <name>Y</name>
     <cmt>Sequoia Yacht Club mark Y. Yellow barrel buoy 1 nm east of Redwood Creek</cmt>
     <desc>Sequoia Yacht Club mark Y. Yellow barrel buoy 1 nm east of Redwood Creek</desc>
