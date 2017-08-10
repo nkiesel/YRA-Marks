@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2017-07-07T17:35:21.877Z</time>
+  <time>2017-08-10T21:50:54.749Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810896000" lon="-122.445390000">
     <name>YRA-A</name>
@@ -267,15 +267,15 @@
     <cmt>[350] Y Fl Y 2.5s San Francisco West Traffic Lane Lighted Gong Buoy W</cmt>
     <desc>[350] Y Fl Y 2.5s San Francisco West Traffic Lane Lighted Gong Buoy W</desc>
   </wpt>
-  <wpt lat="37.769766000" lon="-122.632121000">
+  <wpt lat="37.769774000" lon="-122.632206000">
     <name>YRA-G1</name>
-    <cmt>[4160] G '1' Iso G 6s San Francisco Main Ship Channel Lighted Bell Buoy 1</cmt>
-    <desc>[4160] G '1' Iso G 6s San Francisco Main Ship Channel Lighted Bell Buoy 1</desc>
+    <cmt>[4160] G '1' Q G San Francisco Main Ship Channel Lighted Bell Buoy 1</cmt>
+    <desc>[4160] G '1' Q G San Francisco Main Ship Channel Lighted Bell Buoy 1</desc>
   </wpt>
   <wpt lat="37.763336000" lon="-122.629027000">
     <name>YRA-R2</name>
-    <cmt>[4165] R '2' Iso R 6s San Francisco Main Ship Channel Lighted Whistle Buoy 2</cmt>
-    <desc>[4165] R '2' Iso R 6s San Francisco Main Ship Channel Lighted Whistle Buoy 2</desc>
+    <cmt>[4165] R '2' Q R San Francisco Main Ship Channel Lighted Whistle Buoy 2</cmt>
+    <desc>[4165] R '2' Q R San Francisco Main Ship Channel Lighted Whistle Buoy 2</desc>
   </wpt>
   <wpt lat="37.781866000" lon="-122.589894000">
     <name>YRA-G7</name>
@@ -381,11 +381,6 @@
     <name>S</name>
     <cmt>Sequoia Yacht Club mark S. Yellow barrel buoy approx 1.5 nm north of entrance to Redwood Creek</cmt>
     <desc>Sequoia Yacht Club mark S. Yellow barrel buoy approx 1.5 nm north of entrance to Redwood Creek</desc>
-  </wpt>
-  <wpt lat="37.574333000" lon="-122.199167000">
-    <name>Sp</name>
-    <cmt>Sequoia Yacht Club mark Sp. White ball buoy 50 yards from S</cmt>
-    <desc>Sequoia Yacht Club mark Sp. White ball buoy 50 yards from S</desc>
   </wpt>
   <wpt lat="37.579483000" lon="-122.217747000">
     <name>X</name>
