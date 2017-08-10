@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2017-08-10T21:50:54.749Z</time>
+  <time>2017-08-10T22:37:44.753Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
-  <wpt lat="37.810896000" lon="-122.445390000">
+  <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
     <cmt>Yellow sphere 'A' Outer Buoy St. Francis Yacht Club</cmt>
     <desc>Yellow sphere 'A' Outer Buoy St. Francis Yacht Club</desc>
   </wpt>
-  <wpt lat="37.808850000" lon="-122.446046000">
+  <wpt lat="37.808285000" lon="-122.446069000">
     <name>YRA-B</name>
     <cmt>Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham</cmt>
     <desc>Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham</desc>
-  </wpt>
-  <wpt lat="37.857677000" lon="-122.349387000">
-    <name>YRA-D</name>
-    <cmt>G '3' Fl G 4s Berkeley Marina Channel Light 3 (also called OLY-D)</cmt>
-    <desc>G '3' Fl G 4s Berkeley Marina Channel Light 3 (also called OLY-D)</desc>
   </wpt>
   <wpt lat="37.848989000" lon="-122.447646000">
     <name>YRA-K</name>
@@ -32,10 +27,10 @@
     <cmt>Temp YC Buoy 0.31 nm West of Windmill in line with YRA 04</cmt>
     <desc>Temp YC Buoy 0.31 nm West of Windmill in line with YRA 04</desc>
   </wpt>
-  <wpt lat="37.810986000" lon="-122.442955000">
+  <wpt lat="37.811114000" lon="-122.443048000">
     <name>YRA-X</name>
-    <cmt>Yellow/Blue sphere 'X' Golden Gate Yacht Club</cmt>
-    <desc>Yellow/Blue sphere 'X' Golden Gate Yacht Club</desc>
+    <cmt>Yellow sphere 'X' Golden Gate Yacht Club</cmt>
+    <desc>Yellow sphere 'X' Golden Gate Yacht Club</desc>
   </wpt>
   <wpt lat="37.929270000" lon="-122.430930000">
     <name>YRA-1</name>
@@ -299,8 +294,8 @@
   </wpt>
   <wpt lat="37.857677000" lon="-122.349387000">
     <name>OLY-D</name>
-    <cmt>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</cmt>
-    <desc>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</desc>
+    <cmt>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3 (also called YRA-D)</cmt>
+    <desc>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3 (also called YRA-D)</desc>
   </wpt>
   <wpt lat="37.855750000" lon="-122.365350000">
     <name>OLY-E</name>
