@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2017-08-10T22:37:44.753Z</time>
+  <time>2017-10-23T18:04:05.373Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -12,7 +12,7 @@
     <cmt>Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham</cmt>
     <desc>Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham</desc>
   </wpt>
-  <wpt lat="37.848989000" lon="-122.447646000">
+  <wpt lat="37.852833000" lon="-122.443115000">
     <name>YRA-K</name>
     <cmt>Temp YC Buoy 0.3 nm West of YRA04 in line with YRA 12</cmt>
     <desc>Temp YC Buoy 0.3 nm West of YRA04 in line with YRA 12</desc>
