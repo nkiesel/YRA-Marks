@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2017-10-23T18:04:05.373Z</time>
+  <time>2017-12-21T03:44:53.831Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -294,8 +294,8 @@
   </wpt>
   <wpt lat="37.857677000" lon="-122.349387000">
     <name>OLY-D</name>
-    <cmt>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3 (also called YRA-D)</cmt>
-    <desc>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3 (also called YRA-D)</desc>
+    <cmt>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</cmt>
+    <desc>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</desc>
   </wpt>
   <wpt lat="37.855750000" lon="-122.365350000">
     <name>OLY-E</name>
@@ -362,32 +362,22 @@
     <cmt>[5165] G '11' San Francisco Bay South Channel Buoy 11</cmt>
     <desc>[5165] G '11' San Francisco Bay South Channel Buoy 11</desc>
   </wpt>
-  <wpt lat="37.565911000" lon="-122.228588000">
-    <name>E</name>
-    <cmt>Sequoia Yacht Club mark E. Yellow barrel buoy</cmt>
-    <desc>Sequoia Yacht Club mark E. Yellow barrel buoy</desc>
-  </wpt>
-  <wpt lat="37.562129000" lon="-122.184980000">
-    <name>O</name>
-    <cmt>Sequoia Yacht Club virtual race mark</cmt>
-    <desc>Sequoia Yacht Club virtual race mark</desc>
-  </wpt>
-  <wpt lat="37.575835000" lon="-122.197801000">
+  <wpt lat="37.565980000" lon="-122.228720000">
     <name>S</name>
-    <cmt>Sequoia Yacht Club mark S. Yellow barrel buoy approx 1.5 nm north of entrance to Redwood Creek</cmt>
-    <desc>Sequoia Yacht Club mark S. Yellow barrel buoy approx 1.5 nm north of entrance to Redwood Creek</desc>
+    <cmt>Sequoia Yacht Club mark S. Yellow collar buoy</cmt>
+    <desc>Sequoia Yacht Club mark S. Yellow collar buoy</desc>
   </wpt>
-  <wpt lat="37.579483000" lon="-122.217747000">
+  <wpt lat="37.574930000" lon="-122.198770000">
     <name>X</name>
-    <cmt>Sequoia Yacht Club mark X. Yellow barrel buoy</cmt>
-    <desc>Sequoia Yacht Club mark X. Yellow barrel buoy</desc>
+    <cmt>Sequoia Yacht Club mark X. Yellow collar buoy</cmt>
+    <desc>Sequoia Yacht Club mark X. Yellow collar buoy</desc>
   </wpt>
-  <wpt lat="37.550333000" lon="-122.172633000">
+  <wpt lat="37.543150000" lon="-122.166370000">
     <name>Y</name>
-    <cmt>Sequoia Yacht Club mark Y. Yellow barrel buoy 1 nm east of Redwood Creek</cmt>
-    <desc>Sequoia Yacht Club mark Y. Yellow barrel buoy 1 nm east of Redwood Creek</desc>
+    <cmt>Sequoia Yacht Club mark Y. Yellow collar buoy</cmt>
+    <desc>Sequoia Yacht Club mark Y. Yellow collar buoy</desc>
   </wpt>
-  <wpt lat="37.615750000" lon="-122.315767000">
+  <wpt lat="37.614000000" lon="-122.311800000">
     <name>CP-Z</name>
     <cmt>Coyote Point Yacht Club Mark Z</cmt>
     <desc>Coyote Point Yacht Club Mark Z</desc>
