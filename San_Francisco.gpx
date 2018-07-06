@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2017-12-21T03:44:53.831Z</time>
+  <time>2018-07-06T21:37:52.098Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -232,7 +232,7 @@
     <cmt>[360] RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF</cmt>
     <desc>[360] RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF</desc>
   </wpt>
-  <wpt lat="37.770753000" lon="-122.380428000">
+  <wpt lat="37.771219000" lon="-122.383257000">
     <name>YRA-AS1</name>
     <cmt>Yellow sphere approx. 0.25 nm East of BVYC</cmt>
     <desc>Yellow sphere approx. 0.25 nm East of BVYC</desc>
