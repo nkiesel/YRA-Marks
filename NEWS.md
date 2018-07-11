@@ -1,3 +1,7 @@
+**2018-07-11**
+
+ * Added/updated racing marks for SBYC, SYC, YRA
+
 **2017-02-06**
 
  * Updated YRA marks from yra.org web site

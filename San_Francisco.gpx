@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2018-07-06T21:37:52.098Z</time>
+  <time>2018-07-11T22:15:25.693Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -237,6 +237,11 @@
     <cmt>Yellow sphere approx. 0.25 nm East of BVYC</cmt>
     <desc>Yellow sphere approx. 0.25 nm East of BVYC</desc>
   </wpt>
+  <wpt lat="37.777257000" lon="-122.341307000">
+    <name>YRA-NAS1</name>
+    <cmt>[4745] G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1</cmt>
+    <desc>[4745] G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1</desc>
+  </wpt>
   <wpt lat="37.774193000" lon="-122.341045000">
     <name>YRA-NAS2</name>
     <cmt>[4750] R '2' Fl R 4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2</cmt>
@@ -382,6 +387,11 @@
     <cmt>Coyote Point Yacht Club Mark Z</cmt>
     <desc>Coyote Point Yacht Club Mark Z</desc>
   </wpt>
+  <wpt lat="37.695755000" lon="-122.339432000">
+    <name>SBC#1</name>
+    <cmt>[4945] G '1' Fl G 4s San Bruno Shoal Channel Light 1</cmt>
+    <desc>[4945] G '1' Fl G 4s San Bruno Shoal Channel Light 1</desc>
+  </wpt>
   <wpt lat="37.694932000" lon="-122.341387000">
     <name>SBC#2</name>
     <cmt>[4950] R '2' Fl R 4s San Bruno Shoal Channel Lighted Buoy 2</cmt>
@@ -411,11 +421,6 @@
     <name>ONR</name>
     <cmt>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</cmt>
     <desc>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</desc>
-  </wpt>
-  <wpt lat="37.777257000" lon="-122.341307000">
-    <name>NAS-1</name>
-    <cmt>[4745] G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1</cmt>
-    <desc>[4745] G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1</desc>
   </wpt>
   <wpt lat="37.792822000" lon="-122.510375000">
     <name>MR</name>
