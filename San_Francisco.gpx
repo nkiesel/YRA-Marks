@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2018-07-11T22:15:25.693Z</time>
+  <time>2018-07-11T22:55:22.206Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -14,8 +14,8 @@
   </wpt>
   <wpt lat="37.852833000" lon="-122.443115000">
     <name>YRA-K</name>
-    <cmt>Temp YC Buoy 0.3 nm West of YRA04 in line with YRA 12</cmt>
-    <desc>Temp YC Buoy 0.3 nm West of YRA04 in line with YRA 12</desc>
+    <cmt>Temp YC Buoy 0.3 nm West of YRA-4 in line with YRA-12</cmt>
+    <desc>Temp YC Buoy 0.3 nm West of YRA-4 in line with YRA-12</desc>
   </wpt>
   <wpt lat="37.855937000" lon="-122.468667000">
     <name>YRA-N</name>
@@ -24,8 +24,8 @@
   </wpt>
   <wpt lat="37.853865000" lon="-122.427601000">
     <name>YRA-L</name>
-    <cmt>Temp YC Buoy 0.31 nm West of Windmill in line with YRA 04</cmt>
-    <desc>Temp YC Buoy 0.31 nm West of Windmill in line with YRA 04</desc>
+    <cmt>Temp YC Buoy 0.31 nm West of Windmill in line with YRA-4</cmt>
+    <desc>Temp YC Buoy 0.31 nm West of Windmill in line with YRA-4</desc>
   </wpt>
   <wpt lat="37.811114000" lon="-122.443048000">
     <name>YRA-X</name>
@@ -74,8 +74,8 @@
   </wpt>
   <wpt lat="37.844630000" lon="-122.350771000">
     <name>YRA-9</name>
-    <cmt>Temp YC Buoy 0.5 nm ESE of West end Berkeley Pier ruins/1 nm ENE of YRA10</cmt>
-    <desc>Temp YC Buoy 0.5 nm ESE of West end Berkeley Pier ruins/1 nm ENE of YRA10</desc>
+    <cmt>Temp YC Buoy 0.5 nm ESE of West end Berkeley Pier ruins/1 nm ENE of YRA-10</cmt>
+    <desc>Temp YC Buoy 0.5 nm ESE of West end Berkeley Pier ruins/1 nm ENE of YRA-10</desc>
   </wpt>
   <wpt lat="37.844432000" lon="-122.371837000">
     <name>YRA-10</name>

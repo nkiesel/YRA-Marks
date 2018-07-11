@@ -1,7 +1,7 @@
 YRA-Marks
 =========
 
-GPS coordinates for YRA Racing marks in San Francisco Bay
+GPS coordinates for [YRA Racing marks][chart] in San Francisco Bay
 
 See [NEWS.md](NEWS.md) for recent updates.
 
@@ -52,3 +52,4 @@ If you need another format, drop me a note and I might add it.  Of course you
 can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
    
 [llv6]: http://www.navcen.uscg.gov/?pageName=lightListWeeklyUpdates
+[chart]: https://drive.google.com/open?id=1PqJZVzEl_s6P5R3jOrLbM9pnAQwle01e&usp=sharing
