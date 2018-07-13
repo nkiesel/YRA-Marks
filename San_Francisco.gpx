@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2018-07-11T22:55:22.206Z</time>
+  <time>2018-07-13T23:12:58.939Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -91,6 +91,11 @@
     <name>YRA-12</name>
     <cmt>[4340] G '1' Fl G 4s Raccoon Strait Lighted Buoy 1</cmt>
     <desc>[4340] G '1' Fl G 4s Raccoon Strait Lighted Buoy 1</desc>
+  </wpt>
+  <wpt lat="37.807500000" lon="-122.460667000">
+    <name>YRA-13</name>
+    <cmt>Crissy Field Buoy</cmt>
+    <desc>Crissy Field Buoy</desc>
   </wpt>
   <wpt lat="37.881939000" lon="-122.400233000">
     <name>YRA-14</name>
@@ -247,6 +252,11 @@
     <cmt>[4750] R '2' Fl R 4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2</cmt>
     <desc>[4750] R '2' Fl R 4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2</desc>
   </wpt>
+  <wpt lat="37.909500000" lon="-122.470000000">
+    <name>YRA-TYC</name>
+    <cmt>Privately maintained White mark 'TYC' off entrance to Paradise Cove Harbor</cmt>
+    <desc>Privately maintained White mark 'TYC' off entrance to Paradise Cove Harbor</desc>
+  </wpt>
   <wpt lat="37.775556000" lon="-122.365833000">
     <name>YRA-SC1</name>
     <cmt>[4820] GR Fl (2+1)G 6s San Francisco Bay Preferred Channel Lighted Buoy SC</cmt>
@@ -287,38 +297,48 @@
     <cmt>[4195] R '8' Fl R 2.5s San Francisco Main Ship Channel Lighted Whistle Buoy 8</cmt>
     <desc>[4195] R '8' Fl R 2.5s San Francisco Main Ship Channel Lighted Whistle Buoy 8</desc>
   </wpt>
+  <wpt lat="37.885833000" lon="-122.352833000">
+    <name>YRA-AOC</name>
+    <cmt>Olympic Circle A</cmt>
+    <desc>Olympic Circle A</desc>
+  </wpt>
   <wpt lat="37.880500000" lon="-122.342000000">
-    <name>OLY-B</name>
+    <name>YRA-BOC</name>
     <cmt>Olympic Circle B</cmt>
     <desc>Olympic Circle B</desc>
   </wpt>
   <wpt lat="37.868000000" lon="-122.339667000">
-    <name>OLY-C</name>
+    <name>YRA-COC</name>
     <cmt>Olympic Circle C</cmt>
     <desc>Olympic Circle C</desc>
   </wpt>
   <wpt lat="37.857677000" lon="-122.349387000">
-    <name>OLY-D</name>
+    <name>YRA-DOC</name>
     <cmt>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</cmt>
     <desc>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</desc>
   </wpt>
   <wpt lat="37.855750000" lon="-122.365350000">
-    <name>OLY-E</name>
+    <name>YRA-EOC</name>
     <cmt>Olympic Circle E</cmt>
     <desc>Olympic Circle E</desc>
   </wpt>
   <wpt lat="37.864233000" lon="-122.376567000">
-    <name>OLY-F</name>
+    <name>YRA-FOC</name>
     <cmt>Olympic Circle F</cmt>
     <desc>Olympic Circle F</desc>
   </wpt>
   <wpt lat="37.876167000" lon="-122.380667000">
-    <name>OLY-G</name>
+    <name>YRA-GOC</name>
     <cmt>Olympic Circle G</cmt>
     <desc>Olympic Circle G</desc>
   </wpt>
+  <wpt lat="37.887000000" lon="-122.368833000">
+    <name>YRA-HOC</name>
+    <cmt>Olympic Circle H</cmt>
+    <desc>Olympic Circle H</desc>
+  </wpt>
   <wpt lat="37.871767000" lon="-122.358967000">
-    <name>OLY-X</name>
+    <name>YRA-XOC</name>
     <cmt>Olympic Circle X</cmt>
     <desc>Olympic Circle X</desc>
   </wpt>
