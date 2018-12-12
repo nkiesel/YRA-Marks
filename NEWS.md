@@ -1,3 +1,9 @@
+**2018-12-11**
+
+ * Now using the coordinates from YRA [Buoy
+   Status](http://yra.org/buoy-status/) for all marks that are not NOAA
+   maintained
+
 **2018-07-11**
 
  * Added/updated racing marks for SBYC, SYC, YRA

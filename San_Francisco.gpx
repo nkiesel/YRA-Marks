@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2018-12-12T00:26:15.904Z</time>
+  <time>2018-12-12T01:44:12.128Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -47,7 +47,7 @@
     <cmt>[355] W Fl W 15s Farallon Light</cmt>
     <desc>[355] W Fl W 15s Farallon Light</desc>
   </wpt>
-  <wpt lat="37.852733000" lon="-122.443619000">
+  <wpt lat="37.852833000" lon="-122.443500000">
     <name>YRA-4</name>
     <cmt>Temp YC Buoy near Pt Knox</cmt>
     <desc>Temp YC Buoy near Pt Knox</desc>
@@ -57,7 +57,7 @@
     <cmt>Temp YC Buoy Approx. 0.6 nm SW of Alcatraz</cmt>
     <desc>Temp YC Buoy Approx. 0.6 nm SW of Alcatraz</desc>
   </wpt>
-  <wpt lat="37.810833000" lon="-122.430679000">
+  <wpt lat="37.811333000" lon="-122.431167000">
     <name>YRA-6</name>
     <cmt>Yellow column 'M' 200 yd North of Ft Mason Docks</cmt>
     <desc>Yellow column 'M' 200 yd North of Ft Mason Docks</desc>
@@ -102,12 +102,12 @@
     <cmt>[5480] W Iso R 6s Southampton Shoal Light</cmt>
     <desc>[5480] W Iso R 6s Southampton Shoal Light</desc>
   </wpt>
-  <wpt lat="37.837361000" lon="-122.461991000">
+  <wpt lat="37.839333000" lon="-122.466500000">
     <name>YRA-15</name>
     <cmt>Approx. 0.5 nm East of Yellow Bluff (Sausalito vicinity)</cmt>
     <desc>Approx. 0.5 nm East of Yellow Bluff (Sausalito vicinity)</desc>
   </wpt>
-  <wpt lat="37.810022000" lon="-122.466678000">
+  <wpt lat="37.809500000" lon="-122.466667000">
     <name>YRA-16</name>
     <cmt>Yellow sphere 'C' 0.2 nm East of Ft Point - Blackaller</cmt>
     <desc>Yellow sphere 'C' 0.2 nm East of Ft Point - Blackaller</desc>
@@ -162,7 +162,7 @@
     <cmt>Temp YC buoy approx. 1.2 nm SE of Mission Rock Terminal</cmt>
     <desc>Temp YC buoy approx. 1.2 nm SE of Mission Rock Terminal</desc>
   </wpt>
-  <wpt lat="37.746067000" lon="-122.323723000">
+  <wpt lat="37.746000000" lon="-122.323333000">
     <name>YRA-32</name>
     <cmt>Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal</cmt>
     <desc>Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal</desc>
@@ -237,7 +237,7 @@
     <cmt>[360] RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF</cmt>
     <desc>[360] RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF</desc>
   </wpt>
-  <wpt lat="37.771219000" lon="-122.383257000">
+  <wpt lat="37.771833000" lon="-122.382333000">
     <name>YRA-AS1</name>
     <cmt>Yellow sphere approx. 0.25 nm East of BVYC</cmt>
     <desc>Yellow sphere approx. 0.25 nm East of BVYC</desc>
@@ -302,12 +302,12 @@
     <cmt>Olympic Circle A</cmt>
     <desc>Olympic Circle A</desc>
   </wpt>
-  <wpt lat="37.880500000" lon="-122.342000000">
+  <wpt lat="37.880333000" lon="-122.340167000">
     <name>YRA-BOC</name>
     <cmt>Olympic Circle B</cmt>
     <desc>Olympic Circle B</desc>
   </wpt>
-  <wpt lat="37.868000000" lon="-122.339667000">
+  <wpt lat="37.867833000" lon="-122.338333000">
     <name>YRA-COC</name>
     <cmt>Olympic Circle C</cmt>
     <desc>Olympic Circle C</desc>
@@ -317,7 +317,7 @@
     <cmt>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</cmt>
     <desc>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</desc>
   </wpt>
-  <wpt lat="37.855750000" lon="-122.365350000">
+  <wpt lat="37.856333000" lon="-122.364333000">
     <name>YRA-EOC</name>
     <cmt>Olympic Circle E</cmt>
     <desc>Olympic Circle E</desc>
@@ -327,7 +327,7 @@
     <cmt>Olympic Circle F</cmt>
     <desc>Olympic Circle F</desc>
   </wpt>
-  <wpt lat="37.876167000" lon="-122.380667000">
+  <wpt lat="37.877000000" lon="-122.378833000">
     <name>YRA-GOC</name>
     <cmt>Olympic Circle G</cmt>
     <desc>Olympic Circle G</desc>
@@ -337,7 +337,7 @@
     <cmt>Olympic Circle H</cmt>
     <desc>Olympic Circle H</desc>
   </wpt>
-  <wpt lat="37.871767000" lon="-122.358967000">
+  <wpt lat="37.872333000" lon="-122.358500000">
     <name>YRA-XOC</name>
     <cmt>Olympic Circle X</cmt>
     <desc>Olympic Circle X</desc>
