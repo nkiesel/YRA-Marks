@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 import re
 import csv
 import urllib.request
+import requests
 
 # input and output file
 csvfile = '../San_Francisco.csv'
@@ -21,10 +22,17 @@ name_pattern = re.compile('.+ (\d+)$')
 num_pattern = re.compile('^\[(\d+)\]')
 dual_color_pattern = re.compile('^(\w)\w+ and (\w)\w+ ')
 single_color_pattern = re.compile('^(Red|Yellow|Green|White)')
+buoy_status_pattern = re.compile(r'<strong>(\w+)</strong>\D+(\d+) ([\d.]+)\D+(\d+) ([\d.]+) \((.+)\)')
 
 # convert DMS into a decimal
 def dms2decdeg(d, m, s, c):
     seconds = float(d) * 3600 + float(m) * 60 + float(s)
+    if c in ['S', 'W']:
+        seconds = -seconds
+    return "{:.6f}".format(seconds / 3600)
+
+def dmm2decdeg(d, m, c):
+    seconds = float(d) * 3600 + float(m) * 60
     if c in ['S', 'W']:
         seconds = -seconds
     return "{:.6f}".format(seconds / 3600)
@@ -69,6 +77,9 @@ def description(nr, name, characteristic, structure):
 # contains mapping from NOAA light number to YRA name
 noaa = {}
 
+# set of all marks with NOAA light numbers
+has_noaa_light_number = set()
+
 # cotains mapping from YRA names to mark record/array
 marks = {}
 
@@ -86,8 +97,24 @@ with open(csvfile) as sffile:
         num = num_pattern.match(row[3])
         if num:
             noaa[num.group(1)] = id
+            has_noaa_light_number.add(id)
         else:
             marks[id] = row
+
+# use coordinates from YRA "buoy status page" unless mark has a NOAA light number
+with requests.get('http://yra.org/buoy-status/') as response:
+   for line in response.iter_lines(decode_unicode=True):
+      m = buoy_status_pattern.match(line)
+      if m:
+         yraname = "YRA-{}".format(m.group(1))
+         if yraname not in has_noaa_light_number:
+             existing = marks.get(yraname)
+             if existing:
+                 lat = dmm2decdeg(m.group(2), m.group(3), 'N')
+                 lon = dmm2decdeg(m.group(4), m.group(5), 'W')
+                 marks[yraname] = [lat, lon, yraname, existing[3]]
+             else:
+                 print("Mark {} is in the YRA Buoy status list but not in our CSV file".format(yraname))
 
 # download and parse updated NOAA list and append required marks to `marks`
 with urllib.request.urlopen(noaaurl) as xml:
