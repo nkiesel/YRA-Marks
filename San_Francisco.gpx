@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2018-07-13T23:12:58.939Z</time>
+  <time>2018-12-12T00:26:15.904Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -227,7 +227,7 @@
     <cmt>[5515] R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14</cmt>
     <desc>[5515] R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14</desc>
   </wpt>
-  <wpt lat="37.812339000" lon="-122.541244000">
+  <wpt lat="37.812192000" lon="-122.541777000">
     <name>YRA-PB</name>
     <cmt>[4240] RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy</cmt>
     <desc>[4240] RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy</desc>
