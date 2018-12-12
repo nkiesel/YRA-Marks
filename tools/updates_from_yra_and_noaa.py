@@ -8,7 +8,6 @@
 import xml.etree.ElementTree as ET
 import re
 import csv
-import urllib.request
 import requests
 
 # input and output file
@@ -16,6 +15,9 @@ csvfile = '../San_Francisco.csv'
 
 # updated NOAA list in XML format
 noaaurl = 'https://www.navcen.uscg.gov/?Do=weeklyLLCXML&id=6'
+
+# YRA Buoy status page
+yraurl = 'http://yra.org/buoy-status/'
 
 noaa_coord_pattern = re.compile('(\d+)-(\d+)-(\d+.\d+) ?([NSEW])')
 name_pattern = re.compile('.+ (\d+)$')
@@ -31,6 +33,7 @@ def dms2decdeg(d, m, s, c):
         seconds = -seconds
     return "{:.6f}".format(seconds / 3600)
 
+# convert DMM into a decimal
 def dmm2decdeg(d, m, c):
     seconds = float(d) * 3600 + float(m) * 60
     if c in ['S', 'W']:
@@ -102,7 +105,7 @@ with open(csvfile) as sffile:
             marks[id] = row
 
 # use coordinates from YRA "buoy status page" unless mark has a NOAA light number
-with requests.get('http://yra.org/buoy-status/') as response:
+with requests.get(yraurl) as response:
    for line in response.iter_lines(decode_unicode=True):
       m = buoy_status_pattern.match(line)
       if m:
@@ -117,7 +120,7 @@ with requests.get('http://yra.org/buoy-status/') as response:
                  print("Mark {} is in the YRA Buoy status list but not in our CSV file".format(yraname))
 
 # download and parse updated NOAA list and append required marks to `marks`
-with urllib.request.urlopen(noaaurl) as xml:
+with requests.get(noaaurl) as xml:
     dataroot = ET.parse(xml).getroot().find('dataroot')
     for e in dataroot:
         llnr = text(e, 'LLNR')
@@ -134,4 +137,5 @@ with open(csvfile, mode="w", newline='\r\n') as sffile:
     print('Latitude,Longitude,Name,Description', file=sffile)
     for id in order:
         d = marks[id]
+        # This will create broken content if the description contains a "
         print('{},{},"{}","{}"'.format(*d), file=sffile)
