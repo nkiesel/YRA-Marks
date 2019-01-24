@@ -121,8 +121,7 @@ with requests.get(yraurl) as response:
 
 # download and parse updated NOAA list and append required marks to `marks`
 with requests.get(noaaurl) as xml:
-    dataroot = ET.parse(xml).getroot().find('dataroot')
-    for e in dataroot:
+    for e in ET.fromstring(xml.text).find('dataroot'):
         llnr = text(e, 'LLNR')
         yraname = noaa.get(llnr)
         if yraname:
