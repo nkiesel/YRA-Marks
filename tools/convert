@@ -1,10 +1,9 @@
 #!/bin/zsh
-std=gpsbabel
 csv=${1:-../San_Francisco.csv}
 name=${csv%.csv}
-$std -i unicsv -f "${csv}" -o gpx -F "${name}.gpx"
+gpsbabel -i unicsv -f "${csv}" -o gpx -F "${name}.gpx"
 xmlstarlet ed -L -u '/_:gpx/_:time' -v $(date -r "${csv}" -u '+%FT%T.%3NZ') "${name}.gpx"
-$std -i unicsv -f "${csv}" -o html -F "${name}.html"
+gpsbabel -i unicsv -f "${csv}" -o html -F "${name}.html"
 ( cd ../San_Francisco.shp; ogr2ogr -overwrite -f "ESRI Shapefile" . convert-to-shp.vrt )
 for df in noaa dmm dms ; do
   ./conv.py $df < "${csv}" > "${name}.${df}"
