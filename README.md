@@ -13,6 +13,8 @@ collected from multiple sources:
  * NOAA ENC charts
  * Sailing clubs
  * [USCG Weekly Light List Volume6][llv6]
+
+You can download the list in multiple formats or look at them using [Google Maps][chart].
    
 Of course I do not claim that any of this information is correct and strongly
 advise not to use this for navigation.  Having said that, if anyone finds
@@ -52,4 +54,4 @@ If you need another format, drop me a note and I might add it.  Of course you
 can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
    
 [llv6]: http://www.navcen.uscg.gov/?pageName=lightListWeeklyUpdates
-[chart]: https://drive.google.com/open?id=1PqJZVzEl_s6P5R3jOrLbM9pnAQwle01e&usp=sharing
+[chart]: https://drive.google.com/open?id=1-9oOlBeR2zTQUb8ltyKwN68LgAvBEaYQ&usp=sharing
