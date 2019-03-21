@@ -14,7 +14,9 @@ collected from multiple sources:
  * Sailing clubs
  * [USCG Weekly Light List Volume6][llv6]
 
-You can download the list in multiple formats or look at them using [Google Maps][chart].
+You can download the list in multiple formats or look at them using [Google
+Maps][chart] which also allows to search for these marks on the map using the
+mark name (e.g. "YRA-18").
    
 Of course I do not claim that any of this information is correct and strongly
 advise not to use this for navigation.  Having said that, if anyone finds
