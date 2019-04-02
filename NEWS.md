@@ -1,3 +1,7 @@
+**2019-04-01**
+
+ * Updated Sequoia Yacht club marks, fixed "YRA-NG7", and updated Google maps with latest GPX file.
+ 
 **2018-12-11**
 
  * Now using the coordinates from YRA [Buoy
