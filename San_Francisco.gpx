@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2019-03-21T18:42:34.064Z</time>
+  <time>2019-04-02T06:29:41.026Z</time>
   <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -387,17 +387,22 @@
     <cmt>[5165] G '11' San Francisco Bay South Channel Buoy 11</cmt>
     <desc>[5165] G '11' San Francisco Bay South Channel Buoy 11</desc>
   </wpt>
-  <wpt lat="37.565980000" lon="-122.228720000">
+  <wpt lat="37.580583000" lon="-122.218033000">
+    <name>E</name>
+    <cmt>Sequoia Yacht Club mark E. Yellow collar buoy</cmt>
+    <desc>Sequoia Yacht Club mark E. Yellow collar buoy</desc>
+  </wpt>
+  <wpt lat="37.565983000" lon="-122.228717000">
     <name>S</name>
     <cmt>Sequoia Yacht Club mark S. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark S. Yellow collar buoy</desc>
   </wpt>
-  <wpt lat="37.574930000" lon="-122.198770000">
+  <wpt lat="37.574933000" lon="-122.198767000">
     <name>X</name>
     <cmt>Sequoia Yacht Club mark X. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark X. Yellow collar buoy</desc>
   </wpt>
-  <wpt lat="37.543150000" lon="-122.166370000">
+  <wpt lat="37.543150000" lon="-122.166367000">
     <name>Y</name>
     <cmt>Sequoia Yacht Club mark Y. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark Y. Yellow collar buoy</desc>
