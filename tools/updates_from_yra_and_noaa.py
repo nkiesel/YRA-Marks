@@ -19,6 +19,8 @@ noaaurl = 'https://www.navcen.uscg.gov/?Do=weeklyLLCXML&id=6'
 # YRA Buoy status page
 yraurl = 'http://yra.org/buoy-status/'
 
+headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}
+
 noaa_coord_pattern = re.compile('(\d+)-(\d+)-(\d+.\d+) ?([NSEW])')
 name_pattern = re.compile('.+ (\d+)$')
 num_pattern = re.compile('^\[(\d+)\]')
@@ -105,12 +107,14 @@ with open(csvfile) as sffile:
             marks[id] = row
 
 # use coordinates from YRA "buoy status page" unless mark has a NOAA light number
-with requests.get(yraurl) as response:
+with requests.get(yraurl, headers=headers) as response:
    for line in response.iter_lines(decode_unicode=True):
       m = buoy_status_pattern.match(line)
       if m:
          yraname = "YRA-{}".format(m.group(1))
+         # print("found mark {} in YRA".format(yraname))
          if yraname not in has_noaa_light_number:
+             # print("found mark {} in YRA but not in NOAA".format(yraname))
              existing = marks.get(yraname)
              if existing:
                  lat = dmm2decdeg(m.group(2), m.group(3), 'N')
@@ -120,11 +124,12 @@ with requests.get(yraurl) as response:
                  print("Mark {} is in the YRA Buoy status list but not in our CSV file".format(yraname))
 
 # download and parse updated NOAA list and append required marks to `marks`
-with requests.get(noaaurl) as xml:
+with requests.get(noaaurl, headers=headers) as xml:
     for e in ET.fromstring(xml.text).find('dataroot'):
         llnr = text(e, 'LLNR')
         yraname = noaa.get(llnr)
         if yraname:
+            # print("found mark {}[{}] in NOAA".format(yraname, llnr))
             marks[yraname] = [
                 conv(text(e, 'Position_x0020__x0028_Latitude_x0029_')),
                 conv(text(e, 'Position_x0020__x0028_Longitude_x0029_')),
