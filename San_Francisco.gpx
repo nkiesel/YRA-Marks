@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - http://www.gpsbabel.org">
-  <time>2020-10-23T18:59:42.113Z</time>
-  <bounds minlat="37.472222000" minlon="-123.001822000" maxlat="38.070980000" maxlon="-122.161911000"/>
+<gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - https://www.gpsbabel.org">
+  <time>2021-01-14T18:47:45.018Z</time>
+  <bounds minlat="37.472226000" minlon="-123.001837000" maxlat="38.070983000" maxlon="-122.161926000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
     <cmt>Yellow sphere 'A' Outer Buoy St. Francis Yacht Club</cmt>
@@ -17,7 +17,7 @@
     <cmt>Temp YC Buoy 0.3 nm West of YRA-4 in line with YRA-12</cmt>
     <desc>Temp YC Buoy 0.3 nm West of YRA-4 in line with YRA-12</desc>
   </wpt>
-  <wpt lat="37.855937000" lon="-122.468667000">
+  <wpt lat="37.855940000" lon="-122.468682000">
     <name>YRA-N</name>
     <cmt>[4385] R '2' Fl R 4s Sausalito Channel Light 2</cmt>
     <desc>[4385] R '2' Fl R 4s Sausalito Channel Light 2</desc>
@@ -37,12 +37,12 @@
     <cmt>Red Rock Island</cmt>
     <desc>Red Rock Island</desc>
   </wpt>
-  <wpt lat="37.826226000" lon="-122.422126000">
+  <wpt lat="37.826229000" lon="-122.422142000">
     <name>YRA-2</name>
     <cmt>[4315] W Fl W 5s Alcatraz Light</cmt>
     <desc>[4315] W Fl W 5s Alcatraz Light</desc>
   </wpt>
-  <wpt lat="37.699192000" lon="-123.001822000">
+  <wpt lat="37.699196000" lon="-123.001837000">
     <name>YRA-3</name>
     <cmt>[355] W Fl W 15s Farallon Light</cmt>
     <desc>[355] W Fl W 15s Farallon Light</desc>
@@ -62,12 +62,12 @@
     <cmt>Yellow column 'M' 200 yd North of Ft Mason Docks</cmt>
     <desc>Yellow column 'M' 200 yd North of Ft Mason Docks</desc>
   </wpt>
-  <wpt lat="37.833314000" lon="-122.396424000">
+  <wpt lat="37.833317000" lon="-122.396439000">
     <name>YRA-7</name>
     <cmt>[5350] R '2' Fl R 6s San Francisco Bay North Channel Lighted Buoy 2</cmt>
     <desc>[5350] R '2' Fl R 6s San Francisco Bay North Channel Lighted Buoy 2</desc>
   </wpt>
-  <wpt lat="37.847038000" lon="-122.396455000">
+  <wpt lat="37.847042000" lon="-122.396470000">
     <name>YRA-8</name>
     <cmt>[5400] R '4' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 4</cmt>
     <desc>[5400] R '4' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 4</desc>
@@ -87,7 +87,7 @@
     <cmt>Temp YC Buoy 1.5 nm East of Treasure Island</cmt>
     <desc>Temp YC Buoy 1.5 nm East of Treasure Island</desc>
   </wpt>
-  <wpt lat="37.843822000" lon="-122.453342000">
+  <wpt lat="37.843825000" lon="-122.453357000">
     <name>YRA-12</name>
     <cmt>[4340] G '1' Fl G 4s Raccoon Strait Lighted Buoy 1</cmt>
     <desc>[4340] G '1' Fl G 4s Raccoon Strait Lighted Buoy 1</desc>
@@ -97,7 +97,7 @@
     <cmt>Crissy Field Buoy</cmt>
     <desc>Crissy Field Buoy</desc>
   </wpt>
-  <wpt lat="37.881939000" lon="-122.400233000">
+  <wpt lat="37.881942000" lon="-122.400248000">
     <name>YRA-14</name>
     <cmt>[5480] W Iso R 6s Southampton Shoal Light</cmt>
     <desc>[5480] W Iso R 6s Southampton Shoal Light</desc>
@@ -112,47 +112,47 @@
     <cmt>Yellow sphere 'C' 0.2 nm East of Ft Point - Blackaller</cmt>
     <desc>Yellow sphere 'C' 0.2 nm East of Ft Point - Blackaller</desc>
   </wpt>
-  <wpt lat="37.838236000" lon="-122.445979000">
+  <wpt lat="37.838239000" lon="-122.445994000">
     <name>YRA-17</name>
     <cmt>[4330] RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR</cmt>
     <desc>[4330] RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR</desc>
   </wpt>
-  <wpt lat="37.818373000" lon="-122.403432000">
+  <wpt lat="37.818376000" lon="-122.403448000">
     <name>YRA-18</name>
     <cmt>[4415] GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR</cmt>
     <desc>[4415] GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR</desc>
   </wpt>
-  <wpt lat="37.879694000" lon="-122.414917000">
+  <wpt lat="37.879698000" lon="-122.414932000">
     <name>YRA-19</name>
     <cmt>[5485] R '8' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 8</cmt>
     <desc>[5485] R '8' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 8</desc>
   </wpt>
-  <wpt lat="37.832014000" lon="-122.409156000">
+  <wpt lat="37.832016000" lon="-122.408648000">
     <name>YRA-21</name>
     <cmt>[5348] G '1' Fl G 6s San Francisco Bay North Channel Lighted Buoy 1</cmt>
     <desc>[5348] G '1' Fl G 6s San Francisco Bay North Channel Lighted Buoy 1</desc>
   </wpt>
-  <wpt lat="37.863816000" lon="-122.408861000">
+  <wpt lat="37.864176000" lon="-122.408877000">
     <name>YRA-23</name>
     <cmt>[5410] RW Mo (A) W San Francisco Bay North Channel Lighted Buoy A</cmt>
     <desc>[5410] RW Mo (A) W San Francisco Bay North Channel Lighted Buoy A</desc>
   </wpt>
-  <wpt lat="37.860871000" lon="-122.396455000">
+  <wpt lat="37.860874000" lon="-122.396470000">
     <name>YRA-24</name>
     <cmt>[5415] R '6' Fl R 4s San Francisco Bay North Channel Lighted Bell Buoy 6</cmt>
     <desc>[5415] R '6' Fl R 4s San Francisco Bay North Channel Lighted Bell Buoy 6</desc>
   </wpt>
-  <wpt lat="37.890568000" lon="-122.417644000">
+  <wpt lat="37.890572000" lon="-122.417659000">
     <name>YRA-28</name>
     <cmt>[5645] R '2' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 2</cmt>
     <desc>[5645] R '2' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 2</desc>
   </wpt>
-  <wpt lat="37.903905000" lon="-122.420138000">
+  <wpt lat="37.903908000" lon="-122.420154000">
     <name>YRA-29</name>
     <cmt>[5655] R '4' Fl R 4s Southampton Shoal Channel Lighted Buoy 4</cmt>
     <desc>[5655] R '4' Fl R 4s Southampton Shoal Channel Lighted Buoy 4</desc>
   </wpt>
-  <wpt lat="37.916242000" lon="-122.422331000">
+  <wpt lat="37.916245000" lon="-122.422347000">
     <name>YRA-30</name>
     <cmt>[5659] R '6' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 6</cmt>
     <desc>[5659] R '6' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 6</desc>
@@ -167,27 +167,27 @@
     <cmt>Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal</cmt>
     <desc>Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal</desc>
   </wpt>
-  <wpt lat="37.800982000" lon="-122.347756000">
+  <wpt lat="37.800985000" lon="-122.347771000">
     <name>YRA-33</name>
     <cmt>[4669] R '4' Fl R 4s Oakland Inner Harbor Lighted Buoy 4</cmt>
     <desc>[4669] R '4' Fl R 4s Oakland Inner Harbor Lighted Buoy 4</desc>
   </wpt>
-  <wpt lat="37.758246000" lon="-122.368335000">
+  <wpt lat="37.758250000" lon="-122.368350000">
     <name>YRA-34</name>
     <cmt>[4912] R '2' Fl R 2.5s Lash Terminal Approach Lighted Buoy 2</cmt>
     <desc>[4912] R '2' Fl R 2.5s Lash Terminal Approach Lighted Buoy 2</desc>
   </wpt>
-  <wpt lat="37.776789000" lon="-122.331061000">
+  <wpt lat="37.776793000" lon="-122.331076000">
     <name>YRA-35</name>
     <cmt>[4755] G '3' Fl G 2.5s Alameda Naval Air Station Channel Light 3</cmt>
     <desc>[4755] G '3' Fl G 2.5s Alameda Naval Air Station Channel Light 3</desc>
   </wpt>
-  <wpt lat="37.773358000" lon="-122.330149000">
+  <wpt lat="37.773362000" lon="-122.330164000">
     <name>YRA-36</name>
     <cmt>[4760] R '4' Fl R 4s Alameda Naval Air Station Channel Light 4</cmt>
     <desc>[4760] R '4' Fl R 4s Alameda Naval Air Station Channel Light 4</desc>
   </wpt>
-  <wpt lat="37.739514000" lon="-122.359887000">
+  <wpt lat="37.739517000" lon="-122.359902000">
     <name>YRA-37</name>
     <cmt>[4929] G '5' Fl G 4s Lash Terminal Approach Lighted Buoy 5</cmt>
     <desc>[4929] G '5' Fl G 4s Lash Terminal Approach Lighted Buoy 5</desc>
@@ -197,12 +197,12 @@
     <cmt>[5520] R '2' Iso R 6s Corte Madera Channel Light 2</cmt>
     <desc>[5520] R '2' Iso R 6s Corte Madera Channel Light 2</desc>
   </wpt>
-  <wpt lat="37.800556000" lon="-122.798611000">
+  <wpt lat="37.800559000" lon="-122.798626000">
     <name>YRA-NO</name>
     <cmt>[375] Y Fl Y 4s San Francisco North Traffic Lane Lighted Bell Buoy N</cmt>
     <desc>[375] Y Fl Y 4s San Francisco North Traffic Lane Lighted Bell Buoy N</desc>
   </wpt>
-  <wpt lat="37.650000000" lon="-122.695000000">
+  <wpt lat="37.650003000" lon="-122.695015000">
     <name>YRA-SO</name>
     <cmt>[345] Y Fl Y 4s San Francisco South Traffic Lane Lighted Bell Buoy S</cmt>
     <desc>[345] Y Fl Y 4s San Francisco South Traffic Lane Lighted Bell Buoy S</desc>
@@ -217,22 +217,22 @@
     <cmt>[5540] G '7' Fl G 2.5s Corte Madera Channel Light 7</cmt>
     <desc>[5540] G '7' Fl G 2.5s Corte Madera Channel Light 7</desc>
   </wpt>
-  <wpt lat="37.913592000" lon="-122.445139000">
+  <wpt lat="37.913595000" lon="-122.445155000">
     <name>YRA-NR12</name>
     <cmt>[5505] R '12' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 12</cmt>
     <desc>[5505] R '12' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 12</desc>
   </wpt>
-  <wpt lat="37.930480000" lon="-122.443417000">
+  <wpt lat="37.930484000" lon="-122.443433000">
     <name>YRA-NR14</name>
     <cmt>[5515] R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14</cmt>
     <desc>[5515] R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14</desc>
   </wpt>
-  <wpt lat="37.812192000" lon="-122.541777000">
+  <wpt lat="37.812476000" lon="-122.541416000">
     <name>YRA-PB</name>
     <cmt>[4240] RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy</cmt>
     <desc>[4240] RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy</desc>
   </wpt>
-  <wpt lat="37.749930000" lon="-122.692761000">
+  <wpt lat="37.749934000" lon="-122.692776000">
     <name>YRA-SF</name>
     <cmt>[360] RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF</cmt>
     <desc>[360] RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF</desc>
@@ -242,12 +242,12 @@
     <cmt>Yellow sphere approx. 0.25 nm East of BVYC</cmt>
     <desc>Yellow sphere approx. 0.25 nm East of BVYC</desc>
   </wpt>
-  <wpt lat="37.777257000" lon="-122.341307000">
+  <wpt lat="37.777260000" lon="-122.341322000">
     <name>YRA-NAS1</name>
     <cmt>[4745] G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1</cmt>
     <desc>[4745] G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1</desc>
   </wpt>
-  <wpt lat="37.774193000" lon="-122.341045000">
+  <wpt lat="37.774196000" lon="-122.341061000">
     <name>YRA-NAS2</name>
     <cmt>[4750] R '2' Fl R 4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2</cmt>
     <desc>[4750] R '2' Fl R 4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2</desc>
@@ -257,7 +257,7 @@
     <cmt>Privately maintained White mark 'TYC' off entrance to Paradise Cove Harbor</cmt>
     <desc>Privately maintained White mark 'TYC' off entrance to Paradise Cove Harbor</desc>
   </wpt>
-  <wpt lat="37.775556000" lon="-122.365833000">
+  <wpt lat="37.775559000" lon="-122.365849000">
     <name>YRA-SC1</name>
     <cmt>[4820] GR Fl (2+1)G 6s San Francisco Bay Preferred Channel Lighted Buoy SC</cmt>
     <desc>[4820] GR Fl (2+1)G 6s San Francisco Bay Preferred Channel Lighted Buoy SC</desc>
@@ -272,27 +272,27 @@
     <cmt>Temp YC buoy approx. halfway between 31 &amp; AS1</cmt>
     <desc>Temp YC buoy approx. halfway between 31 &amp; AS1</desc>
   </wpt>
-  <wpt lat="37.691043000" lon="-122.794434000">
+  <wpt lat="37.691046000" lon="-122.794449000">
     <name>YRA-WE</name>
     <cmt>[350] Y Fl Y 2.5s San Francisco West Traffic Lane Lighted Gong Buoy W</cmt>
     <desc>[350] Y Fl Y 2.5s San Francisco West Traffic Lane Lighted Gong Buoy W</desc>
   </wpt>
-  <wpt lat="37.769774000" lon="-122.632206000">
+  <wpt lat="37.769777000" lon="-122.632222000">
     <name>YRA-G1</name>
     <cmt>[4160] G '1' Q G San Francisco Main Ship Channel Lighted Bell Buoy 1</cmt>
     <desc>[4160] G '1' Q G San Francisco Main Ship Channel Lighted Bell Buoy 1</desc>
   </wpt>
-  <wpt lat="37.763336000" lon="-122.629027000">
+  <wpt lat="37.763339000" lon="-122.629042000">
     <name>YRA-R2</name>
     <cmt>[4165] R '2' Q R San Francisco Main Ship Channel Lighted Whistle Buoy 2</cmt>
     <desc>[4165] R '2' Q R San Francisco Main Ship Channel Lighted Whistle Buoy 2</desc>
   </wpt>
-  <wpt lat="37.781866000" lon="-122.589894000">
+  <wpt lat="37.781869000" lon="-122.589909000">
     <name>YRA-G7</name>
     <cmt>[4190] G '7' Fl G 2.5s San Francisco Main Ship Channel Lighted Bell Buoy 7</cmt>
     <desc>[4190] G '7' Fl G 2.5s San Francisco Main Ship Channel Lighted Bell Buoy 7</desc>
   </wpt>
-  <wpt lat="37.775399000" lon="-122.587283000">
+  <wpt lat="37.775402000" lon="-122.587298000">
     <name>YRA-R8</name>
     <cmt>[4195] R '8' Fl R 2.5s San Francisco Main Ship Channel Lighted Whistle Buoy 8</cmt>
     <desc>[4195] R '8' Fl R 2.5s San Francisco Main Ship Channel Lighted Whistle Buoy 8</desc>
@@ -312,7 +312,7 @@
     <cmt>Olympic Circle C</cmt>
     <desc>Olympic Circle C</desc>
   </wpt>
-  <wpt lat="37.857677000" lon="-122.349387000">
+  <wpt lat="37.857680000" lon="-122.349403000">
     <name>YRA-DOC</name>
     <cmt>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</cmt>
     <desc>[5435] G '3' Fl G 4s Berkeley Marina Channel Light 3</desc>
@@ -342,47 +342,47 @@
     <cmt>Olympic Circle X</cmt>
     <desc>Olympic Circle X</desc>
   </wpt>
-  <wpt lat="37.486225000" lon="-122.506084000">
+  <wpt lat="37.486228000" lon="-122.506100000">
     <name>PP-B1</name>
     <cmt>[4130] G '1' Fl G 2.5s Pillar Point Harbor Entrance Lighted Gong Buoy 1</cmt>
     <desc>[4130] G '1' Fl G 2.5s Pillar Point Harbor Entrance Lighted Gong Buoy 1</desc>
   </wpt>
-  <wpt lat="37.481522000" lon="-122.483039000">
+  <wpt lat="37.481525000" lon="-122.483054000">
     <name>PP-B3</name>
     <cmt>[4140] G '3' Fl G 4s Pillar Point Harbor Entrance Lighted Bell Buoy 3</cmt>
     <desc>[4140] G '3' Fl G 4s Pillar Point Harbor Entrance Lighted Bell Buoy 3</desc>
   </wpt>
-  <wpt lat="37.472222000" lon="-122.513750000">
+  <wpt lat="37.472226000" lon="-122.513765000">
     <name>PP-PP</name>
     <cmt>[330] RW Mo (A) W Pillar Point Harbor Approach Lighted Buoy PP</cmt>
     <desc>[330] RW Mo (A) W Pillar Point Harbor Approach Lighted Buoy PP</desc>
   </wpt>
-  <wpt lat="37.536117000" lon="-122.552503000">
+  <wpt lat="37.536121000" lon="-122.552518000">
     <name>CR</name>
     <cmt>[4155] R '26' Fl R 2.5s Colorado Reef Lighted Buoy 26</cmt>
     <desc>[4155] R '26' Fl R 2.5s Colorado Reef Lighted Buoy 26</desc>
   </wpt>
-  <wpt lat="37.552886000" lon="-122.196515000">
+  <wpt lat="37.552889000" lon="-122.196530000">
     <name>#2</name>
     <cmt>[5180] R '2' Q R Redwood Creek Entrance Light 2</cmt>
     <desc>[5180] R '2' Q R Redwood Creek Entrance Light 2</desc>
   </wpt>
-  <wpt lat="37.549936000" lon="-122.193354000">
+  <wpt lat="37.549939000" lon="-122.193370000">
     <name>#3</name>
     <cmt>[5185] G '3' Fl G 4s Redwood Creek Entrance Light 3</cmt>
     <desc>[5185] G '3' Fl G 4s Redwood Creek Entrance Light 3</desc>
   </wpt>
-  <wpt lat="37.547069000" lon="-122.195074000">
+  <wpt lat="37.547073000" lon="-122.195089000">
     <name>#4</name>
     <cmt>[5190] R '4' Fl R 2.5s Redwood Creek Entrance Light 4</cmt>
     <desc>[5190] R '4' Fl R 2.5s Redwood Creek Entrance Light 4</desc>
   </wpt>
-  <wpt lat="37.559824000" lon="-122.210521000">
+  <wpt lat="37.559827000" lon="-122.210537000">
     <name>#12</name>
     <cmt>[5175] R '12' Fl R 4s San Francisco Bay South Channel Light 12</cmt>
     <desc>[5175] R '12' Fl R 4s San Francisco Bay South Channel Light 12</desc>
   </wpt>
-  <wpt lat="37.582662000" lon="-122.248058000">
+  <wpt lat="37.582666000" lon="-122.248074000">
     <name>B</name>
     <cmt>[5165] G '11' San Francisco Bay South Channel Buoy 11</cmt>
     <desc>[5165] G '11' San Francisco Bay South Channel Buoy 11</desc>
@@ -392,17 +392,22 @@
     <cmt>Sequoia Yacht Club mark E. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark E. Yellow collar buoy</desc>
   </wpt>
-  <wpt lat="37.565983000" lon="-122.228717000">
+  <wpt lat="37.560165000" lon="-122.184517000">
+    <name>O</name>
+    <cmt>Sequoia Yacht Club mark O. Yellow collar buoy</cmt>
+    <desc>Sequoia Yacht Club mark O. Yellow collar buoy</desc>
+  </wpt>
+  <wpt lat="37.565983000" lon="-122.228714000">
     <name>S</name>
     <cmt>Sequoia Yacht Club mark S. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark S. Yellow collar buoy</desc>
   </wpt>
-  <wpt lat="37.574933000" lon="-122.198767000">
+  <wpt lat="37.574932000" lon="-122.198769000">
     <name>X</name>
     <cmt>Sequoia Yacht Club mark X. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark X. Yellow collar buoy</desc>
   </wpt>
-  <wpt lat="37.543150000" lon="-122.166367000">
+  <wpt lat="37.543152000" lon="-122.166367000">
     <name>Y</name>
     <cmt>Sequoia Yacht Club mark Y. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark Y. Yellow collar buoy</desc>
@@ -412,32 +417,32 @@
     <cmt>Coyote Point Yacht Club Mark Z</cmt>
     <desc>Coyote Point Yacht Club Mark Z</desc>
   </wpt>
-  <wpt lat="37.695755000" lon="-122.339432000">
+  <wpt lat="37.695759000" lon="-122.339447000">
     <name>SBC#1</name>
     <cmt>[4945] G '1' Fl G 4s San Bruno Shoal Channel Light 1</cmt>
     <desc>[4945] G '1' Fl G 4s San Bruno Shoal Channel Light 1</desc>
   </wpt>
-  <wpt lat="37.694932000" lon="-122.341387000">
+  <wpt lat="37.694935000" lon="-122.341402000">
     <name>SBC#2</name>
     <cmt>[4950] R '2' Fl R 4s San Bruno Shoal Channel Lighted Buoy 2</cmt>
     <desc>[4950] R '2' Fl R 4s San Bruno Shoal Channel Lighted Buoy 2</desc>
   </wpt>
-  <wpt lat="37.668384000" lon="-122.328359000">
+  <wpt lat="37.668387000" lon="-122.328374000">
     <name>SBC#4</name>
     <cmt>[4960] R '4' Fl R 2.5s San Bruno Shoal Channel Light 4</cmt>
     <desc>[4960] R '4' Fl R 2.5s San Bruno Shoal Channel Light 4</desc>
   </wpt>
-  <wpt lat="37.643101000" lon="-122.315596000">
+  <wpt lat="37.643104000" lon="-122.315611000">
     <name>SBC#6</name>
     <cmt>[4970] R '6' Fl R 4s San Bruno Shoal Channel Light 6</cmt>
     <desc>[4970] R '6' Fl R 4s San Bruno Shoal Channel Light 6</desc>
   </wpt>
-  <wpt lat="37.604617000" lon="-122.291391000">
+  <wpt lat="37.604621000" lon="-122.291406000">
     <name>SBC#8</name>
     <cmt>[5130] R '8' Fl R 4s San Francisco Bay South Channel Light 8</cmt>
     <desc>[5130] R '8' Fl R 4s San Francisco Bay South Channel Light 8</desc>
   </wpt>
-  <wpt lat="37.588831000" lon="-122.269702000">
+  <wpt lat="37.588834000" lon="-122.269718000">
     <name>SBC#8A</name>
     <cmt>[5150] San Francisco Bay South Channel Daybeacon 8A</cmt>
     <desc>[5150] San Francisco Bay South Channel Daybeacon 8A</desc>
@@ -447,7 +452,7 @@
     <cmt>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</cmt>
     <desc>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</desc>
   </wpt>
-  <wpt lat="37.792822000" lon="-122.510375000">
+  <wpt lat="37.792825000" lon="-122.510390000">
     <name>MR</name>
     <cmt>[365] W Fl W 5s Mile Rocks Light</cmt>
     <desc>[365] W Fl W 5s Mile Rocks Light</desc>
@@ -457,17 +462,17 @@
     <cmt>Golden Gate Bridge</cmt>
     <desc>Golden Gate Bridge</desc>
   </wpt>
-  <wpt lat="37.833226000" lon="-122.372490000">
+  <wpt lat="37.833229000" lon="-122.372506000">
     <name>TI#6</name>
     <cmt>[5420] R '6' Fl R 2.5s Treasure Island North End Light 6</cmt>
     <desc>[5420] R '6' Fl R 2.5s Treasure Island North End Light 6</desc>
   </wpt>
-  <wpt lat="37.833595000" lon="-122.568274000">
+  <wpt lat="37.833598000" lon="-122.568289000">
     <name>BC2</name>
     <cmt>[4225] R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 2</cmt>
     <desc>[4225] R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 2</desc>
   </wpt>
-  <wpt lat="37.860163000" lon="-122.695396000">
+  <wpt lat="37.860167000" lon="-122.695411000">
     <name>DBR#1</name>
     <cmt>[4205] G Fl G 6s Duxbury Reef Lighted Buoy 1DR</cmt>
     <desc>[4205] G Fl G 6s Duxbury Reef Lighted Buoy 1DR</desc>
@@ -482,12 +487,12 @@
     <cmt>Richmond Yacht Club A (former Olympic Circle A)</cmt>
     <desc>Richmond Yacht Club A (former Olympic Circle A)</desc>
   </wpt>
-  <wpt lat="37.931661000" lon="-122.420875000">
+  <wpt lat="37.931664000" lon="-122.420890000">
     <name>2CR</name>
     <cmt>[5775] R Fl R 4s Castro Rocks Lighted Buoy 2CR</cmt>
     <desc>[5775] R Fl R 4s Castro Rocks Lighted Buoy 2CR</desc>
   </wpt>
-  <wpt lat="37.957336000" lon="-122.457173000">
+  <wpt lat="37.957339000" lon="-122.457189000">
     <name>SRC#17</name>
     <cmt>[5825] G '17' Fl G 4s San Francisco Bay North Channel Light 17</cmt>
     <desc>[5825] G '17' Fl G 4s San Francisco Bay North Channel Light 17</desc>
@@ -497,27 +502,27 @@
     <cmt>Brothers Islands North of Richmond Bridge</cmt>
     <desc>Brothers Islands North of Richmond Bridge</desc>
   </wpt>
-  <wpt lat="37.967785000" lon="-122.429231000">
+  <wpt lat="37.967788000" lon="-122.429246000">
     <name>PSB-2</name>
     <cmt>[5875] R '2' Fl R 4s San Pablo Bay Lighted Buoy 2</cmt>
     <desc>[5875] R '2' Fl R 4s San Pablo Bay Lighted Buoy 2</desc>
   </wpt>
-  <wpt lat="38.016566000" lon="-122.367459000">
+  <wpt lat="38.016569000" lon="-122.367474000">
     <name>PPL-P</name>
     <cmt>[5895] W Fl W 2.5s Point Pinole Light P</cmt>
     <desc>[5895] W Fl W 2.5s Point Pinole Light P</desc>
   </wpt>
-  <wpt lat="38.033254000" lon="-122.161911000">
+  <wpt lat="38.033258000" lon="-122.161926000">
     <name>G25</name>
     <cmt>[6245] G '25' Q G Carquinez Strait Lighted Buoy 25</cmt>
     <desc>[6245] G '25' Q G Carquinez Strait Lighted Buoy 25</desc>
   </wpt>
-  <wpt lat="38.049076000" lon="-122.422032000">
+  <wpt lat="38.049079000" lon="-122.422047000">
     <name>PRE-2</name>
     <cmt>[5980] R '2' Fl R 2.5s Petaluma River Entrance Light 2</cmt>
     <desc>[5980] R '2' Fl R 2.5s Petaluma River Entrance Light 2</desc>
   </wpt>
-  <wpt lat="38.070980000" lon="-122.247502000">
+  <wpt lat="38.070983000" lon="-122.247517000">
     <name>MIS#1</name>
     <cmt>[6090] G '1' Fl G 2.5s Mare Island Strait Lighted Buoy 1</cmt>
     <desc>[6090] G '1' Fl G 2.5s Mare Island Strait Lighted Buoy 1</desc>
