@@ -107,12 +107,14 @@ with open(csvfile) as sffile:
             marks[id] = row
 
 # use coordinates from YRA "buoy status page" unless mark has a NOAA light number
+yra_count = 0
 with requests.get(yraurl, headers=headers) as response:
    for line in response.iter_lines(decode_unicode=True):
       m = buoy_status_pattern.match(line)
       if m:
          yraname = "YRA-{}".format(m.group(1))
          # print("found mark {} in YRA".format(yraname))
+         yra_count += 1
          if yraname not in has_noaa_light_number:
              # print("found mark {} in YRA but not in NOAA".format(yraname))
              existing = marks.get(yraname)
@@ -124,11 +126,13 @@ with requests.get(yraurl, headers=headers) as response:
                  print("Mark {} is in the YRA Buoy status list but not in our CSV file".format(yraname))
 
 # download and parse updated NOAA list and append required marks to `marks`
+noaa_count = 0
 with requests.get(noaaurl, headers=headers) as xml:
     for e in ET.fromstring(xml.text).find('dataroot'):
         llnr = text(e, 'LLNR')
         yraname = noaa.get(llnr)
         if yraname:
+            noaa_count += 1
             # print("found mark {}[{}] in NOAA".format(yraname, llnr))
             marks[yraname] = [
                 conv(text(e, 'Position_x0020__x0028_Latitude_x0029_')),
@@ -143,3 +147,5 @@ with open(csvfile, mode="w", newline='\r\n') as sffile:
         d = marks[id]
         # This will create broken content if the description contains a "
         print('{},{},"{}","{}"'.format(*d), file=sffile)
+
+print("Found {} marks in YRA and {} marks in NOAA".format(yra_count, noaa_count))
