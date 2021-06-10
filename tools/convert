@@ -2,6 +2,7 @@
 csv=${1:-../San_Francisco.csv}
 name=${csv%.csv}
 gpsbabel -i unicsv -f "${csv}" -o gpx -F "${name}.gpx"
+gpsbabel -i unicsv -f "${csv}" -o garmin_poi -F "${name}.poi"
 xmlstarlet ed -L -u '/_:gpx/_:time' -v $(date -r "${csv}" -u '+%FT%T.%3NZ') "${name}.gpx"
 gpsbabel -i unicsv -f "${csv}" -o html -F "${name}.html"
 ( cd ../San_Francisco.shp; ogr2ogr -overwrite -f "ESRI Shapefile" . convert-to-shp.vrt )

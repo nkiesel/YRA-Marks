@@ -1,3 +1,7 @@
+**2021-06-10**
+
+ * Added Garmin POI format
+
 **2019-04-01**
 
  * Updated Sequoia Yacht club marks, fixed "YRA-NG7", and updated Google maps with latest GPX file.

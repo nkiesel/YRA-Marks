@@ -41,6 +41,8 @@ Right now I offer the following formats (all but CSV generated from CSV):
    excellent [OpenCPN](http://opencpn.org/ocpn/) chartplotter and navigation
    software.
  
+ * **POI** Garmin POI format (should work for Garmin Marine handhelds)
+
  * **DMM** CSV with coordinates in degrees and decimal minutes (e.g. `W122 21.538020`)
 
  * **DMS** CSV with coordinates in degrees, minutes and decimal seconds (e.g. `W122 21 32.281`)
