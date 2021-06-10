@@ -49,7 +49,12 @@ def conv(n):
 
 # returns stripped text of child node named `tag`
 def text(e, tag):
-    return e.find(tag).text.strip()
+    text = e.findtext(tag)
+    if text:
+        return text.strip()
+    else:
+        return None
+
 
 # returns color abbreviation from either structure of light description
 def color(c, s):
@@ -60,10 +65,11 @@ def color(c, s):
         color = single_color_pattern.match(s)
         if color:
             color = str(color.group(1)[0])
-        else:
+        elif c:
             color = c.split()
             if color:
                 color = str(color[1][-1])
+
     if color:
         color = color.upper()
         if color[0] in ['R', 'G', 'Y', 'W']:
