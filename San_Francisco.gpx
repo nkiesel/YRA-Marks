@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - https://www.gpsbabel.org">
-  <time>2021-06-10T22:58:32.354Z</time>
+  <time>2021-07-10T00:02:36.474Z</time>
   <bounds minlat="37.472226000" minlon="-123.001837000" maxlat="38.070983000" maxlon="-122.161926000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -227,7 +227,7 @@
     <cmt>[5515] R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14</cmt>
     <desc>[5515] R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14</desc>
   </wpt>
-  <wpt lat="37.812476000" lon="-122.541416000">
+  <wpt lat="37.812713000" lon="-122.541017000">
     <name>YRA-PB</name>
     <cmt>[4240] RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy</cmt>
     <desc>[4240] RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy</desc>
@@ -526,5 +526,15 @@
     <name>MIS#1</name>
     <cmt>[6090] G '1' Fl G 2.5s Mare Island Strait Lighted Buoy 1</cmt>
     <desc>[6090] G '1' Fl G 2.5s Mare Island Strait Lighted Buoy 1</desc>
+  </wpt>
+  <wpt lat="37.905675000" lon="-122.394102000">
+    <name>RHC#6</name>
+    <cmt>[5700] R '6' Fl R 4s Richmond Harbor Channel Lighted Buoy 6</cmt>
+    <desc>[5700] R '6' Fl R 4s Richmond Harbor Channel Lighted Buoy 6</desc>
+  </wpt>
+  <wpt lat="37.906595000" lon="-122.386237000">
+    <name>RHC#7</name>
+    <cmt>[5705] G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy 7</cmt>
+    <desc>[5705] G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy 7</desc>
   </wpt>
 </gpx>

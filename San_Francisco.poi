@@ -43,7 +43,7 @@
 -122.48553,37.93409,YRA-NG7,[5540] G '7' Fl G 2.5s Corte Madera Channel Light 
 -122.44515,37.91360,YRA-NR12,[5505] R '12' Fl R 2.5s San Francisco Bay North Ch
 -122.44343,37.93048,YRA-NR14,[5515] R '14' Fl R 4s San Francisco Bay North Chan
--122.54142,37.81248,YRA-PB,[4240] RG Fl (2+1)R 6s Four Fathom Bank Lighted Be
+-122.54102,37.81271,YRA-PB,[4240] RG Fl (2+1)R 6s Four Fathom Bank Lighted Be
 -122.69278,37.74993,YRA-SF,[360] RW Mo (A) W San Francisco Approach Lighted W
 -122.38233,37.77183,YRA-AS1,Yellow sphere approx. 0.25 nm East of BVYC
 -122.34132,37.77726,YRA-NAS1,[4745] G '1' Fl G 4s Alameda Naval Air Station Cha
@@ -103,3 +103,5 @@
 -122.16193,38.03326,G25,[6245] G '25' Q G Carquinez Strait Lighted Buoy 25
 -122.42205,38.04908,PRE-2,[5980] R '2' Fl R 2.5s Petaluma River Entrance Lig
 -122.24752,38.07098,MIS#1,[6090] G '1' Fl G 2.5s Mare Island Strait Lighted 
+-122.39410,37.90568,RHC#6,[5700] R '6' Fl R 4s Richmond Harbor Channel Light
+-122.38624,37.90660,RHC#7,[5705] G '7' Fl G 4s Richmond Harbor Channel Light
