@@ -58,4 +58,4 @@ If you need another format, drop me a note and I might add it.  Of course you
 can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
    
 [llv6]: http://www.navcen.uscg.gov/?pageName=lightListWeeklyUpdates
-[chart]: https://drive.google.com/open?id=1-9oOlBeR2zTQUb8ltyKwN68LgAvBEaYQ&usp=sharing
+[chart]: https://www.google.com/maps/d/u/0/edit?mid=1-9oOlBeR2zTQUb8ltyKwN68LgAvBEaYQ&usp=sharing
