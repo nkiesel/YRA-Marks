@@ -27,6 +27,7 @@ num_pattern = re.compile('^\[(\d+)\]')
 dual_color_pattern = re.compile('^(\w)\w+ and (\w)\w+ ')
 single_color_pattern = re.compile('^(Red|Yellow|Green|White)')
 buoy_status_pattern = re.compile(r'<strong>(\w+)</strong>\D+(\d+) ([\d.]+)\D+(\d+) ([\d.]+) \((.+)\)')
+whitespace_pattern = re.compile(r'\s+')
 
 # convert DMS into a decimal
 def dms2decdeg(d, m, s, c):
@@ -51,7 +52,7 @@ def conv(n):
 def text(e, tag):
     text = e.findtext(tag)
     if text:
-        return text.strip()
+        return whitespace_pattern.sub(' ', text.strip())
     else:
         return None
 
