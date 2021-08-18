@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - https://www.gpsbabel.org">
-  <time>2021-07-10T00:02:36.474Z</time>
+  <time>2021-08-18T18:39:43.588Z</time>
   <bounds minlat="37.472226000" minlon="-123.001837000" maxlat="38.070983000" maxlon="-122.161926000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -536,5 +536,10 @@
     <name>RHC#7</name>
     <cmt>[5705] G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy 7</cmt>
     <desc>[5705] G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy 7</desc>
+  </wpt>
+  <wpt lat="37.918193000" lon="-122.417493000">
+    <name>RHC#2</name>
+    <cmt>[5665] R '2' Q R Richmond Harbor Channel Lighted Buoy 2</cmt>
+    <desc>[5665] R '2' Q R Richmond Harbor Channel Lighted Buoy 2</desc>
   </wpt>
 </gpx>
