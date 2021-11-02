@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - https://www.gpsbabel.org">
-  <time>2021-08-24T19:27:56.732Z</time>
+  <time>2021-11-02T07:07:32.774Z</time>
   <bounds minlat="37.472226000" minlon="-123.001837000" maxlat="38.070983000" maxlon="-122.161926000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -363,52 +363,52 @@
     <desc>[4155] R '26' Fl R 2.5s Colorado Reef Lighted Buoy 26</desc>
   </wpt>
   <wpt lat="37.552889000" lon="-122.196530000">
-    <name>#2</name>
+    <name>RWC#2</name>
     <cmt>[5180] R '2' Q R Redwood Creek Entrance Light 2</cmt>
     <desc>[5180] R '2' Q R Redwood Creek Entrance Light 2</desc>
   </wpt>
   <wpt lat="37.549939000" lon="-122.193370000">
-    <name>#3</name>
+    <name>RWC#3</name>
     <cmt>[5185] G '3' Fl G 4s Redwood Creek Entrance Light 3</cmt>
     <desc>[5185] G '3' Fl G 4s Redwood Creek Entrance Light 3</desc>
   </wpt>
   <wpt lat="37.547073000" lon="-122.195089000">
-    <name>#4</name>
+    <name>RWC#4</name>
     <cmt>[5190] R '4' Fl R 2.5s Redwood Creek Entrance Light 4</cmt>
     <desc>[5190] R '4' Fl R 2.5s Redwood Creek Entrance Light 4</desc>
   </wpt>
   <wpt lat="37.559827000" lon="-122.210537000">
-    <name>#12</name>
+    <name>RWC#12</name>
     <cmt>[5175] R '12' Fl R 4s San Francisco Bay South Channel Light 12</cmt>
     <desc>[5175] R '12' Fl R 4s San Francisco Bay South Channel Light 12</desc>
   </wpt>
   <wpt lat="37.582666000" lon="-122.248074000">
-    <name>B</name>
+    <name>SYC-B</name>
     <cmt>[5165] G '11' San Francisco Bay South Channel Buoy 11</cmt>
     <desc>[5165] G '11' San Francisco Bay South Channel Buoy 11</desc>
   </wpt>
   <wpt lat="37.580583000" lon="-122.218033000">
-    <name>E</name>
+    <name>SYC-E</name>
     <cmt>Sequoia Yacht Club mark E. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark E. Yellow collar buoy</desc>
   </wpt>
   <wpt lat="37.560165000" lon="-122.184517000">
-    <name>O</name>
+    <name>SYC-O</name>
     <cmt>Sequoia Yacht Club mark O. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark O. Yellow collar buoy</desc>
   </wpt>
   <wpt lat="37.565983000" lon="-122.228714000">
-    <name>S</name>
+    <name>SYC-S</name>
     <cmt>Sequoia Yacht Club mark S. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark S. Yellow collar buoy</desc>
   </wpt>
   <wpt lat="37.574932000" lon="-122.198769000">
-    <name>X</name>
+    <name>SYC-X</name>
     <cmt>Sequoia Yacht Club mark X. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark X. Yellow collar buoy</desc>
   </wpt>
   <wpt lat="37.543152000" lon="-122.166367000">
-    <name>Y</name>
+    <name>SYC-Y</name>
     <cmt>Sequoia Yacht Club mark Y. Yellow collar buoy</cmt>
     <desc>Sequoia Yacht Club mark Y. Yellow collar buoy</desc>
   </wpt>
@@ -468,7 +468,7 @@
     <desc>[5420] R '6' Fl R 2.5s Treasure Island North End Light 6</desc>
   </wpt>
   <wpt lat="37.833598000" lon="-122.568289000">
-    <name>BC2</name>
+    <name>BC#2</name>
     <cmt>[4225] R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 2</cmt>
     <desc>[4225] R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 2</desc>
   </wpt>
@@ -503,7 +503,7 @@
     <desc>Brothers Islands North of Richmond Bridge</desc>
   </wpt>
   <wpt lat="37.967788000" lon="-122.429246000">
-    <name>PSB-2</name>
+    <name>PSB#2</name>
     <cmt>[5875] R '2' Fl R 4s San Pablo Bay Lighted Buoy 2</cmt>
     <desc>[5875] R '2' Fl R 4s San Pablo Bay Lighted Buoy 2</desc>
   </wpt>
@@ -518,7 +518,7 @@
     <desc>[6245] G '25' Q G Carquinez Strait Lighted Buoy 25</desc>
   </wpt>
   <wpt lat="38.049079000" lon="-122.422047000">
-    <name>PRE-2</name>
+    <name>PRE#2</name>
     <cmt>[5980] R '2' Fl R 2.5s Petaluma River Entrance Light 2</cmt>
     <desc>[5980] R '2' Fl R 2.5s Petaluma River Entrance Light 2</desc>
   </wpt>

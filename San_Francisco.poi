@@ -70,16 +70,16 @@
 -122.48305,37.48152,PP-B3,[4140] G '3' Fl G 4s Pillar Point Harbor Entrance 
 -122.51377,37.47223,PP-PP,[330] RW Mo (A) W Pillar Point Harbor Approach Lig
 -122.55252,37.53612,CR,[4155] R '26' Fl R 2.5s Colorado Reef Lighted Buoy
--122.19653,37.55289,#2,[5180] R '2' Q R Redwood Creek Entrance Light 2
--122.19337,37.54994,#3,[5185] G '3' Fl G 4s Redwood Creek Entrance Light 
--122.19509,37.54707,#4,[5190] R '4' Fl R 2.5s Redwood Creek Entrance Ligh
--122.21054,37.55983,#12,[5175] R '12' Fl R 4s San Francisco Bay South Chan
--122.24807,37.58267,B,[5165] G '11' San Francisco Bay South Channel Buoy
--122.21803,37.58058,E,Sequoia Yacht Club mark E. Yellow collar buoy
--122.18452,37.56016,O,Sequoia Yacht Club mark O. Yellow collar buoy
--122.22871,37.56598,S,Sequoia Yacht Club mark S. Yellow collar buoy
--122.19877,37.57493,X,Sequoia Yacht Club mark X. Yellow collar buoy
--122.16637,37.54315,Y,Sequoia Yacht Club mark Y. Yellow collar buoy
+-122.19653,37.55289,RWC#2,[5180] R '2' Q R Redwood Creek Entrance Light 2
+-122.19337,37.54994,RWC#3,[5185] G '3' Fl G 4s Redwood Creek Entrance Light 
+-122.19509,37.54707,RWC#4,[5190] R '4' Fl R 2.5s Redwood Creek Entrance Ligh
+-122.21054,37.55983,RWC#12,[5175] R '12' Fl R 4s San Francisco Bay South Chan
+-122.24807,37.58267,SYC-B,[5165] G '11' San Francisco Bay South Channel Buoy
+-122.21803,37.58058,SYC-E,Sequoia Yacht Club mark E. Yellow collar buoy
+-122.18452,37.56016,SYC-O,Sequoia Yacht Club mark O. Yellow collar buoy
+-122.22871,37.56598,SYC-S,Sequoia Yacht Club mark S. Yellow collar buoy
+-122.19877,37.57493,SYC-X,Sequoia Yacht Club mark X. Yellow collar buoy
+-122.16637,37.54315,SYC-Y,Sequoia Yacht Club mark Y. Yellow collar buoy
 -122.31180,37.61400,CP-Z,Coyote Point Yacht Club Mark Z
 -122.33945,37.69576,SBC#1,[4945] G '1' Fl G 4s San Bruno Shoal Channel Light
 -122.34140,37.69494,SBC#2,[4950] R '2' Fl R 4s San Bruno Shoal Channel Light
@@ -91,17 +91,17 @@
 -122.51039,37.79283,MR,[365] W Fl W 5s Mile Rocks Light
 -122.47832,37.81843,GGB,Golden Gate Bridge
 -122.37251,37.83323,TI#6,[5420] R '6' Fl R 2.5s Treasure Island North End L
--122.56829,37.83360,BC2,[4225] R '2' Fl R 6s Bonita Channel Lighted Whistl
+-122.56829,37.83360,BC#2,[4225] R '2' Fl R 6s Bonita Channel Lighted Whistl
 -122.69541,37.86017,DBR#1,[4205] G Fl G 6s Duxbury Reef Lighted Buoy 1DR
 -122.32600,37.86783,BYC,Berkeley Yacht Club
 -122.38978,37.89745,RYC-A,Richmond Yacht Club A (former Olympic Circle A)
 -122.42089,37.93166,2CR,[5775] R Fl R 4s Castro Rocks Lighted Buoy 2CR
 -122.45719,37.95734,SRC#17,[5825] G '17' Fl G 4s San Francisco Bay North Chan
 -122.43439,37.96314,BRO,Brothers Islands North of Richmond Bridge
--122.42925,37.96779,PSB-2,[5875] R '2' Fl R 4s San Pablo Bay Lighted Buoy 2
+-122.42925,37.96779,PSB#2,[5875] R '2' Fl R 4s San Pablo Bay Lighted Buoy 2
 -122.36747,38.01657,PPL-P,[5895] W Fl W 2.5s Point Pinole Light P
 -122.16193,38.03326,G25,[6245] G '25' Q G Carquinez Strait Lighted Buoy 25
--122.42205,38.04908,PRE-2,[5980] R '2' Fl R 2.5s Petaluma River Entrance Lig
+-122.42205,38.04908,PRE#2,[5980] R '2' Fl R 2.5s Petaluma River Entrance Lig
 -122.24752,38.07098,MIS#1,[6090] G '1' Fl G 2.5s Mare Island Strait Lighted 
 -122.39410,37.90568,RHC#6,[5700] R '6' Fl R 4s Richmond Harbor Channel Light
 -122.38624,37.90660,RHC#7,[5705] G '7' Fl G 4s Richmond Harbor Channel Light
