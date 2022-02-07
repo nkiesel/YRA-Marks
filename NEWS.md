@@ -1,3 +1,8 @@
+**2022-02-07
+
+ * Removed LLNR from generated files.  These are required to extract GPS coordinates from USCG
+   but not useful for ordinary users.
+ 
 **2021-06-10**
 
  * Added Garmin POI format

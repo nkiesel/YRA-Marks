@@ -1,6 +1,8 @@
 #!/bin/zsh
-csv=${1:-../San_Francisco.csv}
-name=${csv%.csv}
+input=${1:-../San_Francisco.csv}
+name=${input%.csv}
+csv=$(mktemp --suffix=csv)
+perl -pe 's/\[\d+\] //' < $input > $csv
 gpsbabel -i unicsv -f "${csv}" -o gpx -F "${name}.gpx"
 gpsbabel -i unicsv -f "${csv}" -o garmin_poi -F "${name}.poi"
 xmlstarlet ed -L -u '/_:gpx/_:time' -v $(date -r "${csv}" -u '+%FT%T.%3NZ') "${name}.gpx"
@@ -9,3 +11,4 @@ gpsbabel -i unicsv -f "${csv}" -o html -F "${name}.html"
 for df in noaa dmm dms ; do
   ./conv.py $df < "${csv}" > "${name}.${df}"
 done
+rm $csv
