@@ -17,7 +17,7 @@ csvfile = '../San_Francisco.csv'
 noaaurl = 'https://www.navcen.uscg.gov/?Do=weeklyLLCXML&id=6'
 
 # YRA Buoy status page
-yraurl = 'http://yra.org/buoy-status/'
+yraurl = 'http://yra.org/buoystatus/'
 
 headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}
 
