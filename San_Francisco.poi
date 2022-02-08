@@ -1,9 +1,9 @@
--122.44527,37.81084,YRA-A,Yellow sphere 'A' Outer Buoy St. Francis Yacht Clu
+-122.45150,37.80750,YRA-A,Yellow sphere 'A' Outer Buoy St. Francis Yacht Clu
 -122.44607,37.80828,YRA-B,Inner yellow sphere mark 'B' off St. Francis Yacht
 -122.44312,37.85283,YRA-K,Temp YC Buoy 0.3 nm West of YRA-4 in line with YRA
 -122.46868,37.85594,YRA-N,R '2' Fl R 4s Sausalito Channel Light 2
 -122.42760,37.85386,YRA-L,Temp YC Buoy 0.31 nm West of Windmill in line with
--122.44305,37.81111,YRA-X,Yellow sphere 'X' Golden Gate Yacht Club
+-122.44383,37.81017,YRA-X,Yellow sphere 'X' Golden Gate Yacht Club
 -122.43093,37.92927,YRA-1,Red Rock Island
 -122.42214,37.82623,YRA-2,W Fl W 5s Alcatraz Light
 -123.00184,37.69920,YRA-3,W Fl W 15s Farallon Light
@@ -19,8 +19,8 @@
 -122.46067,37.80750,YRA-13,Crissy Field Buoy
 -122.40025,37.88194,YRA-14,W Iso R 6s Southampton Shoal Light
 -122.46650,37.83933,YRA-15,Approx. 0.5 nm East of Yellow Bluff (Sausalito vic
--122.46667,37.80950,YRA-16,Yellow sphere 'C' 0.2 nm East of Ft Point - Blacka
--122.44599,37.83824,YRA-17,RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR - Har
+-122.46637,37.81005,YRA-16,Yellow sphere 'C' 0.2 nm East of Ft Point - Blacka
+-122.44599,37.83824,YRA-17,RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR
 -122.40345,37.81838,YRA-18,GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR 
 -122.41493,37.87970,YRA-19,R '8' Fl R 2.5s San Francisco Bay North Channel Li
 -122.40865,37.83202,YRA-21,G '1' Fl G 6s San Francisco Bay North Channel Ligh
@@ -62,7 +62,7 @@
 -122.33833,37.86783,YRA-COC,Olympic Circle C
 -122.34940,37.85768,YRA-DOC,G '3' Fl G 4s Berkeley Marina Channel Light 3
 -122.36433,37.85633,YRA-EOC,Olympic Circle E
--122.37657,37.86423,YRA-FOC,Olympic Circle F
+-122.37700,37.86417,YRA-FOC,Olympic Circle F
 -122.37883,37.87700,YRA-GOC,Olympic Circle G
 -122.36883,37.88700,YRA-HOC,Olympic Circle H
 -122.35850,37.87233,YRA-XOC,Olympic Circle X

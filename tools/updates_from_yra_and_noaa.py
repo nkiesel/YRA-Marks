@@ -29,6 +29,13 @@ single_color_pattern = re.compile('^(Red|Yellow|Green|White)')
 buoy_status_pattern = re.compile(r'<strong>(\w+)</strong>\D+(\d+) ([\d.]+)\D+(\d+) ([\d.]+) \((.+)\)')
 whitespace_pattern = re.compile(r'\s+')
 
+common_names = {
+    "YRA-12": "Little Harding",
+    "YRA-18": "Blossom Rock",
+    "YRA-PB": "Point Bonita",
+    "YRA-SF": "Lightship",
+}
+
 # convert DMS into a decimal
 def dms2decdeg(d, m, s, c):
     seconds = float(d) * 3600 + float(m) * 60 + float(s)
@@ -78,12 +85,14 @@ def color(c, s):
     return ''
 
 # returns description in our own format
-def description(nr, name, characteristic, structure):
+def description(yra, nr, name, characteristic, structure):
     n = name_pattern.match(name)
     num = "'{}' ".format(n.group(1)) if n else ''
     col = color(characteristic, structure)
     cha = "{} ".format(characteristic) if characteristic else ''
-    return '[{}] {}{}{}{}'.format(nr, col, num, cha, name)
+    c = common_names.get(yra)
+    com = " - {}".format(c) if c else ''
+    return '[{}] {}{}{}{}{}'.format(nr, col, num, cha, name, com)
 
 
 # contains mapping from NOAA light number to YRA name
@@ -145,7 +154,7 @@ with requests.get(noaaurl, headers=headers) as xml:
                 conv(text(e, 'Position_x0020__x0028_Latitude_x0029_')),
                 conv(text(e, 'Position_x0020__x0028_Longitude_x0029_')),
                 yraname,
-                description(llnr, text(e, 'Aid_x0020_Name'), text(e, 'Characteristic'), text(e, 'Structure'))]
+                description(yraname, llnr, text(e, 'Aid_x0020_Name'), text(e, 'Characteristic'), text(e, 'Structure'))]
 
 # replace csvfile content with updated marks
 with open(csvfile, mode="w", newline='\r\n') as sffile:
