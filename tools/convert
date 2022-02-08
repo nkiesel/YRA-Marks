@@ -2,11 +2,23 @@
 input=${1:-../San_Francisco.csv}
 name=${input%.csv}
 csv=$(mktemp --suffix=csv)
+time=$(date -r "${input}" -u '+%FT%TZ')
+
 perl -pe 's/\[\d+\] //' < $input > $csv
-gpsbabel -i unicsv -f "${csv}" -o gpx -F "${name}.gpx"
-gpsbabel -i unicsv -f "${csv}" -o garmin_poi -F "${name}.poi"
-xmlstarlet ed -L -u '/_:gpx/_:time' -v $(date -r "${csv}" -u '+%FT%T.%3NZ') "${name}.gpx"
+gpsbabel -i unicsv -f "${csv}" -o gpx,gpxver=1.1 -F "${name}.gpx"
+perl -pe 's/YRA-/Y/' "${csv}" | gpsbabel -i unicsv -f - -o gpx,gpxver=1.1 -F "${name}_short_YRA.gpx"
+xmlstarlet ed -L \
+	   -s /_:gpx/_:wpt -t elem -n sym -v "cross,blue" \
+	   -s /_:gpx/_:wpt -t elem -n time -v "$time" \
+	   -d /_:gpx/_:wpt/_:cmt \
+	   -s /_:gpx/_:metadata -t elem -n depthunits -v meters \
+	   -s /_:gpx/_:metadata -t elem -n tempunits -v C \
+	   -s /_:gpx/_:metadata -t elem -n sogunits -v m/s \
+	   -u /_:gpx/_:metadata/_:time -v "$time" \
+	   -d /_:gpx/_:metadata/_:bounds \
+	   "${name}.gpx" "${name}_short_YRA.gpx"
 gpsbabel -i unicsv -f "${csv}" -o html -F "${name}.html"
+gpsbabel -i unicsv -f "${csv}" -o garmin_poi -F "${name}.poi"
 ( cd ../San_Francisco.shp; ogr2ogr -overwrite -f "ESRI Shapefile" . convert-to-shp.vrt )
 for df in noaa dmm dms ; do
   ./conv.py $df < "${csv}" > "${name}.${df}"
