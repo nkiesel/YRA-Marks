@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/0" version="1.0" creator="GPSBabel - https://www.gpsbabel.org">
-  <time>2022-02-07T21:17:37.745Z</time>
+  <time>2022-02-08T01:39:25.863Z</time>
   <bounds minlat="37.472226000" minlon="-123.001837000" maxlat="38.070983000" maxlon="-122.161926000"/>
   <wpt lat="37.810839000" lon="-122.445275000">
     <name>YRA-A</name>
@@ -89,8 +89,8 @@
   </wpt>
   <wpt lat="37.843825000" lon="-122.453357000">
     <name>YRA-12</name>
-    <cmt>G '1' Fl G 4s Raccoon Strait Lighted Buoy 1</cmt>
-    <desc>G '1' Fl G 4s Raccoon Strait Lighted Buoy 1</desc>
+    <cmt>G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 - Little Harding</cmt>
+    <desc>G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 - Little Harding</desc>
   </wpt>
   <wpt lat="37.807500000" lon="-122.460667000">
     <name>YRA-13</name>
@@ -114,13 +114,13 @@
   </wpt>
   <wpt lat="37.838239000" lon="-122.445994000">
     <name>YRA-17</name>
-    <cmt>RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR</cmt>
-    <desc>RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR</desc>
+    <cmt>RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR - Harding Rock</cmt>
+    <desc>RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR - Harding Rock</desc>
   </wpt>
   <wpt lat="37.818376000" lon="-122.403448000">
     <name>YRA-18</name>
-    <cmt>GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR</cmt>
-    <desc>GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR</desc>
+    <cmt>GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR - Blossom Rock</cmt>
+    <desc>GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR - Blossom Rock</desc>
   </wpt>
   <wpt lat="37.879698000" lon="-122.414932000">
     <name>YRA-19</name>
@@ -229,13 +229,13 @@
   </wpt>
   <wpt lat="37.812713000" lon="-122.541017000">
     <name>YRA-PB</name>
-    <cmt>RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy</cmt>
-    <desc>RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy</desc>
+    <cmt>RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy - Point Bonita</cmt>
+    <desc>RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy - Point Bonita</desc>
   </wpt>
   <wpt lat="37.749934000" lon="-122.692776000">
     <name>YRA-SF</name>
-    <cmt>RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF</cmt>
-    <desc>RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF</desc>
+    <cmt>RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF - Lightship</cmt>
+    <desc>RW Mo (A) W San Francisco Approach Lighted Whistle Buoy SF - Lightship</desc>
   </wpt>
   <wpt lat="37.771833000" lon="-122.382333000">
     <name>YRA-AS1</name>
@@ -459,8 +459,18 @@
   </wpt>
   <wpt lat="37.818433000" lon="-122.478323000">
     <name>GGB</name>
-    <cmt>Golden Gate Bridge</cmt>
-    <desc>Golden Gate Bridge</desc>
+    <cmt>Golden Gate Bridge - Middle</cmt>
+    <desc>Golden Gate Bridge - Middle</desc>
+  </wpt>
+  <wpt lat="37.825150000" lon="-122.479141000">
+    <name>GGB-NT</name>
+    <cmt>Golden Gate Bridge - North Tower</cmt>
+    <desc>Golden Gate Bridge - North Tower</desc>
+  </wpt>
+  <wpt lat="37.813966000" lon="-122.478361000">
+    <name>GGB-ST</name>
+    <cmt>Golden Gate Bridge - South Tower</cmt>
+    <desc>Golden Gate Bridge - South Tower</desc>
   </wpt>
   <wpt lat="37.833229000" lon="-122.372506000">
     <name>TI#6</name>

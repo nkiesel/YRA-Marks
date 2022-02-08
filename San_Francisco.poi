@@ -15,13 +15,13 @@
 -122.35077,37.84463,YRA-9,Temp YC Buoy 0.5 nm ESE of West end Berkeley Pier 
 -122.37184,37.84443,YRA-10,Temp YC Buoy approx 0.6 nm WSW of West end Berkele
 -122.34163,37.83187,YRA-11,Temp YC Buoy 1.5 nm East of Treasure Island
--122.45336,37.84383,YRA-12,G '1' Fl G 4s Raccoon Strait Lighted Buoy 1
+-122.45336,37.84383,YRA-12,G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 - Litt
 -122.46067,37.80750,YRA-13,Crissy Field Buoy
 -122.40025,37.88194,YRA-14,W Iso R 6s Southampton Shoal Light
 -122.46650,37.83933,YRA-15,Approx. 0.5 nm East of Yellow Bluff (Sausalito vic
 -122.46667,37.80950,YRA-16,Yellow sphere 'C' 0.2 nm East of Ft Point - Blacka
--122.44599,37.83824,YRA-17,RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR
--122.40345,37.81838,YRA-18,GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR
+-122.44599,37.83824,YRA-17,RG Fl (2+1)R 6s Harding Rock Lighted Buoy HR - Har
+-122.40345,37.81838,YRA-18,GR Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR 
 -122.41493,37.87970,YRA-19,R '8' Fl R 2.5s San Francisco Bay North Channel Li
 -122.40865,37.83202,YRA-21,G '1' Fl G 6s San Francisco Bay North Channel Ligh
 -122.40888,37.86418,YRA-23,RW Mo (A) W San Francisco Bay North Channel Lighte
@@ -89,7 +89,9 @@
 -122.26972,37.58883,SBC#8A,San Francisco Bay South Channel Daybeacon 8A
 -122.58303,37.70815,ONR,Y Fl Y6s Yellow ball San Francisco Outfall North R
 -122.51039,37.79283,MR,W Fl W 5s Mile Rocks Light
--122.47832,37.81843,GGB,Golden Gate Bridge
+-122.47832,37.81843,GGB,Golden Gate Bridge - Middle
+-122.47914,37.82515,GGB-NT,Golden Gate Bridge - North Tower
+-122.47836,37.81397,GGB-ST,Golden Gate Bridge - South Tower
 -122.37251,37.83323,TI#6,R '6' Fl R 2.5s Treasure Island North End Light 6
 -122.56829,37.83360,BC#2,R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 
 -122.69541,37.86017,DBR#1,G Fl G 6s Duxbury Reef Lighted Buoy 1DR
