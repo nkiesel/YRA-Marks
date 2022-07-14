@@ -14,7 +14,7 @@ import requests
 csvfile = '../San_Francisco.csv'
 
 # updated NOAA list in XML format
-noaaurl = 'https://www.navcen.uscg.gov/?Do=weeklyLLCXML&id=6'
+noaaurl = 'https://www.navcen.uscg.gov/sites/default/files/xml/lightLists/weeklyUpdates/v6d11WeeklyChanges.xml'
 
 # YRA Buoy status page
 yraurl = 'http://yra.org/buoystatus/'
@@ -144,6 +144,7 @@ with requests.get(yraurl, headers=headers) as response:
 # download and parse updated NOAA list and append required marks to `marks`
 noaa_count = 0
 with requests.get(noaaurl, headers=headers) as xml:
+    xml.encoding = 'utf-8'
     for e in ET.fromstring(xml.text).find('dataroot'):
         llnr = text(e, 'LLNR')
         yraname = noaa.get(llnr)
