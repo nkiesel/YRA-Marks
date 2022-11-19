@@ -28,7 +28,6 @@
 -122.39647,37.86087,YRA-24,R '6' Fl R 4s San Francisco Bay North Channel Ligh
 -122.41766,37.89057,YRA-28,R '2' Fl R 2.5s Southampton Shoal Channel Lighted 
 -122.42015,37.90391,YRA-29,R '4' Fl R 4s Southampton Shoal Channel Lighted Bu
--122.42235,37.91625,YRA-30,R '6' Fl R 2.5s Southampton Shoal Channel Lighted 
 -122.36400,37.75921,YRA-31,Temp YC buoy approx. 1.2 nm SE of Mission Rock Ter
 -122.32333,37.74600,YRA-32,Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal
 -122.34777,37.80098,YRA-33,R '4' Fl R 4s Oakland Inner Harbor Lighted Buoy 4
@@ -40,6 +39,7 @@
 -122.79863,37.80056,YRA-NO,Y Fl Y 4s San Francisco North Traffic Lane Lighted
 -122.69501,37.65000,YRA-SO,Y Fl Y 4s San Francisco South Traffic Lane Lighted
 -122.46645,37.92373,YRA-NBAY,Temp YC Buoy approx 0.6 nm NE of Tiburon Clubhouse
+-122.42235,37.91625,YRA-NR6,R '6' Fl R 2.5s Southampton Shoal Channel Lighted 
 -122.48553,37.93409,YRA-NG7,G '7' Fl G 2.5s Corte Madera Channel Light 7
 -122.44515,37.91360,YRA-NR12,R '12' Fl R 2.5s San Francisco Bay North Channel L
 -122.44343,37.93048,YRA-NR14,R '14' Fl R 4s San Francisco Bay North Channel Lig

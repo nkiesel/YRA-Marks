@@ -1,4 +1,12 @@
-**2022-02-07
+**2022-11-19**
+
+ * Parse [YRA Decription of Marks](http://yra.org/descriptionofmarks/)
+   content instead of [YRA Buoy Status](http://yra.org/buoy-status/)
+   because the latter no longer has GPS coordinates of marks.
+ * Renamed "YRA-30" to "YRA-NR6" because that is the name of that mark in
+   [YRA Decription of Marks](http://yra.org/descriptionofmarks/).
+   
+**2022-02-07**
 
  * Removed LLNR from generated files.  These are required to extract GPS coordinates from USCG
    but not useful for ordinary users.

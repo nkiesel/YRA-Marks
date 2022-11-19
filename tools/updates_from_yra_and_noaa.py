@@ -9,15 +9,16 @@ import xml.etree.ElementTree as ET
 import re
 import csv
 import requests
+from bs4 import BeautifulSoup
 
 # input and output file
 csvfile = '../San_Francisco.csv'
 
 # updated NOAA list in XML format
-noaaurl = 'https://www.navcen.uscg.gov/sites/default/files/xml/lightLists/weeklyUpdates/v6d11WeeklyChanges.xml'
+noaa_url = 'https://www.navcen.uscg.gov/sites/default/files/xml/lightLists/weeklyUpdates/v6d11WeeklyChanges.xml'
 
-# YRA Buoy status page
-yraurl = 'http://yra.org/buoystatus/'
+# YRA Buoy page
+yra_url = 'http://yra.org/descriptionofmarks/'
 
 headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}
 
@@ -28,6 +29,7 @@ dual_color_pattern = re.compile('^(\w)\w+ and (\w)\w+ ')
 single_color_pattern = re.compile('^(Red|Yellow|Green|White)')
 buoy_status_pattern = re.compile(r'<strong>(\w+)</strong>\D+(\d+) ([\d.]+)\D+(\d+) ([\d.]+) \((.+)\)')
 whitespace_pattern = re.compile(r'\s+')
+yra_coord_pattern = re.compile('(\d+) (\d+.\d+) / (\d+) (\d+.\d+)')
 
 common_names = {
     "YRA-12": "Little Harding",
@@ -55,6 +57,14 @@ def conv(n):
     match = noaa_coord_pattern.match(n)
     return dms2decdeg(match.group(1), match.group(2), match.group(3), match.group(4))
 
+# convert YRA into a decimal
+def yra_conv(n):
+    match = yra_coord_pattern.match(n)
+    if match:
+        return [dmm2decdeg(match.group(1), match.group(2), 'N'), dmm2decdeg(match.group(3), match.group(4), 'W')]
+    else:
+        return None
+
 # returns stripped text of child node named `tag`
 def text(e, tag):
     text = e.findtext(tag)
@@ -62,7 +72,6 @@ def text(e, tag):
         return whitespace_pattern.sub(' ', text.strip())
     else:
         return None
-
 
 # returns color abbreviation from either structure of light description
 def color(c, s):
@@ -124,26 +133,51 @@ with open(csvfile) as sffile:
 
 # use coordinates from YRA "buoy status page" unless mark has a NOAA light number
 yra_count = 0
-with requests.get(yraurl, headers=headers) as response:
-   for line in response.iter_lines(decode_unicode=True):
-      m = buoy_status_pattern.match(line)
-      if m:
-         yraname = "YRA-{}".format(m.group(1))
-         # print("found mark {} in YRA".format(yraname))
-         yra_count += 1
-         if yraname not in has_noaa_light_number:
-             # print("found mark {} in YRA but not in NOAA".format(yraname))
-             existing = marks.get(yraname)
-             if existing:
-                 lat = dmm2decdeg(m.group(2), m.group(3), 'N')
-                 lon = dmm2decdeg(m.group(4), m.group(5), 'W')
-                 marks[yraname] = [lat, lon, yraname, existing[3]]
-             else:
-                 print("Mark {} is in the YRA Buoy status list but not in our CSV file".format(yraname))
+
+def ytext(n):
+    return n.text.strip()
+
+def yra(name, coords, desc):
+    global yra_count
+    if name == 'D':
+        yraname = 'YRA-DOC'
+    elif name == 'KKMI 6':
+        yraname = 'YRA-6'
+    else:
+        yraname = "YRA-{}".format(name)
+    coords = yra_conv(coords)
+    # print("YRA name: {} coords: {}, description: {}".format(yraname, coords, desc))
+    # print("found mark {} in YRA".format(yraname))
+    yra_count += 1
+    if coords and yraname not in has_noaa_light_number:
+        # print("found mark {} in YRA but not in NOAA".format(yraname))
+        existing = marks.get(yraname)
+        lat = coords[0]
+        lon = coords[1]
+        if existing:
+            marks[yraname] = [lat, lon, yraname, existing[3]]
+        else:
+            print("Mark {} at {} {}  is in the YRA Buoy status list but not in our CSV file".format(yraname, lat, lon))
+       
+
+
+with requests.get(yra_url, headers=headers) as html:
+    soup = BeautifulSoup(html.text, 'html.parser')
+    rows = soup.find_all('tr')
+    for row in rows:
+        cols = row.find_all('td')
+        if len(cols) == 3:
+            if ytext(cols[0]).startswith('Svenson'):
+                bn = [ytext(x) for x in cols[0].find_all('p')]
+                bc = [ytext(x) for x in cols[1].find_all('p')]
+                for idx, n in enumerate(bn):
+                    yra(n, bc[idx], "Olympic Circle {}".format(n[0]))
+            else:
+                yra(ytext(cols[0]), ytext(cols[1]), ytext(cols[2]))
 
 # download and parse updated NOAA list and append required marks to `marks`
 noaa_count = 0
-with requests.get(noaaurl, headers=headers) as xml:
+with requests.get(noaa_url, headers=headers) as xml:
     xml.encoding = 'utf-8'
     for e in ET.fromstring(xml.text).find('dataroot'):
         llnr = text(e, 'LLNR')
