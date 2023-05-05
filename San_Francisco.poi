@@ -37,7 +37,7 @@
 -122.35990,37.73952,YRA-37,G '5' Fl G 4s Lash Terminal Approach Lighted Buoy 
 -122.46858,37.92826,YRA-CM2,R '2' Iso R 6s Corte Madera Channel Light 2
 -122.79863,37.80056,YRA-NO,Y Fl Y 4s San Francisco North Traffic Lane Lighted
--122.69501,37.65000,YRA-SO,Y Fl Y 4s San Francisco South Traffic Lane Lighted
+-122.69500,37.64877,YRA-SO,Y Fl Y 4s San Francisco South Traffic Lane Lighted
 -122.46645,37.92373,YRA-NBAY,Temp YC Buoy approx 0.6 nm NE of Tiburon Clubhouse
 -122.42235,37.91625,YRA-NR6,R '6' Fl R 2.5s Southampton Shoal Channel Lighted 
 -122.48553,37.93409,YRA-NG7,G '7' Fl G 2.5s Corte Madera Channel Light 7
@@ -57,7 +57,7 @@
 -122.62904,37.76334,YRA-R2,R '2' Q R San Francisco Main Ship Channel Lighted 
 -122.58991,37.78187,YRA-G7,G '7' Fl G 2.5s San Francisco Main Ship Channel Li
 -122.58730,37.77540,YRA-R8,R '8' Fl R 2.5s San Francisco Main Ship Channel Li
--122.46797,37.84152,YRA-HE,Y Hank Easom Buoy off Yellow Bluff
+-122.77767,38.39867,YRA-EASOM,Large lighted Yellow Column Buoy off Yellow Bluff 
 -122.35283,37.88583,YRA-AOC,Olympic Circle A
 -122.34017,37.88033,YRA-BOC,Olympic Circle B
 -122.33833,37.86783,YRA-COC,Olympic Circle C
@@ -66,7 +66,7 @@
 -122.37700,37.86417,YRA-FOC,Olympic Circle F
 -122.37883,37.87700,YRA-GOC,Olympic Circle G
 -122.36883,37.88700,YRA-HOC,Olympic Circle H
--122.35850,37.87233,YRA-XOC,Olympic Circle X
+-122.35850,37.87233,YRA-XOC,Bobbi Tosse Buoy (Olympic Circle X)
 -122.50610,37.48623,PP-B1,G '1' Fl G 2.5s Pillar Point Harbor Entrance Light
 -122.48305,37.48152,PP-B3,G '3' Fl G 4s Pillar Point Harbor Entrance Lighted
 -122.51377,37.47223,PP-PP,RW Mo (A) W Pillar Point Harbor Approach Lighted B

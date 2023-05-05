@@ -1,3 +1,9 @@
+**2023-05-05**
+
+ * Added YRA-EASOM mark
+ * renamed "Olympic Circle X" to "Bobbi Tosse Buoy"
+ * some minor NOAA buoy position updates
+
 **2022-11-19**
 
  * Parse [YRA Decription of Marks](http://yra.org/descriptionofmarks/)
