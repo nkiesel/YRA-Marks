@@ -1,3 +1,8 @@
+**2023-06-18**
+
+ * Updated Sequoia Yacht Club marks
+ * Added some Richmond Yacht CLub marks
+
 **2023-05-05**
 
  * Added YRA-EASOM mark
