@@ -149,7 +149,8 @@ def yra(name, coords, desc):
     # print("YRA name: {} coords: {}, description: {}".format(yraname, coords, desc))
     # print("found mark {} in YRA".format(yraname))
     yra_count += 1
-    if coords and yraname not in has_noaa_light_number:
+    # yra.org has wrong coordinates for YRA-A
+    if coords and yraname != 'YRA-A' and yraname not in has_noaa_light_number:
         # print("found mark {} in YRA but not in NOAA".format(yraname))
         existing = marks.get(yraname)
         lat = coords[0]
