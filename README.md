@@ -40,7 +40,7 @@ interest to most users.
 
 The marks are offered in multiple formats from generated
 [San_Francisco.csv](San_Francisco.csv) using
-[GPSBabel](http://www.gpsbabel.org/).
+[GPSBabel](https://www.gpsbabel.org/).
 
 As an example, the GPX file was generated using
 
@@ -51,7 +51,7 @@ Right now I offer the following formats:
  * **CSV** simple text format with coordinates in decimal degrees (e.g. `-122.358967`)
  
  * **GPX** very common format.  This can also be directly used as a layer in the
-   excellent [OpenCPN](http://opencpn.org/ocpn/) chartplotter and navigation
+   excellent [OpenCPN](https://opencpn.org/) chartplotter and navigation
    software.
  
  * **POI** Garmin POI format (should work for Garmin Marine handhelds)
@@ -68,7 +68,7 @@ Right now I offer the following formats:
  * **HTML** simple text version
 
 If you need another format, drop me a note and I might add it.  Of course you
-can also always use [GPSBabel](http://www/gpsbabel.org/) yourself.
+can also always use [GPSBabel](https://www/gpsbabel.org/) yourself.
    
 [llv6]: http://www.navcen.uscg.gov/?pageName=lightListWeeklyUpdates
 [chart]: https://www.google.com/maps/d/u/0/edit?mid=1-9oOlBeR2zTQUb8ltyKwN68LgAvBEaYQ&usp=sharing
