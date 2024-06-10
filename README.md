@@ -33,13 +33,13 @@ anyone finds mistakes or has additions, please feel free to send me
 updates.
 
 For most marks that are listed in "Volume 6 - District 11" of the
-[Weekly Light List][llv6], the description in [San_Francisco.csv]
+[Weekly Light List][llv6], the description in [San_Francisco.csv](San_Francisco.csv)
 contains the light number in `[]` (e.g. `[360]` for the Lightship).
 However, that number is omitted from all the other files because it
 is not of interest to most users.
 
 The marks are offered in multiple formats from generated
-[San_Francisco.csv] using [GPSBabel].
+[San_Francisco.csv](San_Francisco.csv) using [GPSBabel].
 
 As an example, the GPX file was generated using
 
@@ -73,4 +73,4 @@ can also always use [GPSBabel] yourself.
 [chart]: https://www.google.com/maps/d/u/0/edit?mid=1-9oOlBeR2zTQUb8ltyKwN68LgAvBEaYQ&usp=sharing
 [GPSBabel]: https://www/gpsbabel.org/
 [OpenCPN]: https://opencpn.org/
-[SanFrancisco.csv]: San_Francisco.csv
+
