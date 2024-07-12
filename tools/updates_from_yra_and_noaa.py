@@ -22,14 +22,14 @@ yra_url = 'http://yra.org/descriptionofmarks/'
 
 headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}
 
-noaa_coord_pattern = re.compile('(\d+)-(\d+)-(\d+.\d+) ?([NSEW])')
-name_pattern = re.compile('.+ (\d+)$')
-num_pattern = re.compile('^\[(\d+)\]')
-dual_color_pattern = re.compile('^(\w)\w+ and (\w)\w+ ')
-single_color_pattern = re.compile('^(Red|Yellow|Green|White)')
+noaa_coord_pattern = re.compile(r'(\d+)-(\d+)-(\d+.\d+) ?([NSEW])')
+name_pattern = re.compile(r'.+ (\d+)$')
+num_pattern = re.compile(r'^\[(\d+)\]')
+dual_color_pattern = re.compile(r'^(\w)\w+ and (\w)\w+ ')
+single_color_pattern = re.compile(r'^(Red|Yellow|Green|White)')
 buoy_status_pattern = re.compile(r'<strong>(\w+)</strong>\D+(\d+) ([\d.]+)\D+(\d+) ([\d.]+) \((.+)\)')
 whitespace_pattern = re.compile(r'\s+')
-yra_coord_pattern = re.compile('(\d+) (\d+.\d+) / (\d+) (\d+.\d+)')
+yra_coord_pattern = re.compile(r'(\d+) (\d+.\d+) / (\d+) (\d+.\d+)')
 
 common_names = {
     "YRA-12": "Little Harding",
