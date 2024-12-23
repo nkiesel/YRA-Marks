@@ -14,6 +14,8 @@ from bs4 import BeautifulSoup
 # input and output file
 csvfile = '../San_Francisco.csv'
 
+yra_csv = "../YRA/YRAMarks.csv"
+
 # updated NOAA list in XML format
 noaa_url = 'https://www.navcen.uscg.gov/sites/default/files/xml/lightLists/weeklyUpdates/v6d11WeeklyChanges.xml'
 
@@ -133,48 +135,19 @@ with open(csvfile) as sffile:
 
 # use coordinates from YRA "buoy status page" unless mark has a NOAA light number
 yra_count = 0
-
-def ytext(n):
-    return n.text.strip()
-
-def yra(name, coords, desc):
-    global yra_count
-    if name == 'D':
-        yraname = 'YRA-DOC'
-    elif name == 'KKMI 6':
-        yraname = 'YRA-6'
-    else:
-        yraname = "YRA-{}".format(name)
-    coords = yra_conv(coords)
-    # print("YRA name: {} coords: {}, description: {}".format(yraname, coords, desc))
-    # print("found mark {} in YRA".format(yraname))
-    yra_count += 1
-    # yra.org has wrong coordinates for YRA-A
-    if coords and yraname != 'YRA-A' and yraname not in has_noaa_light_number:
-        # print("found mark {} in YRA but not in NOAA".format(yraname))
-        existing = marks.get(yraname)
-        lat = coords[0]
-        lon = coords[1]
-        if existing:
-            marks[yraname] = [lat, lon, yraname, existing[3]]
+with open(yra_csv) as yra:
+    y = csv.reader(yra)
+    # skip header
+    next(y)
+    for row in y:
+        id = f"YRA-{row[3]}"
+        existing = marks.get(id)
+        if [existing] and id != "YRA-A":
+            marks[id] = [row[1], row[2], id, row[4]]
+            yra_count += 1
         else:
-            print("Mark {} at {} {}  is in the YRA Buoy status list but not in our CSV file".format(yraname, lat, lon))
-       
+            print(f"Mark {id}: {row[4]} is not in our CSV file")
 
-
-with requests.get(yra_url, headers=headers) as html:
-    soup = BeautifulSoup(html.text, 'html.parser')
-    rows = soup.find_all('tr')
-    for row in rows:
-        cols = row.find_all('td')
-        if len(cols) == 3:
-            if ytext(cols[0]).startswith('Svenson'):
-                bn = [ytext(x) for x in cols[0].find_all('p')]
-                bc = [ytext(x) for x in cols[1].find_all('p')]
-                for idx, n in enumerate(bn):
-                    yra(n, bc[idx], "Olympic Circle {}".format(n[0]))
-            else:
-                yra(ytext(cols[0]), ytext(cols[1]), ytext(cols[2]))
 
 # download and parse updated NOAA list and append required marks to `marks`
 noaa_count = 0
@@ -200,4 +173,4 @@ with open(csvfile, mode="w", newline='\r\n') as sffile:
         # This will create broken content if the description contains a "
         print('{},{},"{}","{}"'.format(*d), file=sffile)
 
-print("Found {} marks in YRA and {} marks in NOAA".format(yra_count, noaa_count))
+print(f"Found {yra_count} marks in YRA and {noaa_count} marks in NOAA")
