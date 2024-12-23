@@ -74,14 +74,14 @@
 -122.19337,37.54994,RWC#3,G '3' Fl G 4s Redwood Creek Entrance Light 3
 -122.19509,37.54707,RWC#4,R '4' Fl R 2.5s Redwood Creek Entrance Light 4
 -122.21054,37.55983,RWC#12,R '12' Fl R 4s San Francisco Bay South Channel Lig
--122.17167,37.53267,SYC-A,Sequoia Yacht Club mark A. White collar buoy
+-122.17183,37.53233,SYC-A,Sequoia Yacht Club mark A. White collar buoy
 -122.24807,37.58267,SYC-B,G '11' San Francisco Bay South Channel Buoy 11
--122.21833,37.58000,SYC-E,Sequoia Yacht Club mark E. Yellow collar buoy
--122.18500,37.56000,SYC-O,Sequoia Yacht Club mark O. Yellow collar buoy
--122.18667,37.55833,SYC-P,Sequoia Yacht Club mark P. White collar buoy
--122.22875,37.56623,SYC-S,Sequoia Yacht Club mark S. Yellow collar buoy
--122.20000,37.57500,SYC-X,Sequoia Yacht Club mark X. Yellow collar buoy
--122.16500,37.53667,SYC-Y,Sequoia Yacht Club mark Y. Yellow collar buoy
+-122.21783,37.58017,SYC-E,Sequoia Yacht Club mark E. Yellow collar buoy
+-122.18600,37.56017,SYC-O,Sequoia Yacht Club mark O. Yellow collar buoy
+-122.18783,37.55850,SYC-P,Sequoia Yacht Club mark P. White collar buoy
+-122.22883,37.56617,SYC-S,Sequoia Yacht Club mark S. Yellow collar buoy
+-122.20217,37.57050,SYC-X,Sequoia Yacht Club mark X. Yellow collar buoy
+-122.16450,37.53700,SYC-Y,Sequoia Yacht Club mark Y. Yellow collar buoy
 -122.31180,37.61400,CP-Z,Coyote Point Yacht Club Mark Z
 -122.33945,37.69576,SBC#1,G '1' Fl G 4s San Bruno Shoal Channel Light 1
 -122.34140,37.69494,SBC#2,R '2' Fl R 4s San Bruno Shoal Channel Lighted Buoy
@@ -113,3 +113,8 @@
 -122.38624,37.90660,RHC#7,G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy
 -122.38501,37.90444,RHC#8,R '8' Fl R 6s Richmond Harbor Channel Light 8
 -122.96738,38.00383,DB,Drakes Bay Mooring Buoy CG
+-122.27898,37.79329,Island-1,Island YC red/orange ball near Jack London Square
+-122.26665,37.78765,Island-2,Island YC red/orange ball south of Jack London Aqu
+-122.25753,37.78359,Island-3,Island YC red/orange ball between G daymark on wes
+-122.24866,37.77841,Island-X,Island YC red/orange ball between RC dock and CG I
+-122.24416,37.77685,Island-5,Island YC pink ball SE of CG Island
