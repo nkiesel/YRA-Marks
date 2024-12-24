@@ -1,9 +1,9 @@
 **2024-12-23**
 
- * Removed no longer existing Olymic Circle marks
- * Use the offical YRA mark list for YRA marks
+ * Removed no longer existing Olympic Circle marks
+ * Use the official YRA mark list for YRA marks
  * Updated Sequoia Yacht Club marks
- * Added seome Island Yacht Club marks
+ * Added some Island Yacht Club marks
 
 **2023-06-18**
 
