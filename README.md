@@ -9,7 +9,7 @@ This project contains GPS coordinates for nearly all racing marks in
 the San Francisco Bay and some other "interesting" marks.  The
 information here was collected from multiple sources:
 
- * Existing web sites
+ * Mark list from YRA
  * NOAA ENC charts
  * Sailing clubs
  * [USCG Weekly Light List Volume6][llv6]
