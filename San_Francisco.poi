@@ -6,7 +6,7 @@
 -122.44300,37.81120,YRA-X,Yellow/blue sphere “X” Golden Gate Yacht Club
 -122.43100,37.92920,YRA-1,Red Rock Island
 -122.42214,37.82623,YRA-2,W Fl W 5s Alcatraz Light
--123.00184,37.69920,YRA-3,W Fl W 15s Farallon Light
+-123.00184,37.69920,YRA 3,W Fl W 15s Farallon Light
 -122.44350,37.85280,YRA-4,Lighted red nun buoy near Pt Knox
 -122.43047,37.81958,YRA-5,Temp YC Buoy Approx. 0.6 nm SW of Alcatraz
 -122.43020,37.81100,YRA-6,Lighted yellow column "M" approx. 0.1 nm north of 
@@ -60,9 +60,11 @@
 -122.34940,37.85768,YRA-DOC,G '3' Fl G 4s Berkeley Marina Channel Light 3
 -122.37700,37.86420,YRA-FOC,Olympic Circle buoy “F”
 -122.35850,37.87230,YRA-XOC,Olympic Circle buoy “X”  (Bobbi Tossi)
--122.50610,37.48623,PP-B1,G '1' Fl G 2.5s Pillar Point Harbor Entrance Light
--122.48305,37.48152,PP-B3,G '3' Fl G 4s Pillar Point Harbor Entrance Lighted
--122.51377,37.47223,PP-PP,RW Mo (A) W Pillar Point Harbor Approach Lighted B
+-122.50610,37.48623,HMB-1,G '1' Fl G 2.5s Pillar Point Harbor Entrance Light
+-122.47962,37.50008,HMB-1S,G '1' Fl G 2.5s Pillar Point Inner Harbor Light 1
+-122.48459,37.50022,HMB-2,R '2' Fl R 2.5s Pillar Point Inner Harbor Light 2
+-122.48305,37.48152,HMB-3,G '3' Fl G 4s Pillar Point Harbor Entrance Lighted
+-122.51377,37.47223,HMB-PP,RW Mo (A) W Pillar Point Harbor Approach Lighted B
 -122.55252,37.53612,CR,R '26' Fl R 2.5s Colorado Reef Lighted Buoy 26
 -122.19653,37.55289,RWC#2,R '2' Q R Redwood Creek Entrance Light 2
 -122.19337,37.54994,RWC#3,G '3' Fl G 4s Redwood Creek Entrance Light 3
