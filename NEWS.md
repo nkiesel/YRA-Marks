@@ -6,6 +6,7 @@
  * Added some Island Yacht Club marks
  * Renamed Pillar Point marks from "PP-" to "HMB-" for alignment with YRA
  * Removed no longer used and/or temporary YRA marks K, L, 5, 9, 10, 11, 14, 31, NBAY, W1, XS1
+ * Renamed DBR#1 to YRA-DUX and DB to YRA-DB
 
 **2023-06-18**
 
