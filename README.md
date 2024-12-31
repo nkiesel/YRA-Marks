@@ -50,8 +50,8 @@ is not of interest to most users.
 |YRA-8|37.847042|-122.396470|R '4' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 4|
 |YRA-12|37.843825|-122.453357|G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 (Little Harding)|
 |YRA-13|37.807500|-122.460667|Crissy Field Buoy|
-|YRA-15|37.839800|-122.466300|Lighted yellow column approx. 0.5 nm east of Yellow Bluff  (Hank Easom)|
-|YRA-16|37.810000|-122.466300|Lighted yellow column  approx. 0.2 nm east of Ft.Point (Tom Blackaller)|
+|YRA-15|37.839800|-122.466300|Lighted yellow column approx. 0.5 nm east of Yellow Bluff (Hank Easom)|
+|YRA-16|37.810000|-122.466300|Lighted yellow column approx. 0.2 nm east of Ft.Point (Tom Blackaller)|
 |YRA-17|37.838239|-122.445994|RG 'HR' Fl (2+1)R 6s Harding Rock Lighted Buoy HR|
 |YRA-18|37.818376|-122.403448|GR 'BR' Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR (Blossom Rock)|
 |YRA-19|37.879698|-122.414932|R '8' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 8|
@@ -92,7 +92,7 @@ is not of interest to most users.
 |YRA-TYC|37.909500|-122.470000|Privately maintained White mark 'TYC' off entrance to Paradise Cove Harbor|
 |YRA-WE|37.691046|-122.794449|Y 'W' Fl Y 2.5s San Francisco West Traffic Lane Lighted Gong Buoy W|
 |YRA-X|37.811200|-122.443000|Yellow/blue sphere “X” Golden Gate Yacht Club|
-|YRA-XOC|37.872300|-122.358500|Olympic Circle buoy “X”  (Bobbi Tossi)|
+|YRA-XOC|37.872300|-122.358500|Olympic Circle buoy “X” (Bobbi Tossi)|
 |2CR|37.931664|-122.420890|R '2CR' Fl R 4s Castro Rocks Lighted Buoy 2CR|
 |BON|37.833598|-122.568289|R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 2|
 |BRO|37.963145|-122.434389|Brothers Islands North of Richmond Bridge|

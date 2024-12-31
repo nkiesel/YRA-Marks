@@ -139,7 +139,7 @@ with open(yra_csv) as yra:
         id = f"YRA-{row[3]}"
         existing = marks.get(id)
         if [existing] and id != "YRA-A":
-            marks[id] = [row[1], row[2], id, row[4].replace('"', '“')]
+            marks[id] = [row[1], row[2], id, re.sub(r"\s+", " ", row[4].replace('"', '“'))]
             yra_count += 1
         else:
             print(f"Mark {id}: {row[4]} is not in our CSV file")
