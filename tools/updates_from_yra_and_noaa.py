@@ -9,23 +9,19 @@ import xml.etree.ElementTree as ET
 import re
 import csv
 import requests
-from bs4 import BeautifulSoup
 
 # input and output file
 csvfile = '../San_Francisco.csv'
 
-yra_csv = "../YRA/YRAMarks.csv"
+yra_csv = "../YRA/YRAmarks.csv"
 
 # updated NOAA list in XML format
 noaa_url = 'https://www.navcen.uscg.gov/sites/default/files/xml/lightLists/weeklyUpdates/v6d11WeeklyChanges.xml'
 
-# YRA Buoy page
-yra_url = 'http://yra.org/descriptionofmarks/'
-
 headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64)"}
 
 noaa_coord_pattern = re.compile(r'(\d+)-(\d+)-(\d+.\d+) ?([NSEW])')
-name_pattern = re.compile(r'.+ (\d+)$')
+name_pattern = re.compile(r'.+ ([\dA-Z]+)$')
 num_pattern = re.compile(r'^\[(\d+)\]')
 dual_color_pattern = re.compile(r'^(\w)\w+ and (\w)\w+ ')
 single_color_pattern = re.compile(r'^(Red|Yellow|Green|White)')
@@ -102,7 +98,7 @@ def description(yra, nr, name, characteristic, structure):
     col = color(characteristic, structure)
     cha = "{} ".format(characteristic) if characteristic else ''
     c = common_names.get(yra)
-    com = " - {}".format(c) if c else ''
+    com = " ({})".format(c) if c else ''
     return '[{}] {}{}{}{}{}'.format(nr, col, num, cha, name, com)
 
 
