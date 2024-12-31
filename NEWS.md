@@ -1,3 +1,9 @@
+**2024-12-31**
+
+ * I'm now coordinating with the really helpful YRA race coordinater, and we agreed on some mark
+   renamings: YRA-DUX to DUX, YRA-BC#2 to BON.
+ * Added table with current marks to the README.md file
+
 **2024-12-23**
 
  * Removed no longer existing Olympic Circle marks

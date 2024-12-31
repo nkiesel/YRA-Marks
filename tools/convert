@@ -23,4 +23,5 @@ gpsbabel -i unicsv -f "${csv}" -o garmin_poi -F "${name}.poi"
 for df in noaa dmm dms ; do
   ./conv.py $df < "${csv}" > "${name}.${df}"
 done
+./mdtable.py "${csv}" > "${name}.md"
 rm $csv
