@@ -45,7 +45,7 @@ is not of interest to most users.
 |YRA-2|37.826229|-122.422142|W Fl W 5s Alcatraz Light|
 |YRA-3|37.699196|-123.001837|W Fl W 15s Farallon Light|
 |YRA-4|37.852800|-122.443500|Lighted red nun buoy near Pt Knox|
-|YRA-6|37.811000|-122.430200|Lighted yellow column M" approx. 0.1 nm north of Ft Mason docks (Phil Perkins)"|
+|YRA-6|37.811000|-122.430200|Lighted yellow column “M“ approx. 0.1 nm north of Ft Mason docks (Phil Perkins)|
 |YRA-7|37.833317|-122.396439|R '2' Fl R 6s San Francisco Bay North Channel Lighted Buoy 2|
 |YRA-8|37.847042|-122.396470|R '4' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 4|
 |YRA-12|37.843825|-122.453357|G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 (Little Harding)|
