@@ -38,7 +38,7 @@ contains the light number in `[]` (e.g. `[360]` for the Lightship).
 However, that number is omitted from all the other files because it
 is not of interest to most users.
 
-##All The Marks
+## All The Marks
 |Name|Latitude|Longitude|Description|
 |---|---|---|---|
 |YRA-A|37.810167|-122.446069|Yellow sphere 'A' Outer Buoy St. Francis Yacht Club|
