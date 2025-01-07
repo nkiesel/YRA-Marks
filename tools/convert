@@ -8,7 +8,7 @@ perl -pe 's/\[\d+\] //' < $input > $csv
 gpsbabel -i unicsv -f "${csv}" -o gpx,gpxver=1.1 -F "${name}.gpx"
 perl -pe 's/YRA-/Y/' "${csv}" | gpsbabel -i unicsv -f - -o gpx,gpxver=1.1 -F "${name}_short_YRA.gpx"
 xmlstarlet ed -L \
-	   -s /_:gpx/_:wpt -t elem -n sym -v "cross,blue" \
+	   -s /_:gpx/_:wpt -t elem -n sym -v "activepoint" \
 	   -s /_:gpx/_:wpt -t elem -n time -v "$time" \
 	   -d /_:gpx/_:wpt/_:cmt \
 	   -s /_:gpx/_:metadata -t elem -n depthunits -v meters \
