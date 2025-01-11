@@ -1,5 +1,5 @@
 #! /usr/bin/python3
-# Copyright (c) 2016 Norbert Kiesel <nk@iname.com>
+# Copyright (c) 2016-2025 Norbert Kiesel <nk@iname.com>
 
 #
 # Updates the CSV file from the weekly updated NOAA list.
@@ -138,9 +138,10 @@ with open(yra_csv) as yra:
     for row in y:
         id = f"YRA-{row[3]}"
         existing = marks.get(id)
-        if [existing] and id != "YRA-A":
-            marks[id] = [row[1], row[2], id, re.sub(r"\s+", " ", row[4].replace('"', '“'))]
-            yra_count += 1
+        if [existing]:
+            if id != "YRA-A" and id != "YRA-B":
+                marks[id] = [row[1], row[2], id, re.sub(r"\s+", " ", row[4].replace('"', '“'))]
+                yra_count += 1
         else:
             print(f"Mark {id}: {row[4]} is not in our CSV file")
 

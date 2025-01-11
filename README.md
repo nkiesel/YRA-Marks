@@ -66,9 +66,9 @@ is not of interest to most users.
 |YRA-35|37.776793|-122.331076|G '3' Fl G 2.5s Alameda Naval Air Station Channel Light 3|
 |YRA-36|37.773362|-122.330164|R '4' Fl R 4s Alameda Naval Air Station Channel Light 4|
 |YRA-37|37.739517|-122.359902|G '5' Fl G 4s Lash Terminal Approach Lighted Buoy 5|
-|YRA-A|37.810167|-122.446069|Yellow sphere 'A' Outer Buoy St. Francis Yacht Club|
+|YRA-A|37.810767|-122.446817|Yellow sphere 'A' Outer Buoy St. Francis Yacht Club|
 |YRA-AS1|37.771800|-122.382300|Yellow sphere approx. 0.3 nm east of BVYC|
-|YRA-B|37.808285|-122.446069|Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham|
+|YRA-B|37.808567|-122.446300|Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham|
 |YRA-CM2|37.928258|-122.468584|R '2' Iso R 6s Corte Madera Channel Light 2|
 |YRA-DB|38.004000|-122.967300|White buoy “DB” located in Drakes Bay|
 |YRA-DOC|37.857680|-122.349403|G '3' Fl G 4s Berkeley Marina Channel Light 3|
