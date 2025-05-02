@@ -121,6 +121,7 @@ is not of interest to most users.
 |PRE#2|38.049079|-122.422047|R '2' Fl R 2.5s Petaluma River Entrance Light 2|
 |PSB#2|37.967788|-122.429246|R '2' Fl R 4s San Pablo Bay Lighted Buoy 2|
 |RHC#2|37.918193|-122.417493|R '2' Q R Richmond Harbor Channel Lighted Buoy 2|
+|RHC#5|37.908471|-122.400159|G '5' Fl G 2.5s Richmond Harbor Channel Lighted Buoy 5|
 |RHC#6|37.905675|-122.394102|R '6' Fl R 4s Richmond Harbor Channel Lighted Buoy 6|
 |RHC#7|37.906595|-122.386237|G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy 7|
 |RHC#8|37.904440|-122.385007|R '8' Fl R 6s Richmond Harbor Channel Light 8|

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="GPSBabel - https://www.gpsbabel.org">
   <metadata>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
     <depthunits>meters</depthunits>
     <tempunits>C</tempunits>
     <sogunits>m/s</sogunits>
@@ -10,630 +10,636 @@
     <name>YRA-1</name>
     <desc>Red Rock Island</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.826229000" lon="-122.422142000">
     <name>YRA-2</name>
     <desc>W Fl W 5s Alcatraz Light</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.699196000" lon="-123.001837000">
     <name>YRA-3</name>
     <desc>W Fl W 15s Farallon Light</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.852800000" lon="-122.443500000">
     <name>YRA-4</name>
     <desc>Lighted red nun buoy near Pt Knox</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.811000000" lon="-122.430200000">
     <name>YRA-6</name>
     <desc>Lighted yellow column “M“ approx. 0.1 nm north of Ft Mason docks (Phil Perkins)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.833317000" lon="-122.396439000">
     <name>YRA-7</name>
     <desc>R '2' Fl R 6s San Francisco Bay North Channel Lighted Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.847042000" lon="-122.396470000">
     <name>YRA-8</name>
     <desc>R '4' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 4</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.843825000" lon="-122.453357000">
     <name>YRA-12</name>
     <desc>G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 (Little Harding)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.807500000" lon="-122.460667000">
     <name>YRA-13</name>
     <desc>Crissy Field Buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.839800000" lon="-122.466300000">
     <name>YRA-15</name>
     <desc>Lighted yellow column approx. 0.5 nm east of Yellow Bluff (Hank Easom)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.810000000" lon="-122.466300000">
     <name>YRA-16</name>
     <desc>Lighted yellow column approx. 0.2 nm east of Ft.Point (Tom Blackaller)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.838239000" lon="-122.445994000">
     <name>YRA-17</name>
     <desc>RG 'HR' Fl (2+1)R 6s Harding Rock Lighted Buoy HR</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.818376000" lon="-122.403448000">
     <name>YRA-18</name>
     <desc>GR 'BR' Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR (Blossom Rock)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.879698000" lon="-122.414932000">
     <name>YRA-19</name>
     <desc>R '8' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 8</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.832016000" lon="-122.408648000">
     <name>YRA-21</name>
     <desc>G '1' Fl G 6s San Francisco Bay North Channel Lighted Buoy 1</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.864176000" lon="-122.408877000">
     <name>YRA-23</name>
     <desc>RW 'A' Mo (A) W San Francisco Bay North Channel Lighted Buoy A</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.860874000" lon="-122.396470000">
     <name>YRA-24</name>
     <desc>R '6' Fl R 4s San Francisco Bay North Channel Lighted Bell Buoy 6</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.890572000" lon="-122.417659000">
     <name>YRA-28</name>
     <desc>R '2' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.903908000" lon="-122.420154000">
     <name>YRA-29</name>
     <desc>R '4' Fl R 4s Southampton Shoal Channel Lighted Buoy 4</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.746000000" lon="-122.323333000">
     <name>YRA-32</name>
     <desc>Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.800985000" lon="-122.347771000">
     <name>YRA-33</name>
     <desc>R '4' Fl R 4s Oakland Inner Harbor Lighted Buoy 4</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.758250000" lon="-122.368350000">
     <name>YRA-34</name>
     <desc>R '2' Fl R 2.5s Lash Terminal Approach Lighted Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.776793000" lon="-122.331076000">
     <name>YRA-35</name>
     <desc>G '3' Fl G 2.5s Alameda Naval Air Station Channel Light 3</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.773362000" lon="-122.330164000">
     <name>YRA-36</name>
     <desc>R '4' Fl R 4s Alameda Naval Air Station Channel Light 4</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.739517000" lon="-122.359902000">
     <name>YRA-37</name>
     <desc>G '5' Fl G 4s Lash Terminal Approach Lighted Buoy 5</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.810767000" lon="-122.446817000">
     <name>YRA-A</name>
     <desc>Yellow sphere 'A' Outer Buoy St. Francis Yacht Club</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.771800000" lon="-122.382300000">
     <name>YRA-AS1</name>
     <desc>Yellow sphere approx. 0.3 nm east of BVYC</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.808567000" lon="-122.446300000">
     <name>YRA-B</name>
     <desc>Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.928258000" lon="-122.468584000">
     <name>YRA-CM2</name>
     <desc>R '2' Iso R 6s Corte Madera Channel Light 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="38.004000000" lon="-122.967300000">
     <name>YRA-DB</name>
     <desc>White buoy “DB” located in Drakes Bay</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.857680000" lon="-122.349403000">
     <name>YRA-DOC</name>
     <desc>G '3' Fl G 4s Berkeley Marina Channel Light 3</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.864200000" lon="-122.377000000">
     <name>YRA-FOC</name>
     <desc>Olympic Circle buoy “F”</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.769777000" lon="-122.632222000">
     <name>YRA-G1</name>
     <desc>G '1' Q G San Francisco Main Ship Channel Lighted Bell Buoy 1</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.781869000" lon="-122.589909000">
     <name>YRA-G7</name>
     <desc>G '7' Fl G 2.5s San Francisco Main Ship Channel Lighted Bell Buoy 7</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.855940000" lon="-122.468682000">
     <name>YRA-N</name>
     <desc>R '2' Fl R 4s Sausalito Channel Light 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.777260000" lon="-122.341322000">
     <name>YRA-NAS1</name>
     <desc>G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.774196000" lon="-122.341061000">
     <name>YRA-NAS2</name>
     <desc>R '2' Fl R 4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.934091000" lon="-122.485529000">
     <name>YRA-NG7</name>
     <desc>G '7' Fl G 2.5s Corte Madera Channel Light 7</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.800559000" lon="-122.798626000">
     <name>YRA-NO</name>
     <desc>Y 'N' Fl Y 4s San Francisco North Traffic Lane Lighted Bell Buoy N</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.913595000" lon="-122.445155000">
     <name>YRA-NR12</name>
     <desc>R '12' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 12</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.930484000" lon="-122.443433000">
     <name>YRA-NR14</name>
     <desc>R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.916245000" lon="-122.422347000">
     <name>YRA-NR6</name>
     <desc>R '6' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 6</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.812713000" lon="-122.541017000">
     <name>YRA-PB</name>
     <desc>RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy (Point Bonita)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.763339000" lon="-122.629042000">
     <name>YRA-R2</name>
     <desc>R '2' Q R San Francisco Main Ship Channel Lighted Whistle Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.775402000" lon="-122.587298000">
     <name>YRA-R8</name>
     <desc>R '8' Fl R 2.5s San Francisco Main Ship Channel Lighted Whistle Buoy 8</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.775559000" lon="-122.365849000">
     <name>YRA-SC1</name>
     <desc>GR 'SC' Fl (2+1)G 6s San Francisco Bay Preferred Channel Lighted Buoy SC</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.749934000" lon="-122.692776000">
     <name>YRA-SF</name>
     <desc>RW 'SF' Mo (A) W San Francisco Approach Lighted Whistle Buoy SF (Lightship)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.648771000" lon="-122.695004000">
     <name>YRA-SO</name>
     <desc>Y 'S' Fl Y 4s San Francisco South Traffic Lane Lighted Bell Buoy S</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.909500000" lon="-122.470000000">
     <name>YRA-TYC</name>
     <desc>Privately maintained White mark 'TYC' off entrance to Paradise Cove Harbor</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.691046000" lon="-122.794449000">
     <name>YRA-WE</name>
     <desc>Y 'W' Fl Y 2.5s San Francisco West Traffic Lane Lighted Gong Buoy W</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.811200000" lon="-122.443000000">
     <name>YRA-X</name>
     <desc>Yellow/blue sphere “X” Golden Gate Yacht Club</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.872300000" lon="-122.358500000">
     <name>YRA-XOC</name>
     <desc>Olympic Circle buoy “X” (Bobbi Tossi)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.931664000" lon="-122.420890000">
     <name>2CR</name>
     <desc>R '2CR' Fl R 4s Castro Rocks Lighted Buoy 2CR</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.833598000" lon="-122.568289000">
     <name>BON</name>
     <desc>R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.963145000" lon="-122.434389000">
     <name>BRO</name>
     <desc>Brothers Islands North of Richmond Bridge</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.867833000" lon="-122.326000000">
     <name>BYC</name>
     <desc>Berkeley Yacht Club</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.614000000" lon="-122.311800000">
     <name>CP-Z</name>
     <desc>Coyote Point Yacht Club Mark Z</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.536121000" lon="-122.552518000">
     <name>CR</name>
     <desc>R '26' Fl R 2.5s Colorado Reef Lighted Buoy 26</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.860167000" lon="-122.695411000">
     <name>DUX</name>
     <desc>G '1DR' Fl G 6s Duxbury Reef Lighted Buoy 1DR</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="38.033258000" lon="-122.161926000">
     <name>G25</name>
     <desc>G '25' Q G Carquinez Strait Lighted Buoy 25</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.818433000" lon="-122.478323000">
     <name>GGB</name>
     <desc>Golden Gate Bridge - Middle</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.825150000" lon="-122.479141000">
     <name>GGB-NT</name>
     <desc>Golden Gate Bridge - North Tower</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.813966000" lon="-122.478361000">
     <name>GGB-ST</name>
     <desc>Golden Gate Bridge - South Tower</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.486228000" lon="-122.506100000">
     <name>HMB-1</name>
     <desc>G '1' Fl G 2.5s Pillar Point Harbor Entrance Lighted Gong Buoy 1</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.464695000" lon="-122.469723000">
     <name>HMB-1S</name>
     <desc>G '1S' Fl G 6s Southeast Reef Southern End Lighted Gong Buoy 1S</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.472848000" lon="-122.484121000">
     <name>HMB-2</name>
     <desc>R '2' Fl R 4s Pillar Point Harbor Entrance Lighted Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.481525000" lon="-122.483054000">
     <name>HMB-3</name>
     <desc>G '3' Fl G 4s Pillar Point Harbor Entrance Lighted Bell Buoy 3</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.472226000" lon="-122.513765000">
     <name>HMB-PP</name>
     <desc>RW 'PP' Mo (A) W Pillar Point Harbor Approach Lighted Buoy PP</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.793289000" lon="-122.278976000">
     <name>Island-1</name>
     <desc>Island YC red/orange ball near Jack London Square</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.787647000" lon="-122.266652000">
     <name>Island-2</name>
     <desc>Island YC red/orange ball south of Jack London Aquatic Park</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.783585000" lon="-122.257527000">
     <name>Island-3</name>
     <desc>Island YC red/orange ball between G daymark on west end of CG Island and Encinal Basin</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.776848000" lon="-122.244162000">
     <name>Island-5</name>
     <desc>Island YC pink ball SE of CG Island</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.778413000" lon="-122.248656000">
     <name>Island-X</name>
     <desc>Island YC red/orange ball between RC dock and CG Island pier</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="38.070983000" lon="-122.247517000">
     <name>MIS#1</name>
     <desc>G '1' Fl G 2.5s Mare Island Strait Lighted Buoy 1</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.792825000" lon="-122.510390000">
     <name>MR</name>
     <desc>Mile Rocks Light</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.708147000" lon="-122.583025000">
     <name>ONR</name>
     <desc>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="38.016569000" lon="-122.367474000">
     <name>PPL-P</name>
     <desc>W 'P' Fl W 2.5s Point Pinole Light P</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="38.049079000" lon="-122.422047000">
     <name>PRE#2</name>
     <desc>R '2' Fl R 2.5s Petaluma River Entrance Light 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.967788000" lon="-122.429246000">
     <name>PSB#2</name>
     <desc>R '2' Fl R 4s San Pablo Bay Lighted Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.918193000" lon="-122.417493000">
     <name>RHC#2</name>
     <desc>R '2' Q R Richmond Harbor Channel Lighted Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
+  </wpt>
+  <wpt lat="37.908471000" lon="-122.400159000">
+    <name>RHC#5</name>
+    <desc>G '5' Fl G 2.5s Richmond Harbor Channel Lighted Buoy 5</desc>
+    <sym>activepoint</sym>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.905675000" lon="-122.394102000">
     <name>RHC#6</name>
     <desc>R '6' Fl R 4s Richmond Harbor Channel Lighted Buoy 6</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.906595000" lon="-122.386237000">
     <name>RHC#7</name>
     <desc>G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy 7</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.904440000" lon="-122.385007000">
     <name>RHC#8</name>
     <desc>R '8' Fl R 6s Richmond Harbor Channel Light 8</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.559827000" lon="-122.210537000">
     <name>RWC#12</name>
     <desc>R '12' Fl R 4s San Francisco Bay South Channel Light 12</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.552889000" lon="-122.196530000">
     <name>RWC#2</name>
     <desc>R '2' Q R Redwood Creek Entrance Light 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.549939000" lon="-122.193370000">
     <name>RWC#3</name>
     <desc>G '3' Fl G 4s Redwood Creek Entrance Light 3</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.547073000" lon="-122.195089000">
     <name>RWC#4</name>
     <desc>R '4' Fl R 2.5s Redwood Creek Entrance Light 4</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.897450000" lon="-122.389783000">
     <name>RYC-A</name>
     <desc>Richmond Yacht Club A (former Olympic Circle A)</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.886400000" lon="-122.402600000">
     <name>RYC-BK</name>
     <desc>Richmond Yacht Club Bob Klein yellow - 200y N of YRA-14</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.695759000" lon="-122.339447000">
     <name>SBC#1</name>
     <desc>G '1' Fl G 4s San Bruno Shoal Channel Light 1</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.694935000" lon="-122.341402000">
     <name>SBC#2</name>
     <desc>R '2' Fl R 4s San Bruno Shoal Channel Lighted Buoy 2</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.668387000" lon="-122.328374000">
     <name>SBC#4</name>
     <desc>R '4' Fl R 2.5s San Bruno Shoal Channel Light 4</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.643104000" lon="-122.315611000">
     <name>SBC#6</name>
     <desc>R '6' Fl R 4s San Bruno Shoal Channel Light 6</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.604621000" lon="-122.291406000">
     <name>SBC#8</name>
     <desc>R '8' Fl R 4s San Francisco Bay South Channel Light 8</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.588834000" lon="-122.269718000">
     <name>SBC#8A</name>
     <desc>'8A' San Francisco Bay South Channel Daybeacon 8A</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.957339000" lon="-122.457189000">
     <name>SRC#17</name>
     <desc>G '17' Fl G 4s San Francisco Bay North Channel Light 17</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.532333000" lon="-122.171833000">
     <name>SYC-A</name>
     <desc>Sequoia Yacht Club mark A. White collar buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.582666000" lon="-122.248074000">
     <name>SYC-B</name>
     <desc>G '11' San Francisco Bay South Channel Buoy 11</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.580167000" lon="-122.217833000">
     <name>SYC-E</name>
     <desc>Sequoia Yacht Club mark E. Yellow collar buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.560167000" lon="-122.186000000">
     <name>SYC-O</name>
     <desc>Sequoia Yacht Club mark O. Yellow collar buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.558500000" lon="-122.187833000">
     <name>SYC-P</name>
     <desc>Sequoia Yacht Club mark P. White collar buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.566167000" lon="-122.228833000">
     <name>SYC-S</name>
     <desc>Sequoia Yacht Club mark S. Yellow collar buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.570500000" lon="-122.202167000">
     <name>SYC-X</name>
     <desc>Sequoia Yacht Club mark X. Yellow collar buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.537000000" lon="-122.164500000">
     <name>SYC-Y</name>
     <desc>Sequoia Yacht Club mark Y. Yellow collar buoy</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
   <wpt lat="37.833229000" lon="-122.372506000">
     <name>TI#6</name>
     <desc>R '6' Fl R 2.5s Treasure Island North End Light 6</desc>
     <sym>activepoint</sym>
-    <time>2025-01-11T03:29:01Z</time>
+    <time>2025-05-02T20:14:25Z</time>
   </wpt>
 </gpx>
