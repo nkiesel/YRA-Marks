@@ -13,7 +13,7 @@ import requests
 # input and output file
 csvfile = '../San_Francisco.csv'
 
-yra_csv = "../YRA/YRAmarks.csv"
+yra_csv = "../YRA/YRAMarks.csv"
 
 # updated NOAA list in XML format
 noaa_url = 'https://www.navcen.uscg.gov/sites/default/files/xml/lightLists/weeklyUpdates/v6d11WeeklyChanges.xml'
