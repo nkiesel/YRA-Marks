@@ -1,14 +1,14 @@
--122.43100,37.92920,YRA-1,Red Rock Island
+-122.43167,37.93000,YRA-1,Red Rock Island
 -122.42214,37.82623,YRA-2,W Fl W 5s Alcatraz Light
 -123.00184,37.69920,YRA-3,W Fl W 15s Farallon Light
--122.44350,37.85280,YRA-4,Lighted red nun buoy near Pt Knox
--122.43020,37.81100,YRA-6,Lighted yellow column “M“ approx. 0.1 nm north
+-122.44167,37.85333,YRA-4,Lighted red nun buoy near Pt Knox
+-122.43000,37.81167,YRA-6,Lighted yellow column “M“ approx. 0.1 nm north
 -122.39644,37.83332,YRA-7,R '2' Fl R 6s San Francisco Bay North Channel Ligh
 -122.39647,37.84704,YRA-8,R '4' Fl R 2.5s San Francisco Bay North Channel Li
 -122.45336,37.84383,YRA-12,G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 (Littl
 -122.46067,37.80750,YRA-13,Crissy Field Buoy
--122.46630,37.83980,YRA-15,Lighted yellow column approx. 0.5 nm east of Yello
--122.46630,37.81000,YRA-16,Lighted yellow column approx. 0.2 nm east of Ft.Po
+-122.46833,37.84000,YRA-15,Lighted yellow column approx. 0.5 nm east of Yello
+-122.46500,37.81000,YRA-16,Lighted yellow column approx. 0.2 nm east of Ft.Po
 -122.44599,37.83824,YRA-17,RG 'HR' Fl (2+1)R 6s Harding Rock Lighted Buoy HR
 -122.40345,37.81838,YRA-18,GR 'BR' Fl (2+1)G 6s Blossom Rock Lighted Bell Buo
 -122.41493,37.87970,YRA-19,R '8' Fl R 2.5s San Francisco Bay North Channel Li
@@ -24,12 +24,13 @@
 -122.33016,37.77336,YRA-36,R '4' Fl R 4s Alameda Naval Air Station Channel Li
 -122.35990,37.73952,YRA-37,G '5' Fl G 4s Lash Terminal Approach Lighted Buoy 
 -122.44682,37.81077,YRA-A,Yellow sphere 'A' Outer Buoy St. Francis Yacht Clu
--122.38230,37.77180,YRA-AS1,Yellow sphere approx. 0.3 nm east of BVYC
+-122.45333,37.80833,YRA-ANITA,Offset buoy off Anita Rock
+-122.38333,37.77167,YRA-AS1,Yellow sphere approx. 0.3 nm east of BVYC
 -122.44630,37.80857,YRA-B,Inner yellow sphere mark 'B' off St. Francis Yacht
 -122.46858,37.92826,YRA-CM2,R '2' Iso R 6s Corte Madera Channel Light 2
--122.96730,38.00400,YRA-DB,White buoy “DB” located in Drakes Bay
+-122.96667,38.00333,YRA-DB,White buoy “DB” located in Drakes Bay
 -122.34940,37.85768,YRA-DOC,G '3' Fl G 4s Berkeley Marina Channel Light 3
--122.37700,37.86420,YRA-FOC,Olympic Circle buoy “F”
+-122.37667,37.86500,YRA-FOC,Olympic Circle buoy “F”
 -122.63222,37.76978,YRA-G1,G '1' Q G San Francisco Main Ship Channel Lighted 
 -122.58991,37.78187,YRA-G7,G '7' Fl G 2.5s San Francisco Main Ship Channel Li
 -122.46868,37.85594,YRA-N,R '2' Fl R 4s Sausalito Channel Light 2
@@ -48,8 +49,8 @@
 -122.69500,37.64877,YRA-SO,Y 'S' Fl Y 4s San Francisco South Traffic Lane Lig
 -122.47000,37.90950,YRA-TYC,Privately maintained White mark 'TYC' off entrance
 -122.79445,37.69105,YRA-WE,Y 'W' Fl Y 2.5s San Francisco West Traffic Lane Li
--122.44300,37.81120,YRA-X,Yellow/blue sphere “X” Golden Gate Yacht Club
--122.35850,37.87230,YRA-XOC,Olympic Circle buoy “X” (Bobbi Tossi)
+-122.44333,37.81167,YRA-X,Yellow/blue sphere “X” Golden Gate Yacht Club
+-122.35833,37.87333,YRA-XOC,Olympic Circle buoy “X” (Bobbi Tossi)
 -122.42089,37.93166,2CR,R '2CR' Fl R 4s Castro Rocks Lighted Buoy 2CR
 -122.56829,37.83360,BON,R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 
 -122.43439,37.96314,BRO,Brothers Islands North of Richmond Bridge
