@@ -139,7 +139,7 @@ with open(yra_csv) as yra:
         id = f"YRA-{row[3]}"
         existing = marks.get(id)
         if [existing]:
-            if id != "YRA-A" and id != "YRA-B":
+            if id != "YRA-A" and id != "YRA-B" and id != "YRA-DB" and id != "YRA-15":
                 marks[id] = [row[1], row[2], id, re.sub(r"\s+", " ", row[4].replace('"', '“'))]
                 yra_count += 1
         else:
