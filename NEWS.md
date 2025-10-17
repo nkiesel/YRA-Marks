@@ -1,3 +1,7 @@
+**2025-10-17**
+
+ * Updated YRA-DB and YRA-15 coordinates
+
 **2024-12-31**
 
  * I'm now coordinating with the really helpful YRA race coordinater, and we agreed on some mark

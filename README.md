@@ -50,7 +50,7 @@ is not of interest to most users.
 |YRA-8|37.847042|-122.396470|R '4' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 4|
 |YRA-12|37.843825|-122.453357|G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 (Little Harding)|
 |YRA-13|37.807500|-122.460667|Crissy Field Buoy|
-|YRA-15|37.840000|-122.468333|Lighted yellow column approx. 0.5 nm east of Yellow Bluff (Hank Easom)|
+|YRA-15|37.841087|-122.468013|Lighted yellow column approx. 0.5 nm east of Yellow Bluff (Hank Easom)|
 |YRA-16|37.810000|-122.465000|Lighted yellow column approx. 0.2 nm east of Ft.Point (Tom Blackaller)|
 |YRA-17|37.838239|-122.445994|RG 'HR' Fl (2+1)R 6s Harding Rock Lighted Buoy HR|
 |YRA-18|37.818376|-122.403448|GR 'BR' Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR (Blossom Rock)|
@@ -71,7 +71,7 @@ is not of interest to most users.
 |YRA-AS1|37.771667|-122.383333|Yellow sphere approx. 0.3 nm east of BVYC|
 |YRA-B|37.808567|-122.446300|Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham|
 |YRA-CM2|37.928258|-122.468584|R '2' Iso R 6s Corte Madera Channel Light 2|
-|YRA-DB|38.003333|-122.966667|White buoy “DB” located in Drakes Bay|
+|YRA-DB|38.003833|-122.967333|White buoy “DB” located in Drakes Bay|
 |YRA-DOC|37.857680|-122.349403|G '3' Fl G 4s Berkeley Marina Channel Light 3|
 |YRA-FOC|37.865000|-122.376667|Olympic Circle buoy “F”|
 |YRA-G1|37.769777|-122.632222|G '1' Q G San Francisco Main Ship Channel Lighted Bell Buoy 1|
