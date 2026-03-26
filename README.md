@@ -123,32 +123,6 @@ is not of interest to most users.
 |PSB#2|37.967788|-122.429246|R '2' Fl R 4s San Pablo Bay Lighted Buoy 2|
 |RHC#2|37.918193|-122.417493|R '2' Q R Richmond Harbor Channel Lighted Buoy 2|
 |RHC#5|37.908471|-122.400159|G '5' Fl G 2.5s Richmond Harbor Channel Lighted Buoy 5|
-|RHC#5A|37.907380|-122.391830|G '5A' Fl G 4s Richmond Harbor Channel Lighted Buoy 5A|
-|RHC#6|37.905675|-122.394102|R '6' Fl R 4s Richmond Harbor Channel Lighted Buoy 6|
-|RHC#7|37.906595|-122.386237|G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy 7|
-|RHC#8|37.904440|-122.385007|R '8' Fl R 6s Richmond Harbor Channel Light 8|
-|RWC#12|37.559827|-122.210537|R '12' Fl R 4s San Francisco Bay South Channel Light 12|
-|RWC#2|37.552889|-122.196530|R '2' Q R Redwood Creek Entrance Light 2|
-|RWC#3|37.549939|-122.193370|G '3' Fl G 4s Redwood Creek Entrance Light 3|
-|RWC#4|37.547073|-122.195089|R '4' Fl R 2.5s Redwood Creek Entrance Light 4|
-|RYC-A|37.897450|-122.389783|Richmond Yacht Club A (former Olympic Circle A)|
-|RYC-BK|37.886400|-122.402600|Richmond Yacht Club Bob Klein yellow - 200y N of YRA-14|
-|SBC#1|37.695759|-122.339447|G '1' Fl G 4s San Bruno Shoal Channel Light 1|
-|SBC#2|37.694935|-122.341402|R '2' Fl R 4s San Bruno Shoal Channel Lighted Buoy 2|
-|SBC#4|37.668387|-122.328374|R '4' Fl R 2.5s San Bruno Shoal Channel Light 4|
-|SBC#6|37.643104|-122.315611|R '6' Fl R 4s San Bruno Shoal Channel Light 6|
-|SBC#8|37.604621|-122.291406|R '8' Fl R 4s San Francisco Bay South Channel Light 8|
-|SBC#8A|37.588834|-122.269718|'8A' San Francisco Bay South Channel Daybeacon 8A|
-|SRC#17|37.957339|-122.457189|G '17' Fl G 4s San Francisco Bay North Channel Light 17|
-|SYC-A|37.532333|-122.171833|Sequoia Yacht Club mark A. White collar buoy|
-|SYC-B|37.582666|-122.248074|G '11' San Francisco Bay South Channel Buoy 11|
-|SYC-E|37.580167|-122.217833|Sequoia Yacht Club mark E. Yellow collar buoy|
-|SYC-O|37.560167|-122.186000|Sequoia Yacht Club mark O. Yellow collar buoy|
-|SYC-P|37.558500|-122.187833|Sequoia Yacht Club mark P. White collar buoy|
-|SYC-S|37.566167|-122.228833|Sequoia Yacht Club mark S. Yellow collar buoy|
-|SYC-X|37.570500|-122.202167|Sequoia Yacht Club mark X. Yellow collar buoy|
-|SYC-Y|37.537000|-122.164500|Sequoia Yacht Club mark Y. Yellow collar buoy|
-|TI#6|37.833229|-122.372506|R '6' Fl R 2.5s Treasure Island North End Light 6|
 
 The marks are offered in multiple formats from generated
 [San_Francisco.csv](San_Francisco.csv) using [GPSBabel].
