@@ -1,83 +1,109 @@
-Latitude,Longitude,Name,Description
-"N37 55 48.000","W122 25 54.001","YRA-1","Red Rock Island"
-"N37 49 34.424","W122 25 19.711","YRA-2","W Fl W 5s Alcatraz Light"
-"N37 41 57.106","W123 0 6.613","YRA-3","W Fl W 15s Farallon Light"
-"N37 51 11.999","W122 26 30.001","YRA-4","Lighted red nun buoy near Pt Knox"
-"N37 48 42.001","W122 25 48.000","YRA-6","Lighted yellow column “M“ approx. 0.1 nm north of Ft Mason docks (Phil Perkins)"
-"N37 49 59.941","W122 23 47.180","YRA-7","R '2' Fl R 6s San Francisco Bay North Channel Lighted Buoy 2"
-"N37 50 49.351","W122 23 47.292","YRA-8","R '4' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 4"
-"N37 50 37.770","W122 27 12.085","YRA-12","G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 (Little Harding)"
-"N37 48 27.000","W122 27 38.401","YRA-13","Crissy Field Buoy"
-"N37 50 27.913","W122 28 4.847","YRA-15","Lighted yellow column approx. 0.5 nm east of Yellow Bluff (Hank Easom)"
-"N37 48 36.000","W122 27 54.000","YRA-16","Lighted yellow column approx. 0.2 nm east of Ft.Point (Tom Blackaller)"
-"N37 50 17.660","W122 26 45.578","YRA-17","RG 'HR' Fl (2+1)R 6s Harding Rock Lighted Buoy HR"
-"N37 49 6.154","W122 24 12.413","YRA-18","GR 'BR' Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR (Blossom Rock)"
-"N37 52 46.913","W122 24 53.755","YRA-19","R '8' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 8"
-"N37 49 55.258","W122 24 31.133","YRA-21","G '1' Fl G 6s San Francisco Bay North Channel Lighted Buoy 1"
-"N37 51 51.034","W122 24 31.957","YRA-23","RW 'A' Mo (A) W San Francisco Bay North Channel Lighted Buoy A"
-"N37 51 39.146","W122 23 47.292","YRA-24","R '6' Fl R 4s San Francisco Bay North Channel Lighted Bell Buoy 6"
-"N37 53 26.059","W122 25 3.572","YRA-28","R '2' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 2"
-"N37 54 14.069","W122 25 12.554","YRA-29","R '4' Fl R 4s Southampton Shoal Channel Lighted Buoy 4"
-"N37 44 45.600","W122 19 23.999","YRA-32","Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal"
-"N37 48 3.546","W122 20 51.976","YRA-33","R '4' Fl R 4s Oakland Inner Harbor Lighted Buoy 4"
-"N37 45 29.700","W122 22 6.060","YRA-34","R '2' Fl R 2.5s Lash Terminal Approach Lighted Buoy 2"
-"N37 46 36.455","W122 19 51.874","YRA-35","G '3' Fl G 2.5s Alameda Naval Air Station Channel Light 3"
-"N37 46 24.103","W122 19 48.590","YRA-36","R '4' Fl R 4s Alameda Naval Air Station Channel Light 4"
-"N37 44 22.261","W122 21 35.647","YRA-37","G '5' Fl G 4s Lash Terminal Approach Lighted Buoy 5"
-"N37 48 38.761","W122 26 48.541","YRA-A","Yellow sphere 'A' Outer Buoy St. Francis Yacht Club"
-"N37 48 29.999","W122 27 11.999","YRA-ANITA","Offset buoy off Anita Rock"
-"N37 46 18.001","W122 22 59.999","YRA-AS1","Yellow sphere approx. 0.3 nm east of BVYC"
-"N37 48 30.841","W122 26 46.680","YRA-B","Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham"
-"N37 55 41.729","W122 28 6.902","YRA-CM2","R '2' Iso R 6s Corte Madera Channel Light 2"
-"N38 0 13.799","W122 58 2.399","YRA-DB","White buoy “DB” located in Drakes Bay"
-"N37 51 27.648","W122 20 57.851","YRA-DOC","G '3' Fl G 4s Berkeley Marina Channel Light 3"
-"N37 51 54.000","W122 22 36.001","YRA-FOC","Olympic Circle buoy “F”"
-"N37 46 11.197","W122 37 55.999","YRA-G1","G '1' Q G San Francisco Main Ship Channel Lighted Bell Buoy 1"
-"N37 46 54.728","W122 35 23.672","YRA-G7","G '7' Fl G 2.5s San Francisco Main Ship Channel Lighted Bell Buoy 7"
-"N37 51 21.384","W122 28 7.255","YRA-N","R '2' Fl R 4s Sausalito Channel Light 2"
-"N37 46 38.136","W122 20 28.759","YRA-NAS1","G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1"
-"N37 46 27.106","W122 20 27.820","YRA-NAS2","R '2' Fl R 4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2"
-"N37 56 2.728","W122 29 7.904","YRA-NG7","G '7' Fl G 2.5s Corte Madera Channel Light 7"
-"N37 48 2.012","W122 47 55.054","YRA-NO","Y 'N' Fl Y 4s San Francisco North Traffic Lane Lighted Bell Buoy N"
-"N37 54 48.942","W122 26 42.558","YRA-NR12","R '12' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 12"
-"N37 55 49.742","W122 26 36.359","YRA-NR14","R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14"
-"N37 54 58.482","W122 25 20.449","YRA-NR6","R '6' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 6"
-"N37 48 45.767","W122 32 27.661","YRA-PB","RG Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy (Point Bonita)"
-"N37 45 48.020","W122 37 44.551","YRA-R2","R '2' Q R San Francisco Main Ship Channel Lighted Whistle Buoy 2"
-"N37 46 31.447","W122 35 14.273","YRA-R8","R '8' Fl R 2.5s San Francisco Main Ship Channel Lighted Whistle Buoy 8"
-"N37 46 32.012","W122 21 57.056","YRA-SC1","GR 'SC' Fl (2+1)G 6s San Francisco Bay Preferred Channel Lighted Buoy SC"
-"N37 44 59.762","W122 41 33.994","YRA-SF","RW 'SF' Mo (A) W San Francisco Approach Lighted Whistle Buoy SF (Lightship)"
-"N37 38 55.576","W122 41 42.014","YRA-SO","Y 'S' Fl Y 4s San Francisco South Traffic Lane Lighted Bell Buoy S"
-"N37 54 34.200","W122 28 12.000","YRA-TYC","Privately maintained White mark 'TYC' off entrance to Paradise Cove Harbor"
-"N37 41 27.766","W122 47 40.016","YRA-WE","Y 'W' Fl Y 2.5s San Francisco West Traffic Lane Lighted Gong Buoy W"
-"N37 48 42.001","W122 26 35.999","YRA-X","Yellow/blue sphere “X” Golden Gate Yacht Club"
-"N37 52 23.999","W122 21 29.999","YRA-XOC","Olympic Circle buoy “X” (Bobbi Tossi)"
-"N37 55 53.990","W122 25 15.204","2CR","R '2CR' Fl R 4s Castro Rocks Lighted Buoy 2CR"
-"N37 50 0.953","W122 34 5.840","BON","R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 2"
-"N37 57 47.322","W122 26 3.800","BRO","Brothers Islands North of Richmond Bridge"
-"N37 52 4.199","W122 19 33.600","BYC","Berkeley Yacht Club"
-"N37 36 50.400","W122 18 42.480","CP-Z","Coyote Point Yacht Club Mark Z"
-"N37 32 10.036","W122 33 9.065","CR","R '26' Fl R 2.5s Colorado Reef Lighted Buoy 26"
-"N37 51 36.601","W122 41 43.480","DUX","G '1DR' Fl G 6s Duxbury Reef Lighted Buoy 1DR"
-"N38 1 59.729","W122 9 42.934","G25","G '25' Q G Carquinez Strait Lighted Buoy 25"
-"N37 49 6.359","W122 28 41.963","GGB","Golden Gate Bridge - Middle"
-"N37 49 30.540","W122 28 44.908","GGB-NT","Golden Gate Bridge - North Tower"
-"N37 48 50.278","W122 28 42.100","GGB-ST","Golden Gate Bridge - South Tower"
-"N37 29 10.421","W122 30 21.960","HMB-1","G '1' Fl G 2.5s Pillar Point Harbor Entrance Lighted Gong Buoy 1"
-"N37 27 52.902","W122 28 11.003","HMB-1S","G '1S' Fl G 6s Southeast Reef Southern End Lighted Gong Buoy 1S"
-"N37 28 22.253","W122 29 2.836","HMB-2","R '2' Fl R 4s Pillar Point Harbor Entrance Lighted Buoy 2"
-"N37 28 53.490","W122 28 58.994","HMB-3","G '3' Fl G 4s Pillar Point Harbor Entrance Lighted Bell Buoy 3"
-"N37 28 20.014","W122 30 49.554","HMB-PP","RW 'PP' Mo (A) W Pillar Point Harbor Approach Lighted Buoy PP"
-"N37 47 35.840","W122 16 44.314","Island-1","Island YC red/orange ball near Jack London Square"
-"N37 47 15.529","W122 15 59.947","Island-2","Island YC red/orange ball south of Jack London Aquatic Park"
-"N37 47 0.906","W122 15 27.097","Island-3","Island YC red/orange ball between G daymark on west end of CG Island and Encinal Basin"
-"N37 46 36.653","W122 14 38.983","Island-5","Island YC pink ball SE of CG Island"
-"N37 46 42.287","W122 14 55.162","Island-X","Island YC red/orange ball between RC dock and CG Island pier"
-"N38 4 15.539","W122 14 51.061","MIS#1","G '1' Fl G 2.5s Mare Island Strait Lighted Buoy 1"
-"N37 47 34.170","W122 30 37.404","MR","Mile Rocks Light"
-"N37 42 29.329","W122 34 58.890","ONR","Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy"
-"N38 0 59.648","W122 22 2.906","PPL-P","W 'P' Fl W 2.5s Point Pinole Light P"
-"N38 2 56.684","W122 25 19.369","PRE#2","R '2' Fl R 2.5s Petaluma River Entrance Light 2"
-"N37 58 4.037","W122 25 45.286","PSB#2","R '2' Fl R 4s San Pablo Bay Lighted Buoy 2"
-"N37 55 5.495","W122 25 2.975","RHC#2","R '2' Q R Richmond Harbor Channel Lighted Buoy 2"
-"N37 54 30.496","W122 24 0.572","RHC#5","G '5' Fl G 2.5s Richmond Harbor Channel Lighted Buoy 5"
+Name,Latitude,Longitude,Description
+YRA-1,N37 55 48.000,W122 25 54.000,Red Rock Island
+YRA-2,N37 49 34.428,W122 25 19.704,W Fl W 5s Alcatraz Light
+YRA-3,N37 41 57.120,W123 0 6.624,W Fl W 15s Farallon Light
+YRA-4,N37 51 12.000,W122 26 30.000,Lighted red nun buoy near Pt Knox
+YRA-6,N37 48 42.000,W122 25 48.000,Lighted yellow column 'M' approx. 0.1 nm north of Ft Mason docks (Phil Perkins)
+YRA-7,N37 49 59.952,W122 23 47.184,R '2' Fl R 6s San Francisco Bay North Channel Lighted Buoy 2
+YRA-8,N37 50 49.344,W122 23 47.292,R '4' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 4
+YRA-12,N37 50 37.788,W122 27 12.096,G '1' Fl G 4s Raccoon Strait Lighted Buoy 1 (Little Harding)
+YRA-13,N37 48 27.000,W122 27 38.401,Crissy Field Buoy
+YRA-15,N37 50 24.000,W122 28 6.000,Lighted yellow column approx. 0.5 nm east of Yellow Bluff (Hank Easom)
+YRA-16,N37 48 36.000,W122 27 54.000,Lighted yellow column approx. 0.2 nm east of Ft.Point (Tom Blackaller)
+YRA-17,N37 50 17.664,W122 26 45.564,RGR 'HR' Fl (2+1)R 6s Harding Rock Lighted Buoy HR
+YRA-18,N37 49 6.168,W122 24 12.420,GRG 'BR' Fl (2+1)G 6s Blossom Rock Lighted Bell Buoy BR (Blossom Rock)
+YRA-19,N37 52 46.920,W122 24 53.748,R '8' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 8
+YRA-21,N37 49 55.272,W122 24 31.140,G '1' Fl G 6s San Francisco Bay North Channel Lighted Buoy 1
+YRA-23,N37 51 51.048,W122 24 31.968,RW 'A' Mo (A) W San Francisco Bay North Channel Lighted Buoy A
+YRA-24,N37 51 39.132,W122 23 47.292,R '6' Fl R 4s San Francisco Bay North Channel Lighted Bell Buoy 6
+YRA-28,N37 53 26.052,W122 25 3.576,R '2' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 2
+YRA-29,N37 54 14.076,W122 25 12.540,R '4' Fl R 4s Southampton Shoal Channel Lighted Buoy 4
+YRA-32,N37 44 45.600,W122 19 23.999,Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal
+YRA-33,N37 48 3.564,W122 20 51.972,R '4' Fl R 4s Oakland Inner Harbor Lighted Buoy 4
+YRA-34,N37 45 29.700,W122 22 6.060,R '2' Fl R 2.5s Lash Terminal Approach Lighted Buoy 2
+YRA-35,N37 46 36.444,W122 19 51.888,G '3' Fl G 2.5s Alameda Naval Air Station Channel Light 3
+YRA-36,N37 46 24.096,W122 19 48.576,R '4' Fl R 4s Alameda Naval Air Station Channel Light 4
+YRA-37,N37 44 22.272,W122 21 35.640,G '5' Fl G 4s Lash Terminal Approach Lighted Buoy 5
+YRA-A,N37 48 38.761,W122 26 48.541,Yellow sphere 'A' Outer Buoy St. Francis Yacht Club
+YRA-ANITA,N37 48 30.000,W122 27 12.000,Offset buoy off Anita Rock
+YRA-AS1,N37 46 18.000,W122 22 60.000,Yellow sphere approx. 0.3 nm east of BVYC
+YRA-B,N37 48 30.841,W122 26 46.680,Inner yellow sphere mark 'B' off St. Francis Yacht Club - Billingham
+YRA-DB,N38 0 12.000,W122 58 0.000,White buoy 'DB' located in Drakes Bay
+YRA-CM2,N37 55 41.736,W122 28 6.888,R '2' Iso R 6s Corte Madera Channel Light 2
+YRA-DOC,N37 51 27.648,W122 20 57.840,G '3' Fl G 4s Berkeley Marina Channel Light 3
+YRA-FOC,N37 51 54.000,W122 22 36.000,Olympic Circle buoy 'F'
+YRA-G1,N37 46 11.208,W122 37 55.992,G '1' Q G San Francisco Main Ship Channel Lighted Bell Buoy 1
+YRA-G7,N37 46 54.732,W122 35 23.676,G '7' Fl G 2.5s San Francisco Main Ship Channel Lighted Bell Buoy 7
+YRA-N,N37 51 21.384,W122 28 7.248,R '2' Fl R 4s Sausalito Channel Light 2
+YRA-NAS1,N37 46 38.136,W122 20 28.752,G '1' Fl G 4s Alameda Naval Air Station Channel Entrance Lighted Bell Buoy 1
+YRA-NAS2,N37 46 27.120,W122 20 27.816,R '2' Fl R 4s Alameda Naval Air Station Channel Entrance Lighted Buoy 2
+YRA-NG7,N37 56 2.724,W122 29 7.908,G '7' Fl G 2.5s Corte Madera Channel Light 7
+YRA-NO,N37 48 2.016,W122 47 55.068,Y 'N' Fl Y 4s San Francisco North Traffic Lane Lighted Bell Buoy N
+YRA-NR6,N37 54 58.500,W122 25 20.460,R '6' Fl R 2.5s Southampton Shoal Channel Lighted Buoy 6
+YRA-NR12,N37 54 48.960,W122 26 42.540,R '12' Fl R 2.5s San Francisco Bay North Channel Lighted Buoy 12
+YRA-NR14,N37 55 49.728,W122 26 36.348,R '14' Fl R 4s San Francisco Bay North Channel Lighted Buoy 14
+YRA-PB,N37 48 45.756,W122 32 27.672,RGR Fl (2+1)R 6s Four Fathom Bank Lighted Bell Buoy (Point Bonita)
+YRA-R2,N37 45 48.024,W122 37 44.544,R '2' Q R San Francisco Main Ship Channel Lighted Whistle Buoy 2
+YRA-R8,N37 46 31.440,W122 35 14.280,R '8' Fl R 2.5s San Francisco Main Ship Channel Lighted Whistle Buoy 8
+YRA-SC1,N37 46 32.016,W122 21 57.060,GRG 'SC' Fl (2+1)G 6s San Francisco Bay Preferred Channel Lighted Buoy SC
+YRA-SF,N37 44 59.748,W122 41 34.008,RW 'SF' Mo (A) W San Francisco Approach Lighted Whistle Buoy SF (Lightship)
+YRA-SO,N37 38 55.572,W122 41 42.000,Y 'S' Fl Y 4s San Francisco South Traffic Lane Lighted Bell Buoy S
+YRA-TYC,N37 54 34.200,W122 28 12.000,Privately maintained White mark 'TYC' off entrance to Paradise Cove Harbor
+YRA-WE,N37 41 27.780,W122 47 40.020,Y 'W' Fl Y 2.5s San Francisco West Traffic Lane Lighted Gong Buoy W
+YRA-X,N37 48 42.000,W122 26 36.000,Yellow/blue sphere 'X' Golden Gate Yacht Club
+YRA-XOC,N37 52 24.000,W122 21 30.000,Olympic Circle buoy 'X' (Bobbi Tossi)
+2CR,N37 55 53.976,W122 25 15.204,R '2CR' Fl R 4s Castro Rocks Lighted Buoy 2CR
+BON,N37 50 0.960,W122 34 5.844,R '2' Fl R 6s Bonita Channel Lighted Whistle Buoy 2
+BRO,N37 57 47.322,W122 26 3.800,Brothers Islands North of Richmond Bridge
+BYC,N37 52 4.199,W122 19 33.600,Berkeley Yacht Club
+CP-Z,N37 36 50.400,W122 18 42.480,Coyote Point Yacht Club Mark Z
+CR,N37 32 10.032,W122 33 9.072,R '26' Fl R 2.5s Colorado Reef Lighted Buoy 26
+DUX,N37 51 36.612,W122 41 43.476,G '1DR' Fl G 6s Duxbury Reef Lighted Buoy 1DR
+G25,N38 1 59.736,W122 9 42.948,G '25' Q G Carquinez Strait Lighted Buoy 25
+GGB,N37 49 6.359,W122 28 41.963,Golden Gate Bridge - Middle
+GGB-NT,N37 49 30.540,W122 28 44.908,Golden Gate Bridge - North Tower
+GGB-ST,N37 48 50.278,W122 28 42.100,Golden Gate Bridge - South Tower
+HMB-1,N37 29 10.428,W122 30 21.960,G '1' Fl G 2.5s Pillar Point Harbor Entrance Lighted Gong Buoy 1
+HMB-3,N37 28 53.508,W122 28 58.980,G '3' Fl G 4s Pillar Point Harbor Entrance Lighted Bell Buoy 3
+HMB-1S,N37 27 52.884,W122 28 10.992,G '1S' Fl G 6s Southeast Reef Southern End Lighted Gong Buoy 1S
+HMB-2,N37 28 22.260,W122 29 2.832,R '2' Fl R 4s Pillar Point Harbor Entrance Lighted Buoy 2
+HMB-PP,N37 28 20.028,W122 30 49.572,RW 'PP' Mo (A) W Pillar Point Harbor Approach Lighted Buoy PP
+Island-1,N37 47 35.840,W122 16 44.314,Island YC red/orange ball near Jack London Square
+Island-2,N37 47 15.529,W122 15 59.947,Island YC red/orange ball south of Jack London Aquatic Park
+Island-3,N37 47 0.906,W122 15 27.097,Island YC red/orange ball between G daymark on west end of CG Island and Encinal Basin
+Island-X,N37 46 42.287,W122 14 55.162,Island YC red/orange ball between RC dock and CG Island pier
+Island-5,N37 46 36.653,W122 14 38.983,Island YC pink ball SE of CG Island
+MIS#1,N38 4 15.528,W122 14 51.072,G '1' Fl G 2.5s Mare Island Strait Lighted Buoy 1
+MR,N37 47 34.188,W122 30 37.404,WO Fl W 5s Mile Rocks Light
+ONR,N37 42 29.329,W122 34 58.890,Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy
+PPL-P,N38 0 59.652,W122 22 2.892,WO 'P' Fl W 2.5s Point Pinole Light P
+PRE#2,N38 2 56.688,W122 25 19.380,R '2' Fl R 2.5s Petaluma River Entrance Light 2
+PSB#2,N37 58 4.044,W122 25 45.300,R '2' Fl R 4s San Pablo Bay Lighted Buoy 2
+RHC#2,N37 55 5.484,W122 25 2.964,R '2' Q R Richmond Harbor Channel Lighted Buoy 2
+RHC#5,N37 54 30.492,W122 24 0.576,G '5' Fl G 2.5s Richmond Harbor Channel Lighted Buoy 5
+RHC#5A,N37 54 26.568,W122 23 30.588,G '5A' Fl G 4s Richmond Harbor Channel Lighted Buoy 5A
+RHC#6,N37 54 20.448,W122 23 38.760,R '6' Fl R 4s Richmond Harbor Channel Lighted Buoy 6
+RHC#7,N37 54 23.760,W122 23 10.464,G '7' Fl G 4s Richmond Harbor Channel Lighted Buoy 7
+RHC#8,N37 54 15.984,W122 23 6.036,R '8' Fl R 6s Richmond Harbor Channel Light 8
+RWC#2,N37 33 10.404,W122 11 47.508,R '2' Q R Redwood Creek Entrance Light 2
+RWC#3,N37 32 59.784,W122 11 36.132,G '3' Fl G 4s Redwood Creek Entrance Light 3
+RWC#4,N37 32 49.452,W122 11 42.324,R '4' Fl R 2.5s Redwood Creek Entrance Light 4
+RWC#12,N37 33 35.388,W122 12 37.944,R '12' Fl R 4s San Francisco Bay South Channel Light 12
+RYC-A,N37 53 50.820,W122 23 23.219,Richmond Yacht Club A (former Olympic Circle A)
+RYC-BK,N37 53 11.040,W122 24 9.360,Richmond Yacht Club Bob Klein yellow - 200y N of YRA-14
+SBC#1,N37 41 44.736,W122 20 22.020,G '1' Fl G 4s San Bruno Shoal Channel Light 1
+SBC#2,N37 41 41.784,W122 20 29.040,R '2' Fl R 4s San Bruno Shoal Channel Lighted Buoy 2
+SBC#4,N37 40 6.204,W122 19 42.132,R '4' Fl R 2.5s San Bruno Shoal Channel Light 4
+SBC#6,N37 38 35.160,W122 18 56.196,R '6' Fl R 4s San Bruno Shoal Channel Light 6
+SBC#8,N37 36 16.632,W122 17 29.076,R '8' Fl R 4s San Francisco Bay South Channel Light 8
+SBC#8A,N37 35 19.788,W122 16 10.992,R '8A' San Francisco Bay South Channel Daybeacon 8A
+SRC#17,N37 57 26.424,W122 27 25.884,G '17' Fl G 4s San Francisco Bay North Channel Light 17
+SYC-A,N37 31 56.399,W122 10 18.599,Sequoia Yacht Club mark A. White collar buoy
+SYC-B,N37 34 57.612,W122 14 53.052,G '11' San Francisco Bay South Channel Buoy 11
+SYC-E,N37 34 48.601,W122 13 4.199,Sequoia Yacht Club mark E. Yellow collar buoy
+SYC-O,N37 33 36.601,W122 11 9.600,Sequoia Yacht Club mark O. Yellow collar buoy
+SYC-P,N37 33 30.600,W122 11 16.199,Sequoia Yacht Club mark P. White collar buoy
+SYC-S,N37 33 58.201,W122 13 43.799,Sequoia Yacht Club mark S. Yellow collar buoy
+SYC-X,N37 34 13.800,W122 12 7.801,Sequoia Yacht Club mark X. Yellow collar buoy
+SYC-Y,N37 32 13.200,W122 9 52.200,Sequoia Yacht Club mark Y. Yellow collar buoy
+TI#6,N37 49 59.628,W122 22 21.036,R '6' Fl R 2.5s Treasure Island North End Light 6
