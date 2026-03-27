@@ -1,0 +1,21 @@
+[versions]
+csv = "1.10.0"
+jpx = "4.0.0"
+kaml = "0.104.0"
+kotlin = "2.3.20"
+plugin-versionsUpdate = "1.1.0"
+serialization = "1.10.0"
+xmlutil = "0.91.3"
+
+[libraries]
+csv = { module = "com.jsoizo:kotlin-csv-jvm", version.ref = "csv" }
+jpx = { module = "io.jenetics:jpx", version.ref = "jpx" }
+kaml = { module = "com.charleskorn.kaml:kaml", version.ref = "kaml" }
+kotlin-serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+xmlutil-core = { module = "io.github.pdvrieze.xmlutil:core", version.ref = "xmlutil" }
+xmlutil-jvm = { module = "io.github.pdvrieze.xmlutil:serialization-jvm", version.ref = "xmlutil" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+versions-update = { id = "nl.littlerobots.version-catalog-update", version.ref = "plugin-versionsUpdate" }
