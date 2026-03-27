@@ -12,7 +12,7 @@ information here was collected from multiple sources:
  * Mark list from YRA
  * NOAA ENC charts
  * Sailing clubs
- * [USCG Weekly Light List Volume6][llv6]
+ * [USCG Light List District 11][lightlist]
 
 You can download the list in multiple formats or look at them using
 [Google Maps][chart] which also allows to search for these marks on
@@ -31,12 +31,6 @@ Of course I do not claim that any of this information is correct and
 strongly advise not to use this for navigation.  Having said that, if
 anyone finds mistakes or has additions, please feel free to send me
 updates.
-
-For most marks that are listed in "Volume 6 - District 11" of the
-[Weekly Light List][llv6], the description in [San_Francisco.csv](San_Francisco.csv)
-contains the light number in `[]` (e.g. `[360]` for the Lightship).
-However, that number is omitted from all the other files because it
-is not of interest to most users.
 
 ## All The Marks
 |Name|Latitude|Longitude|Description|
@@ -152,11 +146,7 @@ is not of interest to most users.
 
 
 The marks are offered in multiple formats from generated
-[San_Francisco.csv](San_Francisco.csv) using [GPSBabel].
-
-As an example, the GPX file was generated using
-
-    gpsbabel -i unicsv -f San_Francisco.csv -o gpx -F San_Francisco.gpx
+[San_Francisco.csv](San_Francisco.csv).
 
 Right now I offer the following formats:
 
@@ -182,7 +172,7 @@ Right now I offer the following formats:
 If you need another format, drop me a note and I might add it.  Of course you
 can also always use [GPSBabel] yourself.
    
-[llv6]: https://www.navcen.uscg.gov/weekly-light-lists
+[lightlist]: https://www.navcen.uscg.gov/sites/default/files/msi/
 [chart]: https://www.google.com/maps/d/u/0/edit?mid=1-9oOlBeR2zTQUb8ltyKwN68LgAvBEaYQ&usp=sharing
 [GPSBabel]: https://www/gpsbabel.org/
 [OpenCPN]: https://opencpn.org/
