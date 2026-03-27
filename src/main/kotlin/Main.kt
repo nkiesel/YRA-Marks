@@ -260,8 +260,8 @@ fun updateReadMe(marks: Marks) {
                 }
                 add("")
                 skip = true
-            } else if (skip && line.startsWith("#")) {
-                skip = false
+            } else if (skip) {
+                skip = line.startsWith("|")
             }
             if (!skip) add(line)
         }
