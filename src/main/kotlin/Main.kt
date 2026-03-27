@@ -1,7 +1,6 @@
 import com.charleskorn.kaml.Yaml
 import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
 import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
-import com.sun.beans.introspect.PropertyInfo
 import io.jenetics.jpx.GPX
 import io.jenetics.jpx.Latitude
 import io.jenetics.jpx.Longitude
@@ -10,8 +9,6 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import nl.adaptivity.xmlutil.ExperimentalXmlUtilApi
-import nl.adaptivity.xmlutil.serialization.XmlElement
-import nl.adaptivity.xmlutil.serialization.XmlSerialName
 import java.net.URI
 import java.nio.file.Path
 import kotlin.io.path.Path
@@ -248,22 +245,16 @@ fun addMarksFromNOAA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
 
 fun updateReadMe(marks: Marks) {
     val readMe = Path("README.md")
-    var skip = false
     val updated = buildList {
-        readMe.readLines().forEach { line ->
+        readMe.readLines().filterNot { it.startsWith("|") }.forEach { line ->
+            add(line)
             if (line == "## All The Marks") {
-                add(line)
                 add("|Name|Latitude|Longitude|Description|")
                 add("|----|--------|---------|-----------|")
                 marks.values.forEach {
                     add(it.toCSV().joinToString("|", prefix = "|", postfix = "|"))
                 }
-                add("")
-                skip = true
-            } else if (skip) {
-                skip = line.startsWith("|")
             }
-            if (!skip) add(line)
         }
     }
     readMe.writeLines(updated)
