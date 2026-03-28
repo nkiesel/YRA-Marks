@@ -17,6 +17,7 @@ dependencies {
     implementation(libs.kaml)
     implementation(libs.jpx)
     implementation(libs.csv)
+    implementation(libs.okhttp)
 }
 
 kotlin {

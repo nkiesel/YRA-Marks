@@ -8,6 +8,8 @@ import io.jenetics.jpx.WayPoint
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
+import okhttp3.OkHttpClient
+import okhttp3.Request
 import java.net.URI
 import java.nio.file.Path
 import kotlin.io.path.Path
@@ -16,10 +18,8 @@ import kotlin.io.path.readText
 import kotlin.io.path.writeLines
 import kotlin.math.abs
 
-const val baseName = "San_Francisco"
-
 @Serializable
-data class Mapping(val entries: Map<String, String>, val uris: List<String>)
+data class Mapping(val entries: Map<String, String>, val urls: List<String>)
 
 @Serializable
 data class NoaaMark(
@@ -177,31 +177,26 @@ fun toFormat(d: Double, s: String, fmt: String): Any {
     }
 }
 
-fun writeCSV(marks: Marks, fmt: String, header: Boolean = true) {
-    val name = "$baseName.$fmt"
-    val writer = csvWriter { lineTerminator = "\n" }
-    if (header) writer.writeAll(listOf(listOf("Name", "Latitude", "Longitude", "Description")), name, append = false)
-    writer.writeAll(marks.values.map { it.toCSV(fmt) }, name, append = header)
-}
+fun getYRAGpx(url: String): String {
+    val request = Request.Builder().url(url).build()
 
-fun getYRAGpx(uri: String): String {
-    val process = ProcessBuilder("rclone", "cat", uri).start()
-    val xml = process.inputStream.bufferedReader().use { it.readText() }
-    process.waitFor()
-    return xml
+    OkHttpClient().newCall(request).execute().use { response ->
+        if (!response.isSuccessful) error("Server returned: ${response.code}")
+        return response.body.string()
+    }
 }
 
 fun addMarksFromCSV(marks: MutableMarks, csv: Path): Int {
     var added = 0
     csvReader().readAllWithHeader(csv.toFile()).forEach { m ->
-        val m = Mark(
-            m["Name"]!!,
+        val id = m["Name"]!!
+        marks[id] = Mark(
+            id,
             null,
             Latitude.ofDegrees(m["Latitude"]!!.toDouble()),
             Longitude.ofDegrees(m["Longitude"]!!.toDouble()),
             m["Description"]!!,
         )
-        marks[m.id] = m
         added++
     }
     return added
@@ -210,11 +205,11 @@ fun addMarksFromCSV(marks: MutableMarks, csv: Path): Int {
 fun addMarksFromYRA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
     var added = 0
     val excluded = setOf("YRA-A", "YRA-B", "YRA-BON-R2", "YRA-D", "BC#2")
-    gpxMarks(getYRAGpx(yra.uris[0])).forEach {
-        var id = it.id.uppercase()
+    gpxMarks(getYRAGpx(yra.urls[0])).forEach { mark ->
+        var id = mark.id.uppercase()
         if (id !in noaa.entries.keys) id = "YRA-${id}"
         if (id !in excluded) {
-            marks[id] = it.copy(id = id)
+            marks[id] = mark.copy(id = id)
             added++
         }
     }
@@ -223,7 +218,7 @@ fun addMarksFromYRA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
 
 fun addMarksFromNOAA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
     val json = Json { ignoreUnknownKeys = true }
-    val noaaMarks = noaa.uris
+    val noaaMarks = noaa.urls
         .map { u -> URI(u).toURL().openStream().use { it.readAllBytes().decodeToString() } }
         .flatMap { json.decodeFromString<NoaaMark>(it).features }
         .associateBy { it.properties.lightListNumber.toString() }
@@ -260,22 +255,31 @@ fun updateReadMe(marks: Marks) {
 
 fun getMapping(path: Path): Mapping = Yaml.default.decodeFromString(Mapping.serializer(), path.readText())
 
+const val baseName = "San_Francisco"
+
+fun writeCSV(marks: Marks, fmt: String, header: Boolean = true) {
+    val name = "$baseName.$fmt"
+    val writer = csvWriter { lineTerminator = "\n" }
+    if (header) writer.writeAll(listOf(listOf("Name", "Latitude", "Longitude", "Description")), name, append = false)
+    writer.writeAll(marks.values.map { it.toCSV(fmt) }, name, append = header)
+}
+
 fun writeGpx(marks: Marks) {
     val wayPoints = marks.values.map(Mark::toWayPoint)
     val gpx = GPX.builder().version(GPX.Version.V11).wayPoints(wayPoints).build()
     GPX.write(gpx, Path("$baseName.gpx"))
 }
 
+
 fun main() {
-    val input = Path("$baseName.csv")
+    val csv = Path("$baseName.csv")
     val yra = getMapping(Path("yra.yaml"))
     val noaa = getMapping(Path("noaa.yaml"))
-
 
     // The order of adding marks is critical because the later overwrite the earlier marks, and thus
     // NOAA as the ultimate source of truth must be the last one.
     val marks = mutableMapOf<String, Mark>()
-    val csvCount = addMarksFromCSV(marks, input)
+    val csvCount = addMarksFromCSV(marks, csv)
     val yraCount = addMarksFromYRA(marks, yra, noaa)
     val noaaCount = addMarksFromNOAA(marks, yra, noaa)
 

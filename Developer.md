@@ -3,8 +3,6 @@ Developer Instructions
 
 This program is written in Kotlin (currently using Kotlin `2.3.20`) and uses Gradle as build system. Thus, to run the
 program use `./gradlew run` which will download (and cache) all the dependencies, compile the program, and execute it.
-The only external program that is currently used within the program is `rclone`, which is used to download the
-YRA-managed GPX file from their Google Drive.
 
 The file containing the marks that are maintained is `San_Francisco.csv`. This file is updated manually to include
 new marks, or remove no longer used marks, or update the description or position of marks. However, it is also
