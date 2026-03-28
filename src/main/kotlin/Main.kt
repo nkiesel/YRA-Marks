@@ -8,7 +8,6 @@ import io.jenetics.jpx.WayPoint
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
-import nl.adaptivity.xmlutil.ExperimentalXmlUtilApi
 import java.net.URI
 import java.nio.file.Path
 import kotlin.io.path.Path
@@ -222,7 +221,6 @@ fun addMarksFromYRA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
     return added
 }
 
-@OptIn(ExperimentalXmlUtilApi::class)
 fun addMarksFromNOAA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
     val json = Json { ignoreUnknownKeys = true }
     val noaaMarks = noaa.uris

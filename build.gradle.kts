@@ -14,8 +14,6 @@ repositories {
 
 dependencies {
     implementation(libs.kotlin.serialization)
-    implementation(libs.xmlutil.core)
-    implementation(libs.xmlutil.jvm)
     implementation(libs.kaml)
     implementation(libs.jpx)
     implementation(libs.csv)
