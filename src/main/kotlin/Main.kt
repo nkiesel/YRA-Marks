@@ -10,13 +10,22 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import java.net.URI
 import java.nio.file.Path
+import java.util.Locale
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 import kotlin.io.path.readText
 import kotlin.io.path.writeLines
 import kotlin.math.abs
+
+val digitsRegex = Regex("""\d+""")
+val nameRegex = Regex("""\b([\dA-Z]+)$""")
+val gpxRegex = Regex("""<gpx .+?>""")
+val metadataRegex = Regex("""<metadata>.+</metadata>""")
+val quoteRegex = Regex("""["\u201c\u201d]""")
+val whitespaceRegex = Regex("""\s+""")
+
+val httpClient = OkHttpClient()
 
 @Serializable
 data class Mapping(val entries: Map<String, String>, val urls: List<String>)
@@ -74,13 +83,13 @@ data class NoaaMark(
         )
 
         fun toMark(id: String, names: Map<String, String>): Mark {
-            val color = properties.color.takeUnless { it == "N/A" } ?: Regex("""\d+""").find(id)?.value?.toInt()
+            val color = properties.color.takeUnless { it == "N/A" } ?: digitsRegex.find(id)?.value?.toInt()
                 ?.let { if (it % 2 == 0) "R" else "G" }
             val description = listOf(
                 color,
-                Regex("""\b([\dA-Z]+)$""").find(properties.name)?.groupValues[1]?.let { "'$it'" },
+                nameRegex.find(properties.name)?.groupValues?.get(1)?.let { "'$it'" },
                 properties.lightChar,
-                trim(properties.name),
+                trimAll(properties.name),
                 names[id]?.let { "($it)" },
             ).filterNot { it.isNullOrEmpty() || it == "N/A" }.joinToString(" ") { it!!.trim() }
             return Mark(
@@ -119,16 +128,16 @@ data class Mark(
 typealias Marks = Map<String, Mark>
 typealias MutableMarks = MutableMap<String, Mark>
 
-fun trim(s: String) = s.replace(Regex("""\s+"""), " ").trim()
+fun trimAll(s: String) = s.replace(whitespaceRegex, " ").trim()
 
 fun gpxMarks(input: String): List<Mark> {
-    var xml = input.split("\n").filterNot(String::isEmpty).joinToString("").trim()
-    val gpxRegex = Regex("""<gpx .+?>""")
-    val gpx = gpxRegex.find(xml)
+    val gpx = gpxRegex.find(input)
     if (gpx == null) {
         println("Invalid GPX file")
         return emptyList()
     }
+
+    var xml = input
 
     // The "creator" attribute is a required by jpx
     if ("creator=" !in gpx.value) {
@@ -136,19 +145,18 @@ fun gpxMarks(input: String): List<Mark> {
     }
 
     // jpx cannot handle extra metadata
-    xml = xml.replace(Regex("""<metadata>.+</metadata>"""), "")
+    xml = xml.replace(metadataRegex, "")
 
     return GPX.Reader.DEFAULT.fromString(xml).wayPoints().toList()
         .map {
             Mark(
-                trim(it.name.get()).replace(" ", "-"),
+                trimAll(it.name.get()).replace(" ", "-"),
                 null,
                 it.latitude,
                 it.longitude,
-                trim(it.description.get().replace(Regex("""["\u201c\u201d]"""), "'"))
+                trimAll(it.description.get().replace(quoteRegex, "'"))
             )
         }
-        .toList()
 }
 
 fun Latitude.toFormat(fmt: String): Any {
@@ -161,15 +169,15 @@ fun Longitude.toFormat(fmt: String): Any {
     return toFormat(d, if (d > 0) "E" else "W", fmt)
 }
 
-fun Double.fmt(decs: Int) = String.format("%.${decs}f", this)
+fun Double.fmt(decs: Int) = String.format(Locale.US, "%.${decs}f", this)
 
 fun toFormat(d: Double, s: String, fmt: String): Any {
     val degrees = abs(d.toInt())
-    val minsecs = abs(d - d.toInt()) * 60
-    val minutes = minsecs.toInt()
-    val seconds = abs(minsecs - minutes) * 60
+    val minSecs = abs(d - d.toInt()) * 60
+    val minutes = minSecs.toInt()
+    val seconds = abs(minSecs - minutes) * 60
     return when (fmt) {
-        "dmm" -> "$s$degrees ${minsecs.fmt(6)}"
+        "dmm" -> "$s$degrees ${minSecs.fmt(6)}"
         "dms" -> "$s$degrees $minutes ${seconds.fmt(3)}"
         "noaa" -> "$degrees-$minutes-${seconds.fmt(3)}$s"
         "poi" -> d.fmt(5)
@@ -177,10 +185,8 @@ fun toFormat(d: Double, s: String, fmt: String): Any {
     }
 }
 
-fun getYRAGpx(url: String): String {
-    val request = Request.Builder().url(url).build()
-
-    OkHttpClient().newCall(request).execute().use { response ->
+fun fetchString(url: String): String {
+    httpClient.newCall(Request.Builder().url(url).build()).execute().use { response ->
         if (!response.isSuccessful) error("Server returned: ${response.code}")
         return response.body.string()
     }
@@ -188,14 +194,14 @@ fun getYRAGpx(url: String): String {
 
 fun addMarksFromCSV(marks: MutableMarks, csv: Path): Int {
     var added = 0
-    csvReader().readAllWithHeader(csv.toFile()).forEach { m ->
-        val id = m["Name"]!!
+    csvReader().readAllWithHeader(csv.toFile()).forEach { row ->
+        val id = row["Name"]!!
         marks[id] = Mark(
             id,
             null,
-            Latitude.ofDegrees(m["Latitude"]!!.toDouble()),
-            Longitude.ofDegrees(m["Longitude"]!!.toDouble()),
-            m["Description"]!!,
+            Latitude.ofDegrees(row["Latitude"]!!.toDouble()),
+            Longitude.ofDegrees(row["Longitude"]!!.toDouble()),
+            row["Description"]!!,
         )
         added++
     }
@@ -205,7 +211,7 @@ fun addMarksFromCSV(marks: MutableMarks, csv: Path): Int {
 fun addMarksFromYRA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
     var added = 0
     val excluded = setOf("YRA-A", "YRA-B", "YRA-BON-R2", "YRA-D", "BC#2")
-    gpxMarks(getYRAGpx(yra.urls[0])).forEach { mark ->
+    gpxMarks(fetchString(yra.urls[0])).forEach { mark ->
         var id = mark.id.uppercase()
         if (id !in noaa.entries.keys) id = "YRA-${id}"
         if (id !in excluded) {
@@ -219,7 +225,7 @@ fun addMarksFromYRA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
 fun addMarksFromNOAA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
     val json = Json { ignoreUnknownKeys = true }
     val noaaMarks = noaa.urls
-        .map { u -> URI(u).toURL().openStream().use { it.readAllBytes().decodeToString() } }
+        .map { url -> fetchString(url) }
         .flatMap { json.decodeFromString<NoaaMark>(it).features }
         .associateBy { it.properties.lightListNumber.toString() }
 
