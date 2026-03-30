@@ -139,7 +139,8 @@ updates.
 |SYC-E|37.580167|-122.217833|Sequoia Yacht Club mark E. Yellow collar buoy|
 |SYC-O|37.560167|-122.186000|Sequoia Yacht Club mark O. Yellow collar buoy|
 |SYC-P|37.558500|-122.187833|Sequoia Yacht Club mark P. White collar buoy|
-|SYC-S|37.566167|-122.228833|Sequoia Yacht Club mark S. Yellow collar buoy|
+|SYC-S|37.563500|-122.218833|Sequoia Yacht Club mark S. Yellow collar buoy|
+|SYC-T|37.540167|-122.182000|Sequoia Yacht Club mark T. Yellow collar buoy|
 |SYC-X|37.570500|-122.202167|Sequoia Yacht Club mark X. Yellow collar buoy|
 |SYC-Y|37.537000|-122.164500|Sequoia Yacht Club mark Y. Yellow collar buoy|
 |TI#6|37.833230|-122.372510|R '6' Fl R 2.5s Treasure Island North End Light 6|

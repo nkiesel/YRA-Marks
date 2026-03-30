@@ -520,9 +520,14 @@
         <desc>Sequoia Yacht Club mark P. White collar buoy</desc>
         <sym>activepoint</sym>
     </wpt>
-    <wpt lat="37.566167" lon="-122.228833">
+    <wpt lat="37.5635" lon="-122.218833">
         <name>SYC-S</name>
         <desc>Sequoia Yacht Club mark S. Yellow collar buoy</desc>
+        <sym>activepoint</sym>
+    </wpt>
+    <wpt lat="37.540167" lon="-122.182">
+        <name>SYC-T</name>
+        <desc>Sequoia Yacht Club mark T. Yellow collar buoy</desc>
         <sym>activepoint</sym>
     </wpt>
     <wpt lat="37.5705" lon="-122.202167">
