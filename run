@@ -1,0 +1,10 @@
+#!/bin/zsh
+if [[ $1 !=  force && $(git describe --always --dirty) =~ '.*dirty' ]] ; then
+      echo 'Please commit first!'
+      exit 1
+fi
+
+./gradlew run
+( cd ./San_Francisco.shp; ogr2ogr -overwrite -f "ESRI Shapefile" . convert-to-shp.vrt )
+gpsbabel -i unicsv -f San_Francisco.csv -o html -F San_Francisco.html
+git status
