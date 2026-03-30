@@ -5,6 +5,11 @@ import io.jenetics.jpx.GPX
 import io.jenetics.jpx.Latitude
 import io.jenetics.jpx.Longitude
 import io.jenetics.jpx.WayPoint
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -125,9 +130,6 @@ data class Mark(
         WayPoint.builder().name(id).lat(latitude).lon(longitude).desc(description).sym("activepoint").build()
 }
 
-typealias Marks = Map<String, Mark>
-typealias MutableMarks = MutableMap<String, Mark>
-
 fun trimAll(s: String) = s.replace(whitespaceRegex, " ").trim()
 
 fun gpxMarks(input: String): List<Mark> {
@@ -192,58 +194,60 @@ fun fetchString(url: String): String {
     }
 }
 
-fun addMarksFromCSV(marks: MutableMarks, csv: Path): Int {
-    var added = 0
-    csvReader().readAllWithHeader(csv.toFile()).forEach { row ->
+fun fetchMarksFromCSV(csv: Path): List<Mark> {
+    if (!csv.toFile().exists()) return emptyList()
+    return csvReader().readAllWithHeader(csv.toFile()).map { row ->
         val id = row["Name"]!!
-        marks[id] = Mark(
+        Mark(
             id,
             null,
             Latitude.ofDegrees(row["Latitude"]!!.toDouble()),
             Longitude.ofDegrees(row["Longitude"]!!.toDouble()),
             row["Description"]!!,
         )
-        added++
     }
-    return added
 }
 
-fun addMarksFromYRA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
-    var added = 0
+fun fetchMarksFromYRA(yra: Mapping, noaa: Mapping): List<Mark> {
     val excluded = setOf("YRA-A", "YRA-B", "YRA-BON-R2", "YRA-D", "BC#2")
-    gpxMarks(fetchString(yra.urls[0])).forEach { mark ->
+    return gpxMarks(fetchString(yra.urls[0])).mapNotNull { mark ->
         var id = mark.id.uppercase()
         if (id !in noaa.entries.keys) id = "YRA-${id}"
         if (id !in excluded) {
-            marks[id] = mark.copy(id = id)
-            added++
+            mark.copy(id = id)
+        } else {
+            null
         }
     }
-    return added
 }
 
-fun addMarksFromNOAA(marks: MutableMarks, yra: Mapping, noaa: Mapping): Int {
+fun fetchMarksFromNOAA(yra: Mapping, noaa: Mapping): List<Mark> {
     val json = Json { ignoreUnknownKeys = true }
     val noaaMarks = noaa.urls
         .map { url -> fetchString(url) }
         .flatMap { json.decodeFromString<NoaaMark>(it).features }
         .associateBy { it.properties.lightListNumber.toString() }
 
-    var added = 0
-    for ((id, llnr) in noaa.entries) {
+    return noaa.entries.mapNotNull { (id, llnr) ->
         val mark = noaaMarks[llnr]
         if (mark == null) {
             println("No NOAA LLNR $llnr found for mark $id")
+            null
         } else {
-            marks[id] = mark.toMark(id, yra.entries)
-            added++
+            mark.toMark(id, yra.entries)
         }
     }
-    return added
 }
+
+fun getMapping(path: Path): Mapping = Yaml.default.decodeFromString(Mapping.serializer(), path.readText())
+
+const val baseName = "San_Francisco"
+
+typealias Marks = Map<String, Mark>
 
 fun updateReadMe(marks: Marks) {
     val readMe = Path("README.md")
+    if (!readMe.toFile().exists()) return
     val updated = buildList {
         readMe.readLines().filterNot { it.startsWith("|") }.forEach { line ->
             add(line)
@@ -259,10 +263,6 @@ fun updateReadMe(marks: Marks) {
     readMe.writeLines(updated)
 }
 
-fun getMapping(path: Path): Mapping = Yaml.default.decodeFromString(Mapping.serializer(), path.readText())
-
-const val baseName = "San_Francisco"
-
 fun writeCSV(marks: Marks, fmt: String, header: Boolean = true) {
     val name = "$baseName.$fmt"
     val writer = csvWriter { lineTerminator = "\n" }
@@ -277,25 +277,31 @@ fun writeGpx(marks: Marks) {
 }
 
 
-fun main() {
+fun main(): Unit = runBlocking {
     val csv = Path("$baseName.csv")
     val yra = getMapping(Path("yra.yaml"))
     val noaa = getMapping(Path("noaa.yaml"))
 
-    // The order of adding marks is critical because the later overwrite the earlier marks, and thus
-    // NOAA as the ultimate source of truth must be the last one.
-    val marks = mutableMapOf<String, Mark>()
-    val csvCount = addMarksFromCSV(marks, csv)
-    val yraCount = addMarksFromYRA(marks, yra, noaa)
-    val noaaCount = addMarksFromNOAA(marks, yra, noaa)
+    // Fetch concurrently
+    withContext(Dispatchers.IO) {
+        val allMarksLists = awaitAll(
+            async { fetchMarksFromCSV(csv) },
+            async { fetchMarksFromYRA(yra, noaa) },
+            async { fetchMarksFromNOAA(yra, noaa) }
+        )
 
-    println("csv: $csvCount yra: $yraCount noaa: $noaaCount")
+        println("csv: ${allMarksLists[0].size} yra: ${allMarksLists[1].size} noaa: ${allMarksLists[2].size}")
 
-    writeCSV(marks, "csv")
-    writeCSV(marks, "dmm")
-    writeCSV(marks, "dms")
-    writeCSV(marks, "noaa")
-    writeCSV(marks, "poi", false)
-    writeGpx(marks)
-    updateReadMe(marks)
+        // The order of adding marks is critical because the later overwrite the earlier marks, and thus
+        // NOAA as the ultimate source of truth must be the last one.
+        val marks = allMarksLists.flatten().associateBy { it.id }
+
+        writeCSV(marks, "csv")
+        writeCSV(marks, "dmm")
+        writeCSV(marks, "dms")
+        writeCSV(marks, "noaa")
+        writeCSV(marks, "poi", false)
+        writeGpx(marks)
+        updateReadMe(marks)
+    }
 }

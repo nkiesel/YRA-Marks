@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     implementation(libs.kotlin.serialization)
+    implementation(libs.kotlin.coroutines)
     implementation(libs.kaml)
     implementation(libs.jpx)
     implementation(libs.csv)
