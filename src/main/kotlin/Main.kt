@@ -15,7 +15,7 @@ import kotlinx.serialization.json.Json
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.nio.file.Path
-import java.util.Locale
+import java.util.*
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 import kotlin.io.path.readText
@@ -171,7 +171,7 @@ const val baseName = "San_Francisco"
 
 typealias Marks = Map<String, Mark>
 
-fun updateReadMe(marks: Marks) {
+fun Marks.updateReadMe() {
     val readMe = Path("README.md")
     if (!readMe.toFile().exists()) return
     val updated = buildList {
@@ -180,7 +180,7 @@ fun updateReadMe(marks: Marks) {
             if (line == "## All The Marks") {
                 add("|Name|Latitude|Longitude|Description|")
                 add("|----|--------|---------|-----------|")
-                marks.values.forEach {
+                values.forEach {
                     add(it.toCSV().joinToString("|", prefix = "|", postfix = "|"))
                 }
             }
@@ -189,15 +189,15 @@ fun updateReadMe(marks: Marks) {
     readMe.writeLines(updated)
 }
 
-fun writeCSV(marks: Marks, fmt: String, header: Boolean = true) {
+fun Marks.writeCSV(fmt: String, header: Boolean = true) {
     val name = "$baseName.$fmt"
     val writer = csvWriter { lineTerminator = "\n" }
     if (header) writer.writeAll(listOf(listOf("Name", "Latitude", "Longitude", "Description")), name, append = false)
-    writer.writeAll(marks.values.map { it.toCSV(fmt) }, name, append = header)
+    writer.writeAll(values.map { it.toCSV(fmt) }, name, append = header)
 }
 
-fun writeGpx(marks: Marks) {
-    val wayPoints = marks.values.map(Mark::toWayPoint)
+fun Marks.writeGpx() {
+    val wayPoints = values.map(Mark::toWayPoint)
     val gpx = GPX.builder().version(GPX.Version.V11).wayPoints(wayPoints).build()
     GPX.write(gpx, Path("$baseName.gpx"))
 }
@@ -219,14 +219,14 @@ fun main(): Unit = runBlocking {
 
         // The order of adding marks is critical because the later overwrite the earlier marks, and thus
         // NOAA as the ultimate source of truth must be the last one.
-        val marks = allMarksLists.flatten().associateBy { it.id }
-
-        writeCSV(marks, "csv")
-        writeCSV(marks, "dmm")
-        writeCSV(marks, "dms")
-        writeCSV(marks, "noaa")
-        writeCSV(marks, "poi", false)
-        writeGpx(marks)
-        updateReadMe(marks)
+        allMarksLists.flatten().associateBy { it.id }.run {
+            writeCSV("csv")
+            writeCSV("dmm")
+            writeCSV("dms")
+            writeCSV("noaa")
+            writeCSV("poi", false)
+            writeGpx()
+            updateReadMe()
+        }
     }
 }
