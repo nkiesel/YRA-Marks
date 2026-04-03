@@ -37,23 +37,17 @@ data class Mapping(val entries: Map<String, String>, val urls: List<String>)
 
 @Serializable
 data class NoaaMark(
-    @SerialName("features")
     val features: List<Feature>,
-    @SerialName("type")
     val type: String
 ) {
     @Serializable
     data class Feature(
-        @SerialName("id")
         val id: Int,
-        @SerialName("geometry")
         val geometry: Geometry,
-        @SerialName("properties")
         val properties: Properties,
     ) {
         @Serializable
         data class Geometry(
-            @SerialName("coordinates")
             val coordinates: List<Double>,
         )
 
