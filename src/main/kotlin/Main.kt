@@ -16,6 +16,7 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.nio.file.Path
 import java.util.*
+import kotlin.collections.forEach
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 import kotlin.io.path.readText
@@ -30,6 +31,10 @@ val quoteRegex = Regex("""["\u201c\u201d]""")
 val whitespaceRegex = Regex("""\s+""")
 
 val httpClient = OkHttpClient()
+
+val csvColumns = listOf("Name", "Latitude", "Longitude", "Description")
+
+const val baseName = "San_Francisco"
 
 @Serializable
 data class Mapping(val entries: Map<String, String>, val urls: List<String>)
@@ -47,7 +52,7 @@ data class Mark(
         return """"$id",${latitude.toDouble().fmt(6)},${longitude.toDouble().fmt(6)},"$description""""
     }
 
-    fun toCSV(fmt: String = "csv"): List<Any> {
+    fun toCSV(fmt: String = "csv"): List<String> {
         return when (fmt) {
             "poi" -> listOf(longitude.toFormat(fmt), latitude.toFormat(fmt), id, description)
             else -> listOf(id, latitude.toFormat(fmt), longitude.toFormat(fmt), description)
@@ -89,56 +94,56 @@ fun gpxMarks(input: String): List<Mark> {
         }
 }
 
-fun Latitude.toFormat(fmt: String): Any {
+fun Latitude.toFormat(fmt: String): String {
     val d = toDouble()
-    return toFormat(d, if (d > 0) "N" else "S", fmt)
+    return d.toFormat(if (d > 0) "N" else "S", fmt)
 }
 
-fun Longitude.toFormat(fmt: String): Any {
+fun Longitude.toFormat(fmt: String): String {
     val d = toDouble()
-    return toFormat(d, if (d > 0) "E" else "W", fmt)
+    return d.toFormat(if (d > 0) "E" else "W", fmt)
 }
 
 fun Double.fmt(decs: Int) = String.format(Locale.US, "%.${decs}f", this)
 
-fun toFormat(d: Double, s: String, fmt: String): Any {
-    val degrees = abs(d.toInt())
-    val minSecs = abs(d - d.toInt()) * 60
+fun Double.toFormat(s: String, fmt: String): String {
+    val degrees = abs(toInt())
+    val minSecs = abs(this - toInt()) * 60
     val minutes = minSecs.toInt()
     val seconds = abs(minSecs - minutes) * 60
     return when (fmt) {
         "dmm" -> "$s$degrees ${minSecs.fmt(6)}"
         "dms" -> "$s$degrees $minutes ${seconds.fmt(3)}"
         "noaa" -> "$degrees-$minutes-${seconds.fmt(3)}$s"
-        "poi" -> d.fmt(5)
-        else -> d.fmt(6)
+        "poi" -> fmt(5)
+        else -> fmt(6)
     }
 }
 
-fun fetchString(url: String): String {
+fun httpGet(url: String): String {
     httpClient.newCall(Request.Builder().url(url).build()).execute().use { response ->
         if (!response.isSuccessful) error("Server returned: ${response.code}")
         return response.body.string()
     }
 }
 
-fun fetchMarksFromCSV(csv: Path): List<Mark> {
-    if (!csv.toFile().exists()) return emptyList()
-    return csvReader().readAllWithHeader(csv.toFile()).map { row ->
-        val id = row["Name"]!!
-        Mark(
-            id,
-            null,
-            Latitude.ofDegrees(row["Latitude"]!!.toDouble()),
-            Longitude.ofDegrees(row["Longitude"]!!.toDouble()),
-            row["Description"]!!,
-        )
-    }
+fun fetchMarksFromCSV(csv: Path): List<Mark> = with(csv.toFile()) {
+    if (!exists()) emptyList() else
+        csvReader().readAllWithHeader(this).map { row ->
+            val (name, latitude, longitude, description) = csvColumns.map { row[it]!! }
+            Mark(
+                name,
+                null,
+                Latitude.ofDegrees(latitude.toDouble()),
+                Longitude.ofDegrees(longitude.toDouble()),
+                description,
+            )
+        }
 }
 
 fun fetchMarksFromYRA(yra: Mapping, noaa: Mapping): List<Mark> {
     val excluded = setOf("YRA-A", "YRA-B", "YRA-BON-R2", "YRA-D", "BC#2")
-    return gpxMarks(fetchString(yra.urls[0])).mapNotNull { mark ->
+    return gpxMarks(httpGet(yra.urls[0])).mapNotNull { mark ->
         var id = mark.id.uppercase()
         if (id !in noaa.entries.keys) id = "YRA-${id}"
         if (id !in excluded) {
@@ -152,7 +157,7 @@ fun fetchMarksFromYRA(yra: Mapping, noaa: Mapping): List<Mark> {
 fun fetchMarksFromNOAA(yra: Mapping, noaa: Mapping): List<Mark> {
     val json = Json { ignoreUnknownKeys = true }
     val noaaMarks = noaa.urls
-        .map { url -> fetchString(url) }
+        .map { url -> httpGet(url) }
         .flatMap { json.decodeFromString<NoaaMark>(it).features }
         .associateBy { it.properties.lightListNumber.toString() }
 
@@ -167,9 +172,9 @@ fun fetchMarksFromNOAA(yra: Mapping, noaa: Mapping): List<Mark> {
     }
 }
 
-const val baseName = "San_Francisco"
-
 typealias Marks = Map<String, Mark>
+
+fun List<String>.toCSVLine() = joinToString("|", prefix = "|", postfix = "|")
 
 fun Marks.updateReadMe() {
     val readMe = Path("README.md")
@@ -178,11 +183,9 @@ fun Marks.updateReadMe() {
         readMe.readLines().filterNot { it.startsWith("|") }.forEach { line ->
             add(line)
             if (line == "## All The Marks") {
-                add("|Name|Latitude|Longitude|Description|")
-                add("|----|--------|---------|-----------|")
-                values.forEach {
-                    add(it.toCSV().joinToString("|", prefix = "|", postfix = "|"))
-                }
+                add(csvColumns.toCSVLine())
+                add(csvColumns.map { "-".repeat(it.length) }.toCSVLine())
+                values.forEach { add(it.toCSV().toCSVLine()) }
             }
         }
     }
@@ -192,7 +195,7 @@ fun Marks.updateReadMe() {
 fun Marks.writeCSV(fmt: String, header: Boolean = true) {
     val name = "$baseName.$fmt"
     val writer = csvWriter { lineTerminator = "\n" }
-    if (header) writer.writeAll(listOf(listOf("Name", "Latitude", "Longitude", "Description")), name, append = false)
+    if (header) writer.writeAll(listOf(csvColumns), name, append = false)
     writer.writeAll(values.map { it.toCSV(fmt) }, name, append = header)
 }
 
