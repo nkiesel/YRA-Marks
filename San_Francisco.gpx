@@ -380,6 +380,41 @@
         <desc>Y Fl Y6s Yellow ball San Francisco Outfall North Research Buoy</desc>
         <sym>activepoint</sym>
     </wpt>
+    <wpt lat="37.792363" lon="-122.277332">
+        <name>OYC-DR</name>
+        <desc>'Debby Ratto' – red ball between Dragon Gate and Pasta Pelican at Jack London Square</desc>
+        <sym>activepoint</sym>
+    </wpt>
+    <wpt lat="37.789632" lon="-122.270968">
+        <name>OYC-2</name>
+        <desc>'2' - red ball on the Oakland side of the Estuary approx 200 yards west of Channel 2 tower</desc>
+        <sym>activepoint</sym>
+    </wpt>
+    <wpt lat="37.786055" lon="-122.265329">
+        <name>OYC-6</name>
+        <desc>'6' - red ball approx 200 yards west of OYC-X</desc>
+        <sym>activepoint</sym>
+    </wpt>
+    <wpt lat="37.785304" lon="-122.263493">
+        <name>OYC-X</name>
+        <desc>'X' - red ball set off gaps between OYC docks 5 and 6</desc>
+        <sym>activepoint</sym>
+    </wpt>
+    <wpt lat="37.781967" lon="-122.260063">
+        <name>OYC-5</name>
+        <desc>'5' - red ball at the entrance of Encinal Basin</desc>
+        <sym>activepoint</sym>
+    </wpt>
+    <wpt lat="37.786873" lon="-122.254285">
+        <name>OYC-GG</name>
+        <desc>'George Gurrola' - red ball in Brooklyn Basin</desc>
+        <sym>activepoint</sym>
+    </wpt>
+    <wpt lat="37.78109" lon="-122.252042">
+        <name>OYC-EC</name>
+        <desc>'Emile Carles' - set SW of Coast Guard docks</desc>
+        <sym>activepoint</sym>
+    </wpt>
     <wpt lat="38.01657" lon="-122.36747">
         <name>PPL-P</name>
         <desc>WO 'P' Fl W 2.5s Point Pinole Light P</desc>
