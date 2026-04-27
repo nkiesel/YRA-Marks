@@ -218,6 +218,12 @@ fun main(): Unit = runBlocking {
             async { fetchMarksFromNOAA(yra, noaa) }
         )
 
+        val csvYra = allMarksLists[0].map { it.id }.filter { it.startsWith("YRA-")}
+        val yraYra = allMarksLists[1].map { it.id }
+        val missingYra = csvYra.filter { it !in yraYra }
+        if (missingYra.isNotEmpty()) {
+            println("YRA marks no longer in YRA list: ${missingYra.joinToString()}")
+        }
         println("csv: ${allMarksLists[0].size} yra: ${allMarksLists[1].size} noaa: ${allMarksLists[2].size}")
 
         // The order of adding marks is critical because the later overwrite the earlier marks, and thus

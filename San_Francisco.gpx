@@ -95,11 +95,6 @@
         <desc>R '4' Fl R 4s Southampton Shoal Channel Lighted Buoy 4</desc>
         <sym>activepoint</sym>
     </wpt>
-    <wpt lat="37.746" lon="-122.323333">
-        <name>YRA-32</name>
-        <desc>Fl Y4s 'A' Approx 2.5 nm East of Army St Terminal</desc>
-        <sym>activepoint</sym>
-    </wpt>
     <wpt lat="37.80099" lon="-122.34777">
         <name>YRA-33</name>
         <desc>R '4' Fl R 4s Oakland Inner Harbor Lighted Buoy 4</desc>

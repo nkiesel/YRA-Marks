@@ -1,3 +1,7 @@
+**2026-04-26**
+
+ * Removed YRA-32: no longer in the YRA list, and also no longer exists
+
 **2025-10-17**
 
  * Updated YRA-DB and YRA-15 coordinates
