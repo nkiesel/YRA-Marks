@@ -48,15 +48,11 @@ data class Mark(
     val longitude: Longitude,
     val description: String
 ) {
-    override fun toString(): String {
-        return """"$id",${latitude.toDouble().fmt(6)},${longitude.toDouble().fmt(6)},"$description""""
-    }
+    override fun toString() = """"$id",${latitude.toDouble().fmt(6)},${longitude.toDouble().fmt(6)},"$description""""
 
-    fun toCSV(fmt: String = "csv"): List<String> {
-        return when (fmt) {
-            "poi" -> listOf(longitude.toFormat(fmt), latitude.toFormat(fmt), id, description)
-            else -> listOf(id, latitude.toFormat(fmt), longitude.toFormat(fmt), description)
-        }
+    fun toCSV(fmt: String = "csv") = when (fmt) {
+        "poi" -> listOf(longitude.toFormat(fmt), latitude.toFormat(fmt), id, description)
+        else -> listOf(id, latitude.toFormat(fmt), longitude.toFormat(fmt), description)
     }
 
     fun toWayPoint(): WayPoint =
@@ -74,7 +70,7 @@ fun gpxMarks(input: String): List<Mark> {
 
     var xml = input
 
-    // The "creator" attribute is a required by jpx
+    // The "creator" attribute is required by jpx
     if ("creator=" !in gpx.value) {
         xml = xml.replace(gpxRegex, gpx.value.replace(">", """ creator="YRA">"""))
     }
@@ -146,11 +142,7 @@ fun fetchMarksFromYRA(yra: Mapping, noaa: Mapping): List<Mark> {
     return gpxMarks(httpGet(yra.urls[0])).mapNotNull { mark ->
         var id = mark.id.uppercase()
         if (id !in noaa.entries.keys) id = "YRA-${id}"
-        if (id !in excluded) {
-            mark.copy(id = id)
-        } else {
-            null
-        }
+        if (id in excluded) null else mark.copy(id = id)
     }
 }
 
@@ -227,7 +219,7 @@ fun main(): Unit = runBlocking {
         println("csv: ${allMarksLists[0].size} yra: ${allMarksLists[1].size} noaa: ${allMarksLists[2].size}")
 
         // The order of adding marks is critical because the later overwrite the earlier marks, and thus
-        // NOAA as the ultimate source of truth must be the last one.
+        //  NOAA, as the ultimate source of truth, must be the last one.
         allMarksLists.flatten().associateBy { it.id }.run {
             writeCSV("csv")
             writeCSV("dmm")
