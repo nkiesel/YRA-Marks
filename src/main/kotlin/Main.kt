@@ -1,6 +1,10 @@
 import com.charleskorn.kaml.Yaml
-import com.github.doyaaaaaken.kotlincsv.dsl.csvReader
-import com.github.doyaaaaaken.kotlincsv.dsl.csvWriter
+import com.jsoizo.kotlincsv.CsvDialect
+import com.jsoizo.kotlincsv.csvReader
+import com.jsoizo.kotlincsv.csvWriter
+import com.jsoizo.kotlincsv.reader.readFromFile
+import com.jsoizo.kotlincsv.reader.withHeader
+import com.jsoizo.kotlincsv.writer.writeToFile
 import io.jenetics.jpx.GPX
 import io.jenetics.jpx.Latitude
 import io.jenetics.jpx.Longitude
@@ -16,7 +20,6 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import java.nio.file.Path
 import java.util.*
-import kotlin.collections.forEach
 import kotlin.io.path.Path
 import kotlin.io.path.readLines
 import kotlin.io.path.readText
@@ -125,7 +128,7 @@ fun httpGet(url: String): String {
 
 fun fetchMarksFromCSV(csv: Path): List<Mark> = with(csv.toFile()) {
     if (!exists()) emptyList() else
-        csvReader().readAllWithHeader(this).map { row ->
+        csvReader().readFromFile(this) { it.withHeader().toList() }.map { row ->
             val (name, latitude, longitude, description) = csvColumns.map { row[it]!! }
             Mark(
                 name,
@@ -186,9 +189,8 @@ fun Marks.updateReadMe() {
 
 fun Marks.writeCSV(fmt: String, header: Boolean = true) {
     val name = "$baseName.$fmt"
-    val writer = csvWriter { lineTerminator = "\n" }
-    if (header) writer.writeAll(listOf(csvColumns), name, append = false)
-    writer.writeAll(values.map { it.toCSV(fmt) }, name, append = header)
+    val rows = values.map { it.toCSV(fmt) }.let { if (header) listOf(csvColumns) + it else it }
+    csvWriter { dialect = CsvDialect(lineTerminator = "\n") }.writeToFile(rows, name)
 }
 
 fun Marks.writeGpx() {
@@ -210,7 +212,7 @@ fun main(): Unit = runBlocking {
             async { fetchMarksFromNOAA(yra, noaa) }
         )
 
-        val csvYra = allMarksLists[0].map { it.id }.filter { it.startsWith("YRA-")}
+        val csvYra = allMarksLists[0].map { it.id }.filter { it.startsWith("YRA-") }
         val yraYra = allMarksLists[1].map { it.id }
         val missingYra = csvYra.filter { it !in yraYra }
         if (missingYra.isNotEmpty()) {

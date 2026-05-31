@@ -1,6 +1,6 @@
 [versions]
 coroutines = "1.11.0"
-csv = "1.10.0"
+csv = "2.0.0"
 jpx = "4.0.0"
 kaml = "0.104.0"
 kotlin = "2.3.21"
